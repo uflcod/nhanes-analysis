@@ -1,0 +1,31 @@
+Variable.Name	Variable.Description
+SEQN	Respondent sequence number.
+SMAQUEX2	Questionnaire Mode Flag
+SMD030	How old {were you/was SP} when {you/s/he} first started to smoke cigarettes fairly regularly?
+SMD055	How old {were you/was SP} when {you/s/he} last smoked cigarettes {fairly regularly}?
+SMD057	At that time, about how many cigarettes did {you/SP} usually smoke per day?
+SMD093	May I please see the pack for the brand of cigarettes {you usually smoke/SP usually smokes}.
+SMD100BR	BRAND OF CIGARETTES SMOKED BY SP (SUB-BRAND INCLUDED IF APPLICABLE AND AVAILABLE)
+SMD100CO	CIGARETTE CARBON MONOXIDE CONTENT
+SMD100FL	CIGARETTE PRODUCT FILTERED OR NON-FILTERED
+SMD100LN	CIGARETTE PRODUCT LENGTH
+SMD100MN	CIGARETTE PRODUCT MENTHOLATED OR NON-MENTHOLATED
+SMD100NI	CIGARETTE NICOTINE CONTENT
+SMD100TR	CIGARETTE TAR CONTENT
+SMD630	How old were you when you smoked a whole cigarette for the first time?
+SMD641	On how many of the past 30 days did {you/SP} smoke a cigarette?
+SMD650	During the past 30 days, on the days that {you/SP} smoked, about how many cigarettes did {you/s/he} smoke per day?
+SMDUPCA	Cigarette 12-digit Universal Product Code (UPC)
+SMQ020	These next questions are about cigarette smoking and other tobacco use. {Have you/Has SP} smoked at least 100 cigarettes in {you
+SMQ040	{Do you/Does SP} now smoke cigarettes . .
+SMQ050Q	How long has it been since {you/SP} quit smoking cigarettes?
+SMQ050U	UNIT OF MEASURE
+SMQ077	How soon after you wake up do you smoke? Would you say...
+SMQ621	The following questions are about cigarette smoking and other tobacco use.  Do not include cigars or marijuana.  About how many 
+SMQ660	During the past 30 days, on the days that you smoked, which brand of cigarettes did you usually smoke?
+SMQ664B	{Were/Was} the Benson and Hedges cigarettes menthol or non-menthol?
+SMQ664C	{Were/Was} the Camel cigarettes menthol or non-menthol?
+SMQ664M	{Were/Was} the Marlboro cigarettes menthol or non-menthol?
+SMQ664O	{Were/Was} the other brand cigarettes menthol or non-menthol?
+SMQ664W	{Were/Was} the Winston cigarettes menthol or non-menthol?
+SMQ670	During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking?

@@ -1,0 +1,13 @@
+Code.or.Value	Value.Description
+Coronal Caries:  Surface condition #19	Value was recorded
+0	Lingual surface caries
+1	Occlusal/incisal caries
+2	Facial surface caries
+3	Mesial caries
+4	Distal caries
+5	Lingual surface restoration
+6	Occlusal/incisal restoration
+7	Facial surface restoration
+8	Mesial restoration
+9	Distal restoration
+< blank >	Missing

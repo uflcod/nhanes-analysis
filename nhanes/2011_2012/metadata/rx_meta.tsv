@@ -1,0 +1,8 @@
+Variable.Name	Variable.Description
+RXDCOUNT	The number of prescription medicines reported
+RXDDAYS	For how long have you been using or taking {PRODUCT NAME}?
+RXDDRGID	Generic drug code
+RXDDRUG	Generic drug name
+RXDUSE	In the past 30 days, have you used or taken medication for which a prescription is needed?  Do not include prescription vitamins
+RXQSEEN	Was prescription container seen by interviewer?
+SEQN	Respondent sequence number.

@@ -1,0 +1,4 @@
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/DEMO_G.htm#Codebook
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/OHQ_G.htm#Codebook
+https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/OHXDEN_G.htm#Codebook
+

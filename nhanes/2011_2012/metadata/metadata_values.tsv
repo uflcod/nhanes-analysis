@@ -1,0 +1,3276 @@
+Code.or.Value	Value.Description	Variable.Name
+1	Complete	OHDDESTS
+2	Partial	OHDDESTS
+3	Not Done	OHDDESTS
+.	Missing	OHDDESTS
+1	Complete	OHDEXSTS
+2	Partial	OHDEXSTS
+3	Not Done	OHDEXSTS
+.	Missing	OHDEXSTS
+1	Primary tooth (deciduous) present	OHX01TC
+2	Permanent tooth present	OHX01TC
+3	Dental implant	OHX01TC
+4	Tooth not present	OHX01TC
+5	Permanent dental root fragment present	OHX01TC
+9	Could not assess	OHX01TC
+.	Missing	OHX01TC
+Coronal Caries:  Surface condition #2	Value was recorded	OHX02CSC
+0	Lingual surface caries	OHX02CSC
+1	Occlusal/incisal caries	OHX02CSC
+2	Facial surface caries	OHX02CSC
+3	Mesial caries	OHX02CSC
+4	Distal caries	OHX02CSC
+5	Lingual surface restoration	OHX02CSC
+6	Occlusal/incisal restoration	OHX02CSC
+7	Facial surface restoration	OHX02CSC
+8	Mesial restoration	OHX02CSC
+9	Distal restoration	OHX02CSC
+< blank >	Missing	OHX02CSC
+D	Sound primary tooth	OHX02CTC
+E	Missing due to dental disease	OHX02CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX02CTC
+K	Primary tooth with surface condition (s)	OHX02CTC
+M	Missing due to other causes	OHX02CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX02CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX02CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX02CTC
+S	Sound permanent tooth	OHX02CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX02CTC
+U	Unerupted	OHX02CTC
+X	Missing due to other causes, but replaced  by a fixed restoration	OHX02CTC
+Y	Tooth present, condition cannot be assessed	OHX02CTC
+Z	Permanent tooth with surface condition (s)	OHX02CTC
+< blank >	Missing	OHX02CTC
+Dental Sealants:  #2	Value was recorded	OHX02SE
+0	Sealant not present	OHX02SE
+1	Occlusal sealant on permanent tooth	OHX02SE
+2	Facial sealant on permanent tooth	OHX02SE
+3	Lingual sealant on permanent tooth	OHX02SE
+4	Occlusal sealant on primary tooth	OHX02SE
+9	Cannot be assessed	OHX02SE
+< blank >	Missing	OHX02SE
+1	Primary tooth (deciduous) present	OHX02TC
+2	Permanent tooth present	OHX02TC
+3	Dental implant	OHX02TC
+4	Tooth not present	OHX02TC
+5	Permanent dental root fragment present	OHX02TC
+9	Could not assess	OHX02TC
+.	Missing	OHX02TC
+Coronal Caries:  Surface condition #3	Value was recorded	OHX03CSC
+0	Lingual surface caries	OHX03CSC
+1	Occlusal/incisal caries	OHX03CSC
+2	Facial surface caries	OHX03CSC
+3	Mesial caries	OHX03CSC
+4	Distal caries	OHX03CSC
+5	Lingual surface restoration	OHX03CSC
+6	Occlusal/incisal restoration	OHX03CSC
+7	Facial surface restoration	OHX03CSC
+8	Mesial restoration	OHX03CSC
+9	Distal restoration	OHX03CSC
+< blank >	Missing	OHX03CSC
+D	Sound primary tooth	OHX03CTC
+E	Missing due to dental disease	OHX03CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX03CTC
+K	Primary tooth with surface condition (s)	OHX03CTC
+M	Missing due to other causes	OHX03CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX03CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX03CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX03CTC
+S	Sound permanent tooth	OHX03CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX03CTC
+U	Unerupted	OHX03CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX03CTC
+Y	Tooth present, condition cannot be assessed	OHX03CTC
+Z	Permanent tooth with surface condition (s)	OHX03CTC
+< blank >	Missing	OHX03CTC
+Dental Sealants:  #3	Value was recorded	OHX03SE
+0	Sealant not present	OHX03SE
+1	Occlusal sealant on permanent tooth	OHX03SE
+2	Facial sealant on permanent tooth	OHX03SE
+3	Lingual sealant on permanent tooth	OHX03SE
+4	Occlusal sealant on primary tooth	OHX03SE
+9	Cannot be assessed	OHX03SE
+< blank >	Missing	OHX03SE
+1	Primary tooth (deciduous) present	OHX03TC
+2	Permanent tooth present	OHX03TC
+3	Dental implant	OHX03TC
+4	Tooth not present	OHX03TC
+5	Permanent dental root fragment present	OHX03TC
+9	Could not assess	OHX03TC
+.	Missing	OHX03TC
+Coronal Caries:  Surface condition #4	Value was recorded	OHX04CSC
+0	Lingual surface caries	OHX04CSC
+1	Occlusal/incisal caries	OHX04CSC
+2	Facial surface caries	OHX04CSC
+3	Mesial caries	OHX04CSC
+4	Distal caries	OHX04CSC
+5	Lingual surface restoration	OHX04CSC
+6	Occlusal/incisal restoration	OHX04CSC
+7	Facial surface restoration	OHX04CSC
+8	Mesial restoration	OHX04CSC
+9	Distal restoration	OHX04CSC
+< blank >	Missing	OHX04CSC
+D	Sound primary tooth	OHX04CTC
+E	Missing due to dental disease	OHX04CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX04CTC
+K	Primary tooth with surface condition (s)	OHX04CTC
+M	Missing due to other causes	OHX04CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX04CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX04CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX04CTC
+S	Sound permanent tooth	OHX04CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX04CTC
+U	Unerupted	OHX04CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX04CTC
+Y	Tooth present, condition cannot be assessed	OHX04CTC
+Z	Permanent tooth with surface condition (s)	OHX04CTC
+< blank >	Missing	OHX04CTC
+0	Sealant not present	OHX04SE
+1	Occlusal sealant on permanent tooth	OHX04SE
+2	Facial sealant on permanent tooth	OHX04SE
+3	Lingual sealant on permanent tooth	OHX04SE
+4	Occlusal sealant on primary tooth	OHX04SE
+9	Cannot be assessed	OHX04SE
+< blank >	Missing	OHX04SE
+1	Primary tooth (deciduous) present	OHX04TC
+2	Permanent tooth present	OHX04TC
+3	Dental implant	OHX04TC
+4	Tooth not present	OHX04TC
+5	Permanent dental root fragment present	OHX04TC
+9	Could not assess	OHX04TC
+.	Missing	OHX04TC
+Coronal Caries:  Surface condition #5	Value was recorded	OHX05CSC
+0	Lingual surface caries	OHX05CSC
+1	Occlusal/incisal caries	OHX05CSC
+2	Facial surface caries	OHX05CSC
+3	Mesial caries	OHX05CSC
+4	Distal caries	OHX05CSC
+5	Lingual surface restoration	OHX05CSC
+6	Occlusal/incisal restoration	OHX05CSC
+7	Facial surface restoration	OHX05CSC
+8	Mesial restoration	OHX05CSC
+9	Distal restoration	OHX05CSC
+< blank >	Missing	OHX05CSC
+D	Sound primary tooth	OHX05CTC
+E	Missing due to dental disease	OHX05CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX05CTC
+K	Primary tooth with surface condition (s)	OHX05CTC
+M	Missing due to other causes	OHX05CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX05CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX05CTC
+R	Missing due to dental disease,  but replaced by a fixed restoration	OHX05CTC
+S	Sound permanent tooth	OHX05CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX05CTC
+U	Unerupted	OHX05CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX05CTC
+Y	Tooth present, condition cannot be assessed	OHX05CTC
+Z	Permanent tooth with surface condition (s)	OHX05CTC
+< blank >	Missing	OHX05CTC
+0	Sealant not present	OHX05SE
+1	Occlusal sealant on permanent tooth	OHX05SE
+2	Facial sealant on permanent tooth	OHX05SE
+3	Lingual sealant on permanent tooth	OHX05SE
+4	Occlusal sealant on primary tooth	OHX05SE
+9	Cannot be assessed	OHX05SE
+< blank >	Missing	OHX05SE
+1	Primary tooth (deciduous) present	OHX05TC
+2	Permanent tooth present	OHX05TC
+3	Dental implant	OHX05TC
+4	Tooth not present	OHX05TC
+5	Permanent dental root fragment present	OHX05TC
+9	Could not assess	OHX05TC
+.	Missing	OHX05TC
+Coronal Caries:  Surface condition #6	Value was recorded	OHX06CSC
+0	Lingual surface caries	OHX06CSC
+2	Facial surface caries	OHX06CSC
+3	Mesial caries	OHX06CSC
+4	Distal caries	OHX06CSC
+5	Lingual surface restoration	OHX06CSC
+7	Facial surface restoration	OHX06CSC
+8	Mesial restoration	OHX06CSC
+9	Distal restoration	OHX06CSC
+< blank >	Missing	OHX06CSC
+D	Sound primary tooth	OHX06CTC
+E	Missing due to dental disease	OHX06CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX06CTC
+K	Primary tooth with surface condition (s)	OHX06CTC
+M	Missing due to other causes	OHX06CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX06CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX06CTC
+R	Missing due to dental disease,  but replaced by a fixed restoration	OHX06CTC
+S	Sound permanent tooth	OHX06CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX06CTC
+U	Unerupted	OHX06CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX06CTC
+Y	Tooth present, condition cannot be assessed	OHX06CTC
+Z	Permanent tooth with surface condition (s)	OHX06CTC
+< blank >	Missing	OHX06CTC
+1	Primary tooth (deciduous) present	OHX06TC
+2	Permanent tooth present	OHX06TC
+3	Dental implant	OHX06TC
+4	Tooth not present	OHX06TC
+5	Permanent dental root fragment present	OHX06TC
+9	Could not assess	OHX06TC
+.	Missing	OHX06TC
+Coronal Caries:  Surface condition #7	Value was recorded	OHX07CSC
+0	Lingual surface caries	OHX07CSC
+2	Facial surface caries	OHX07CSC
+3	Mesial caries	OHX07CSC
+4	Distal caries	OHX07CSC
+5	Lingual surface restoration	OHX07CSC
+7	Facial surface restoration	OHX07CSC
+8	Mesial restoration	OHX07CSC
+9	Distal restoration	OHX07CSC
+< blank >	Missing	OHX07CSC
+D	Sound primary tooth	OHX07CTC
+E	Missing due to dental disease	OHX07CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX07CTC
+K	Primary tooth with surface condition (s)	OHX07CTC
+M	Missing due to other causes	OHX07CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX07CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX07CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX07CTC
+S	Sound permanent tooth	OHX07CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX07CTC
+U	Unerupted	OHX07CTC
+X	Missing due to other causes, but replaced but replaced by a fixed restoration	OHX07CTC
+Y	Tooth present, condition cannot be assessed	OHX07CTC
+Z	Permanent tooth with surface condition (s)	OHX07CTC
+< blank >	Missing	OHX07CTC
+0	Sealant not present	OHX07SE
+1	Occlusal sealant on permanent tooth	OHX07SE
+2	Facial sealant on permanent tooth	OHX07SE
+3	Lingual sealant on permanent tooth	OHX07SE
+4	Occlusal sealant on primary tooth	OHX07SE
+9	Cannot be assessed	OHX07SE
+< blank >	Missing	OHX07SE
+1	Primary tooth (deciduous) present	OHX07TC
+2	Permanent tooth present	OHX07TC
+3	Dental implant	OHX07TC
+4	Tooth not present	OHX07TC
+5	Permanent dental root fragment present	OHX07TC
+9	Could not assess	OHX07TC
+.	Missing	OHX07TC
+Coronal Caries:  Surface condition #8	Value was recorded	OHX08CSC
+0	Lingual surface caries	OHX08CSC
+2	Facial surface caries	OHX08CSC
+3	Mesial caries	OHX08CSC
+4	Distal caries	OHX08CSC
+5	Lingual surface restoration	OHX08CSC
+7	Facial surface restoration	OHX08CSC
+8	Mesial restoration	OHX08CSC
+9	Distal restoration	OHX08CSC
+< blank >	Missing	OHX08CSC
+D	Sound primary tooth	OHX08CTC
+E	Missing due to dental disease	OHX08CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX08CTC
+K	Primary tooth with surface condition (s)	OHX08CTC
+M	Missing due to other causes	OHX08CTC
+P	Missing  due to dental disease but replaced by a removable restoration	OHX08CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX08CTC
+R	Missing due to dental disease but replaced by a fixed restoration	OHX08CTC
+S	Sound permanent tooth	OHX08CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX08CTC
+U	Unerupted	OHX08CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX08CTC
+Y	Tooth present, condition cannot be assessed	OHX08CTC
+Z	Permanent tooth with surface condition (s)	OHX08CTC
+< blank >	Missing	OHX08CTC
+1	Primary tooth (deciduous) present	OHX08TC
+2	Permanent tooth present	OHX08TC
+3	Dental implant	OHX08TC
+4	Tooth not present	OHX08TC
+5	Permanent dental root fragment present	OHX08TC
+9	Could not assess	OHX08TC
+.	Missing	OHX08TC
+Coronal Caries:  Surface condition #9	Value was recorded	OHX09CSC
+0	Lingual surface caries	OHX09CSC
+2	Facial surface caries	OHX09CSC
+3	Mesial caries	OHX09CSC
+4	Distal caries	OHX09CSC
+5	Lingual surface restoration	OHX09CSC
+7	Facial surface restoration	OHX09CSC
+8	Mesial restoration	OHX09CSC
+9	Distal restoration	OHX09CSC
+< blank >	Missing	OHX09CSC
+D	Sound primary tooth	OHX09CTC
+E	Missing due to dental disease	OHX09CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX09CTC
+K	Primary tooth with surface condition (s)	OHX09CTC
+M	Missing due to other causes	OHX09CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX09CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX09CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX09CTC
+S	Sound permanent tooth	OHX09CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX09CTC
+U	Unerupted	OHX09CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX09CTC
+Y	Tooth present, condition cannot be assessed	OHX09CTC
+Z	Permanent tooth with surface condition (s)	OHX09CTC
+< blank >	Missing	OHX09CTC
+1	Primary tooth (deciduous) present	OHX09TC
+2	Permanent tooth present	OHX09TC
+3	Dental implant	OHX09TC
+4	Tooth not present	OHX09TC
+5	Permanent dental root fragment present	OHX09TC
+9	Could not assess	OHX09TC
+.	Missing	OHX09TC
+Coronal Caries:  Surface condition #10	Value was recorded	OHX10CSC
+0	Lingual surface caries	OHX10CSC
+2	Facial surface caries	OHX10CSC
+3	Mesial caries	OHX10CSC
+4	Distal caries	OHX10CSC
+5	Lingual surface restoration	OHX10CSC
+7	Facial surface restoration	OHX10CSC
+8	Mesial restoration	OHX10CSC
+9	Distal restoration	OHX10CSC
+< blank >	Missing	OHX10CSC
+D	Sound primary tooth	OHX10CTC
+E	Missing due to dental disease	OHX10CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX10CTC
+K	Primary tooth with surface condition (s)	OHX10CTC
+M	Missing due to other causes	OHX10CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX10CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX10CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX10CTC
+S	Sound permanent tooth	OHX10CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX10CTC
+U	Unerupted	OHX10CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX10CTC
+Y	Tooth present, condition cannot be assessed	OHX10CTC
+Z	Permanent tooth with surface condition (s)	OHX10CTC
+< blank >	Missing	OHX10CTC
+0	Sealant not present	OHX10SE
+1	Occlusal sealant on permanent tooth	OHX10SE
+2	Facial sealant on permanent tooth	OHX10SE
+3	Lingual sealant on permanent tooth	OHX10SE
+4	Occlusal sealant on primary tooth	OHX10SE
+9	Cannot be assessed	OHX10SE
+< blank >	Missing	OHX10SE
+1	Primary tooth (deciduous) present	OHX10TC
+2	Permanent tooth present	OHX10TC
+3	Dental implant	OHX10TC
+4	Tooth not present	OHX10TC
+5	Permanent dental root fragment present	OHX10TC
+9	Could not assess	OHX10TC
+.	Missing	OHX10TC
+Coronal Caries:  Surface condition #11	Value was recorded	OHX11CSC
+0	Lingual surface caries	OHX11CSC
+2	Facial surface caries	OHX11CSC
+3	Mesial caries	OHX11CSC
+4	Distal caries	OHX11CSC
+5	Lingual surface restoration	OHX11CSC
+7	Facial surface restoration	OHX11CSC
+8	Mesial restoration	OHX11CSC
+9	Distal restoration	OHX11CSC
+< blank >	Missing	OHX11CSC
+D	Sound primary tooth	OHX11CTC
+E	Missing due to dental disease	OHX11CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX11CTC
+K	Primary tooth with surface condition (s)	OHX11CTC
+M	Missing due to other causes	OHX11CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX11CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX11CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX11CTC
+S	Sound permanent tooth	OHX11CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX11CTC
+U	Unerupted	OHX11CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX11CTC
+Y	Tooth present, condition cannot be assessed	OHX11CTC
+Z	Permanent tooth with surface condition (s)	OHX11CTC
+< blank >	Missing	OHX11CTC
+1	Primary tooth (deciduous) present	OHX11TC
+2	Permanent tooth present	OHX11TC
+3	Dental implant	OHX11TC
+4	Tooth not present	OHX11TC
+5	Permanent dental root fragment present	OHX11TC
+9	Could not assess	OHX11TC
+.	Missing	OHX11TC
+Coronal Caries:  Surface condition #12	Value was recorded	OHX12CSC
+0	Lingual surface caries	OHX12CSC
+1	Occlusal/incisal caries	OHX12CSC
+2	Facial surface caries	OHX12CSC
+3	Mesial caries	OHX12CSC
+4	Distal caries	OHX12CSC
+5	Lingual surface restoration	OHX12CSC
+6	Occlusal/incisal restoration	OHX12CSC
+7	Facial surface restoration	OHX12CSC
+8	Mesial restoration	OHX12CSC
+9	Distal restoration	OHX12CSC
+< blank >	Missing	OHX12CSC
+D	Sound primary tooth	OHX12CTC
+E	Missing due to dental disease	OHX12CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX12CTC
+K	Primary tooth with surface condition (s)	OHX12CTC
+M	Missing due to other causes	OHX12CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX12CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX12CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX12CTC
+S	Sound permanent tooth	OHX12CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX12CTC
+U	Unerupted	OHX12CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX12CTC
+Y	Tooth present, condition cannot be assessed	OHX12CTC
+Z	Permanent tooth with surface condition (s)	OHX12CTC
+< blank >	Missing	OHX12CTC
+0	Sealant not present	OHX12SE
+1	Occlusal sealant on permanent tooth	OHX12SE
+2	Facial sealant on permanent tooth	OHX12SE
+3	Lingual sealant on permanent tooth	OHX12SE
+4	Occlusal sealant on primary tooth	OHX12SE
+9	Cannot be assessed	OHX12SE
+< blank >	Missing	OHX12SE
+1	Primary tooth (deciduous) present	OHX12TC
+2	Permanent tooth present	OHX12TC
+3	Dental implant	OHX12TC
+4	Tooth not present	OHX12TC
+5	Permanent dental root fragment present	OHX12TC
+9	Could not assess	OHX12TC
+.	Missing	OHX12TC
+Coronal Caries:  Surface condition #13	Value was recorded	OHX13CSC
+0	Lingual surface caries	OHX13CSC
+1	Occlusal/incisal caries	OHX13CSC
+2	Facial surface caries	OHX13CSC
+3	Mesial caries	OHX13CSC
+4	Distal caries	OHX13CSC
+5	Lingual surface restoration	OHX13CSC
+6	Occlusal/incisal restoration	OHX13CSC
+7	Facial surface restoration	OHX13CSC
+8	Mesial restoration	OHX13CSC
+9	Distal restoration	OHX13CSC
+< blank >	Missing	OHX13CSC
+D	Sound primary tooth	OHX13CTC
+E	Missing due to dental disease	OHX13CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX13CTC
+K	Primary tooth with surface condition (s)	OHX13CTC
+M	Missing due to other causes	OHX13CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX13CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX13CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX13CTC
+S	Sound permanent tooth	OHX13CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX13CTC
+U	Unerupted	OHX13CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX13CTC
+Y	Tooth present, condition cannot be assessed	OHX13CTC
+Z	Permanent tooth with surface condition (s)	OHX13CTC
+< blank >	Missing	OHX13CTC
+0	Sealant not present	OHX13SE
+1	Occlusal sealant on permanent tooth	OHX13SE
+2	Facial sealant on permanent tooth	OHX13SE
+3	Lingual sealant on permanent tooth	OHX13SE
+4	Occlusal sealant on primary tooth	OHX13SE
+9	Cannot be assessed	OHX13SE
+< blank >	Missing	OHX13SE
+1	Primary tooth (deciduous) present	OHX13TC
+2	Permanent tooth present	OHX13TC
+3	Dental implant	OHX13TC
+4	Tooth not present	OHX13TC
+5	Permanent dental root fragment present	OHX13TC
+9	Could not assess	OHX13TC
+.	Missing	OHX13TC
+Coronal Caries:  Surface condition #14	Value was recorded	OHX14CSC
+0	Lingual surface caries	OHX14CSC
+1	Occlusal/incisal caries	OHX14CSC
+2	Facial surface caries	OHX14CSC
+3	Mesial caries	OHX14CSC
+4	Distal caries	OHX14CSC
+5	Lingual surface restoration	OHX14CSC
+6	Occlusal/incisal restoration	OHX14CSC
+7	Facial surface restoration	OHX14CSC
+8	Mesial restoration	OHX14CSC
+9	Distal restoration	OHX14CSC
+< blank >	Missing	OHX14CSC
+D	Sound primary tooth	OHX14CTC
+E	Missing due to dental disease	OHX14CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX14CTC
+K	Primary tooth with surface condition (s)	OHX14CTC
+M	Missing due to other causes	OHX14CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX14CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX14CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX14CTC
+S	Sound permanent tooth	OHX14CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX14CTC
+U	Unerupted	OHX14CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX14CTC
+Y	Tooth present, condition cannot be assessed	OHX14CTC
+Z	Permanent tooth with surface condition (s)	OHX14CTC
+< blank >	Missing	OHX14CTC
+Dental Sealants:  #14	Value was recorded	OHX14SE
+0	Sealant not present	OHX14SE
+1	Occlusal sealant on permanent tooth	OHX14SE
+2	Facial sealant on permanent tooth	OHX14SE
+3	Lingual sealant on permanent tooth	OHX14SE
+4	Occlusal sealant on primary tooth	OHX14SE
+9	Cannot be assessed	OHX14SE
+< blank >	Missing	OHX14SE
+1	Primary tooth (deciduous) present	OHX14TC
+2	Permanent tooth present	OHX14TC
+3	Dental implant	OHX14TC
+4	Tooth not present	OHX14TC
+5	Permanent dental root fragment present	OHX14TC
+9	Could not assess	OHX14TC
+.	Missing	OHX14TC
+Coronal Caries:  Surface condition #15	Value was recorded	OHX15CSC
+0	Lingual surface caries	OHX15CSC
+1	Occlusal/incisal caries	OHX15CSC
+2	Facial surface caries	OHX15CSC
+3	Mesial caries	OHX15CSC
+4	Distal caries	OHX15CSC
+5	Lingual surface restoration	OHX15CSC
+6	Occlusal/incisal restoration	OHX15CSC
+7	Facial surface restoration	OHX15CSC
+8	Mesial restoration	OHX15CSC
+9	Distal restoration	OHX15CSC
+< blank >	Missing	OHX15CSC
+D	Sound primary tooth	OHX15CTC
+E	Missing due to dental disease	OHX15CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX15CTC
+K	Primary tooth with surface condition (s)	OHX15CTC
+M	Missing due to other causes	OHX15CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX15CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX15CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX15CTC
+S	Sound permanent tooth	OHX15CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX15CTC
+U	Unerupted	OHX15CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX15CTC
+Y	Tooth present, condition cannot be assessed	OHX15CTC
+Z	Permanent tooth with surface condition (s)	OHX15CTC
+< blank >	Missing	OHX15CTC
+Dental Sealants:  #15	Value was recorded	OHX15SE
+0	Sealant not present	OHX15SE
+1	Occlusal sealant on permanent tooth	OHX15SE
+2	Facial sealant on permanent tooth	OHX15SE
+3	Lingual sealant on permanent tooth	OHX15SE
+4	Occlusal sealant on primary tooth	OHX15SE
+9	Cannot be assessed	OHX15SE
+< blank >	Missing	OHX15SE
+1	Primary tooth (deciduous) present	OHX15TC
+2	Permanent tooth present	OHX15TC
+3	Dental implant	OHX15TC
+4	Tooth not present	OHX15TC
+5	Permanent dental root fragment present	OHX15TC
+9	Could not assess	OHX15TC
+.	Missing	OHX15TC
+1	Primary tooth (deciduous) present	OHX16TC
+2	Permanent tooth present	OHX16TC
+3	Dental implant	OHX16TC
+4	Tooth not present	OHX16TC
+5	Permanent dental root fragment present	OHX16TC
+9	Could not assess	OHX16TC
+.	Missing	OHX16TC
+1	Primary tooth (deciduous) present	OHX17TC
+2	Permanent tooth present	OHX17TC
+3	Dental implant	OHX17TC
+4	Tooth not present	OHX17TC
+5	Permanent dental root fragment present	OHX17TC
+9	Could not assess	OHX17TC
+.	Missing	OHX17TC
+Coronal Caries:  Surface condition #18	Value was recorded	OHX18CSC
+0	Lingual surface caries	OHX18CSC
+1	Occlusal/incisal caries	OHX18CSC
+2	Facial surface caries	OHX18CSC
+3	Mesial caries	OHX18CSC
+4	Distal caries	OHX18CSC
+5	Lingual surface restoration	OHX18CSC
+6	Occlusal/incisal restoration	OHX18CSC
+7	Facial surface restoration	OHX18CSC
+8	Mesial restoration	OHX18CSC
+9	Distal restoration	OHX18CSC
+< blank >	Missing	OHX18CSC
+D	Sound primary tooth	OHX18CTC
+E	Missing due to dental disease	OHX18CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX18CTC
+K	Primary tooth with surface condition (s)	OHX18CTC
+M	Missing due to other causes	OHX18CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX18CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX18CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX18CTC
+S	Sound permanent tooth	OHX18CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX18CTC
+U	Unerupted	OHX18CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX18CTC
+Y	Tooth present, condition cannot be assessed	OHX18CTC
+Z	Permanent tooth with surface condition (s)	OHX18CTC
+< blank >	Missing	OHX18CTC
+Dental Sealants:  #18	Value was recorded	OHX18SE
+0	Sealant not present	OHX18SE
+1	Occlusal sealant on permanent tooth	OHX18SE
+2	Facial sealant on permanent tooth	OHX18SE
+3	Lingual sealant on permanent tooth	OHX18SE
+4	Occlusal sealant on primary tooth	OHX18SE
+9	Cannot be assessed	OHX18SE
+< blank >	Missing	OHX18SE
+1	Primary tooth (deciduous) present	OHX18TC
+2	Permanent tooth present	OHX18TC
+3	Dental implant	OHX18TC
+4	Tooth not present	OHX18TC
+5	Permanent dental root fragment present	OHX18TC
+9	Could not assess	OHX18TC
+.	Missing	OHX18TC
+Coronal Caries:  Surface condition #19	Value was recorded	OHX19CSC
+0	Lingual surface caries	OHX19CSC
+1	Occlusal/incisal caries	OHX19CSC
+2	Facial surface caries	OHX19CSC
+3	Mesial caries	OHX19CSC
+4	Distal caries	OHX19CSC
+5	Lingual surface restoration	OHX19CSC
+6	Occlusal/incisal restoration	OHX19CSC
+7	Facial surface restoration	OHX19CSC
+8	Mesial restoration	OHX19CSC
+9	Distal restoration	OHX19CSC
+< blank >	Missing	OHX19CSC
+D	Sound primary tooth	OHX19CTC
+E	Missing due to dental disease	OHX19CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX19CTC
+K	Primary tooth with surface condition (s)	OHX19CTC
+M	Missing due to other causes	OHX19CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX19CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX19CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX19CTC
+S	Sound permanent tooth	OHX19CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX19CTC
+U	Unerupted	OHX19CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX19CTC
+Y	Tooth present, condition cannot be assessed	OHX19CTC
+Z	Permanent tooth with surface condition (s)	OHX19CTC
+< blank >	Missing	OHX19CTC
+Dental Sealants:  #19	Value was recorded	OHX19SE
+0	Sealant not present	OHX19SE
+1	Occlusal sealant on permanent tooth	OHX19SE
+2	Facial sealant on permanent tooth	OHX19SE
+3	Lingual sealant on permanent tooth	OHX19SE
+4	Occlusal sealant on primary tooth	OHX19SE
+9	Cannot be assessed	OHX19SE
+< blank >	Missing	OHX19SE
+1	Primary tooth (deciduous) present	OHX19TC
+2	Permanent tooth present	OHX19TC
+3	Dental implant	OHX19TC
+4	Tooth not present	OHX19TC
+5	Permanent dental root fragment present	OHX19TC
+9	Could not assess	OHX19TC
+.	Missing	OHX19TC
+Coronal Caries:  Surface condition #20	Value was recorded	OHX20CSC
+0	Lingual surface caries	OHX20CSC
+1	Occlusal/incisal caries	OHX20CSC
+2	Facial surface caries	OHX20CSC
+3	Mesial caries	OHX20CSC
+4	Distal caries	OHX20CSC
+5	Lingual surface restoration	OHX20CSC
+6	Occlusal/incisal restoration	OHX20CSC
+7	Facial surface restoration	OHX20CSC
+8	Mesial restoration	OHX20CSC
+9	Distal restoration	OHX20CSC
+< blank >	Missing	OHX20CSC
+D	Sound primary tooth	OHX20CTC
+E	Missing due to dental disease	OHX20CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX20CTC
+K	Primary tooth with surface condition (s)	OHX20CTC
+M	Missing due to other causes	OHX20CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX20CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX20CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX20CTC
+S	Sound permanent tooth	OHX20CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX20CTC
+U	Unerupted	OHX20CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX20CTC
+Y	Tooth present, condition cannot be assessed	OHX20CTC
+Z	Permanent tooth with surface condition (s)	OHX20CTC
+< blank >	Missing	OHX20CTC
+0	Sealant not present	OHX20SE
+1	Occlusal sealant on permanent tooth	OHX20SE
+2	Facial sealant on permanent tooth	OHX20SE
+3	Lingual sealant on permanent tooth	OHX20SE
+4	Occlusal sealant on primary tooth	OHX20SE
+9	Cannot be assessed	OHX20SE
+< blank >	Missing	OHX20SE
+1	Primary tooth (deciduous) present	OHX20TC
+2	Permanent tooth present	OHX20TC
+3	Dental implant	OHX20TC
+4	Tooth not present	OHX20TC
+5	Permanent dental root fragment present	OHX20TC
+9	Could not assess	OHX20TC
+.	Missing	OHX20TC
+Coronal Caries:  Surface condition #21	Value was recorded	OHX21CSC
+0	Lingual surface caries	OHX21CSC
+1	Occlusal/incisal caries	OHX21CSC
+2	Facial surface caries	OHX21CSC
+3	Mesial caries	OHX21CSC
+4	Distal caries	OHX21CSC
+5	Lingual surface restoration	OHX21CSC
+6	Occlusal/incisal restoration	OHX21CSC
+7	Facial surface restoration	OHX21CSC
+8	Mesial restoration	OHX21CSC
+9	Distal restoration	OHX21CSC
+< blank >	Missing	OHX21CSC
+D	Sound primary tooth	OHX21CTC
+E	Missing due to dental disease	OHX21CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX21CTC
+K	Primary tooth with surface condition (s)	OHX21CTC
+M	Missing due to other causes	OHX21CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX21CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX21CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX21CTC
+S	Sound permanent tooth	OHX21CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX21CTC
+U	Unerupted	OHX21CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX21CTC
+Y	Tooth present, condition cannot be assessed	OHX21CTC
+Z	Permanent tooth with surface condition (s)	OHX21CTC
+< blank >	Missing	OHX21CTC
+0	Sealant not present	OHX21SE
+1	Occlusal sealant on permanent tooth	OHX21SE
+2	Facial sealant on permanent tooth	OHX21SE
+3	Lingual sealant on permanent tooth	OHX21SE
+4	Occlusal sealant on primary tooth	OHX21SE
+9	Cannot be assessed	OHX21SE
+< blank >	Missing	OHX21SE
+1	Primary tooth (deciduous) present	OHX21TC
+2	Permanent tooth present	OHX21TC
+3	Dental implant	OHX21TC
+4	Tooth not present	OHX21TC
+5	Permanent dental root fragment present	OHX21TC
+9	Could not assess	OHX21TC
+.	Missing	OHX21TC
+Coronal Caries:  Surface condition #22	Value was recorded	OHX22CSC
+0	Lingual surface caries	OHX22CSC
+2	Facial surface caries	OHX22CSC
+3	Mesial caries	OHX22CSC
+4	Distal caries	OHX22CSC
+5	Lingual surface restoration	OHX22CSC
+7	Facial surface restoration	OHX22CSC
+8	Mesial restoration	OHX22CSC
+9	Distal restoration	OHX22CSC
+< blank >	Missing	OHX22CSC
+D	Sound primary tooth	OHX22CTC
+E	Missing due to dental disease	OHX22CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX22CTC
+K	Primary tooth with surface condition (s)	OHX22CTC
+M	Missing due to other causes	OHX22CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX22CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX22CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX22CTC
+S	Sound permanent tooth	OHX22CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX22CTC
+U	Unerupted	OHX22CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX22CTC
+Y	Tooth present, condition cannot be assessed	OHX22CTC
+Z	Permanent tooth with surface condition (s)	OHX22CTC
+< blank >	Missing	OHX22CTC
+1	Primary tooth (deciduous) present	OHX22TC
+2	Permanent tooth present	OHX22TC
+3	Dental implant	OHX22TC
+4	Tooth not present	OHX22TC
+5	Permanent dental root fragment present	OHX22TC
+9	Could not assess	OHX22TC
+.	Missing	OHX22TC
+Coronal Caries:  Surface condition #23	Value was recorded	OHX23CSC
+0	Lingual surface caries	OHX23CSC
+2	Facial surface caries	OHX23CSC
+3	Mesial caries	OHX23CSC
+4	Distal caries	OHX23CSC
+5	Lingual surface restoration	OHX23CSC
+7	Facial surface restoration	OHX23CSC
+8	Mesial restoration	OHX23CSC
+9	Distal restoration	OHX23CSC
+< blank >	Missing	OHX23CSC
+D	Sound primary tooth	OHX23CTC
+E	Missing due to dental disease	OHX23CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX23CTC
+K	Primary tooth with surface condition (s)	OHX23CTC
+M	Missing due to other causes	OHX23CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX23CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX23CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX23CTC
+S	Sound permanent tooth	OHX23CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX23CTC
+U	Unerupted	OHX23CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX23CTC
+Y	Tooth present, condition cannot be assessed	OHX23CTC
+Z	Permanent tooth with surface condition (s)	OHX23CTC
+< blank >	Missing	OHX23CTC
+1	Primary tooth (deciduous) present	OHX23TC
+2	Permanent tooth present	OHX23TC
+3	Dental implant	OHX23TC
+4	Tooth not present	OHX23TC
+5	Permanent dental root fragment present	OHX23TC
+9	Could not assess	OHX23TC
+.	Missing	OHX23TC
+Coronal Caries:  Surface condition #24	Value was recorded	OHX24CSC
+0	Lingual surface caries	OHX24CSC
+2	Facial surface caries	OHX24CSC
+3	Mesial caries	OHX24CSC
+4	Distal caries	OHX24CSC
+5	Lingual surface restoration	OHX24CSC
+7	Facial surface restoration	OHX24CSC
+8	Mesial restoration	OHX24CSC
+9	Distal restoration	OHX24CSC
+< blank >	Missing	OHX24CSC
+D	Sound primary tooth	OHX24CTC
+E	Missing due to dental disease	OHX24CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX24CTC
+K	Primary tooth with surface condition (s)	OHX24CTC
+M	Missing due to other causes	OHX24CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX24CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX24CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX24CTC
+S	Sound permanent tooth	OHX24CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX24CTC
+U	Unerupted	OHX24CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX24CTC
+Y	Tooth present, condition cannot be assessed	OHX24CTC
+Z	Permanent tooth with surface condition (s)	OHX24CTC
+< blank >	Missing	OHX24CTC
+1	Primary tooth (deciduous) present	OHX24TC
+2	Permanent tooth present	OHX24TC
+3	Dental implant	OHX24TC
+4	Tooth not present	OHX24TC
+5	Permanent dental root fragment present	OHX24TC
+9	Could not assess	OHX24TC
+.	Missing	OHX24TC
+Coronal Caries:  Surface condition #25	Value was recorded	OHX25CSC
+0	Lingual surface caries	OHX25CSC
+2	Facial surface caries	OHX25CSC
+3	Mesial caries	OHX25CSC
+4	Distal caries	OHX25CSC
+5	Lingual surface restoration	OHX25CSC
+7	Facial surface restoration	OHX25CSC
+8	Mesial restoration	OHX25CSC
+9	Distal restoration	OHX25CSC
+< blank >	Missing	OHX25CSC
+D	Sound primary tooth	OHX25CTC
+E	Missing due to dental disease	OHX25CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX25CTC
+K	Primary tooth with surface condition (s)	OHX25CTC
+M	Missing due to other causes	OHX25CTC
+P	Missing due to dental disease but replaced by a removable restoration	OHX25CTC
+Q	Missing due to other causes but replaced by a removable restoration	OHX25CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX25CTC
+S	Sound permanent tooth	OHX25CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX25CTC
+U	Unerupted	OHX25CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX25CTC
+Y	Tooth present, condition cannot be assessed	OHX25CTC
+Z	Permanent tooth with surface condition (s)	OHX25CTC
+< blank >	Missing	OHX25CTC
+1	Primary tooth (deciduous) present	OHX25TC
+2	Permanent tooth present	OHX25TC
+3	Dental implant	OHX25TC
+4	Tooth not present	OHX25TC
+5	Permanent dental root fragment present	OHX25TC
+9	Could not assess	OHX25TC
+.	Missing	OHX25TC
+Coronal Caries:  Surface condition #26	Value was recorded	OHX26CSC
+0	Lingual surface caries	OHX26CSC
+2	Facial surface caries	OHX26CSC
+3	Mesial caries	OHX26CSC
+4	Distal caries	OHX26CSC
+5	Lingual surface restoration	OHX26CSC
+7	Facial surface restoration	OHX26CSC
+8	Mesial restoration	OHX26CSC
+9	Distal restoration	OHX26CSC
+< blank >	Missing	OHX26CSC
+D	Sound primary tooth	OHX26CTC
+E	Missing due to dental disease	OHX26CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX26CTC
+K	Primary tooth with surface condition (s)	OHX26CTC
+M	Missing due to other causes	OHX26CTC
+P	Missing due to dental disease, but replaced by a removable restoration	OHX26CTC
+Q	Missing due to other causes, but replaced by a removable restoration	OHX26CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX26CTC
+S	Sound permanent tooth	OHX26CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX26CTC
+U	Unerupted	OHX26CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX26CTC
+Y	Tooth present, condition cannot be assessed	OHX26CTC
+Z	Permanent tooth with surface condition (s)	OHX26CTC
+< blank >	Missing	OHX26CTC
+1	Primary tooth (deciduous) present	OHX26TC
+2	Permanent tooth present	OHX26TC
+3	Dental implant	OHX26TC
+4	Tooth not present	OHX26TC
+5	Permanent dental root fragment present	OHX26TC
+9	Could not assess	OHX26TC
+.	Missing	OHX26TC
+Coronal Caries:  Surface condition #27	Value was recorded	OHX27CSC
+0	Lingual surface caries	OHX27CSC
+2	Facial surface caries	OHX27CSC
+3	Mesial caries	OHX27CSC
+4	Distal caries	OHX27CSC
+5	Lingual surface restoration	OHX27CSC
+7	Facial surface restoration	OHX27CSC
+8	Mesial restoration	OHX27CSC
+9	Distal restoration	OHX27CSC
+< blank >	Missing	OHX27CSC
+D	Sound primary tooth	OHX27CTC
+E	Missing due to dental disease	OHX27CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX27CTC
+K	Primary tooth with surface condition (s)	OHX27CTC
+M	Missing due to other causes	OHX27CTC
+P	Missing due to dental disease, but replaced by a removable restoration	OHX27CTC
+Q	Missing due to other causes, but replaced by a removable restoration	OHX27CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX27CTC
+S	Sound permanent tooth	OHX27CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX27CTC
+U	Unerupted	OHX27CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX27CTC
+Y	Tooth present, condition cannot be assessed	OHX27CTC
+Z	Permanent tooth with surface condition (s)	OHX27CTC
+< blank >	Missing	OHX27CTC
+1	Primary tooth (deciduous) present	OHX27TC
+2	Permanent tooth present	OHX27TC
+3	Dental implant	OHX27TC
+4	Tooth not present	OHX27TC
+5	Permanent dental root fragment present	OHX27TC
+9	Could not assess	OHX27TC
+.	Missing	OHX27TC
+Coronal Caries:  Surface condition #28	Value was recorded	OHX28CSC
+0	Lingual surface caries	OHX28CSC
+1	Occlusal/incisal caries	OHX28CSC
+2	Facial surface caries	OHX28CSC
+3	Mesial caries	OHX28CSC
+4	Distal caries	OHX28CSC
+5	Lingual surface restoration	OHX28CSC
+6	Occlusal/incisal restoration	OHX28CSC
+7	Facial surface restoration	OHX28CSC
+8	Mesial restoration	OHX28CSC
+9	Distal restoration	OHX28CSC
+< blank >	Missing	OHX28CSC
+D	Sound primary tooth	OHX28CTC
+E	Missing due to dental disease	OHX28CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX28CTC
+K	Primary tooth with surface condition (s)	OHX28CTC
+M	Missing due to other causes	OHX28CTC
+P	Missing due to dental disease, but replaced by a removable restoration	OHX28CTC
+Q	Missing due to other causes, but replaced by a removable restoration	OHX28CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX28CTC
+S	Sound permanent tooth	OHX28CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX28CTC
+U	Unerupted	OHX28CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX28CTC
+Y	Tooth present, condition cannot be assessed	OHX28CTC
+Z	Permanent tooth with surface condition (s)	OHX28CTC
+< blank >	Missing	OHX28CTC
+0	Sealant not present	OHX28SE
+1	Occlusal sealant on permanent tooth	OHX28SE
+2	Facial sealant on permanent tooth	OHX28SE
+3	Lingual sealant on permanent tooth	OHX28SE
+4	Occlusal sealant on primary tooth	OHX28SE
+9	Cannot be assessed	OHX28SE
+< blank >	Missing	OHX28SE
+1	Primary tooth (deciduous) present	OHX28TC
+2	Permanent tooth present	OHX28TC
+3	Dental implant	OHX28TC
+4	Tooth not present	OHX28TC
+5	Permanent dental root fragment present	OHX28TC
+9	Could not assess	OHX28TC
+.	Missing	OHX28TC
+Coronal Caries:  Surface condition #29	Value was recorded	OHX29CSC
+0	Lingual surface caries	OHX29CSC
+1	Occlusal/incisal caries	OHX29CSC
+2	Facial surface caries	OHX29CSC
+3	Mesial caries	OHX29CSC
+4	Distal caries	OHX29CSC
+5	Lingual surface restoration	OHX29CSC
+6	Occlusal/incisal restoration	OHX29CSC
+7	Facial surface restoration	OHX29CSC
+8	Mesial restoration	OHX29CSC
+9	Distal restoration	OHX29CSC
+< blank >	Missing	OHX29CSC
+D	Sound primary tooth	OHX29CTC
+E	Missing due to dental disease	OHX29CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX29CTC
+K	Primary tooth with surface condition (s)	OHX29CTC
+M	Missing due to other causes	OHX29CTC
+P	Missing due to dental disease, but replaced by a removable restoration	OHX29CTC
+Q	Missing due to other causes, but replaced by a removable restoration	OHX29CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX29CTC
+S	Sound permanent tooth	OHX29CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX29CTC
+U	Unerupted	OHX29CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX29CTC
+Y	Tooth present, condition cannot be assessed	OHX29CTC
+Z	Permanent tooth with surface condition (s)	OHX29CTC
+< blank >	Missing	OHX29CTC
+0	Sealant not present	OHX29SE
+1	Occlusal sealant on permanent tooth	OHX29SE
+2	Facial sealant on permanent tooth	OHX29SE
+3	Lingual sealant on permanent tooth	OHX29SE
+4	Occlusal sealant on primary tooth	OHX29SE
+9	Cannot be assessed	OHX29SE
+< blank >	Missing	OHX29SE
+1	Primary tooth (deciduous) present	OHX29TC
+2	Permanent tooth present	OHX29TC
+3	Dental implant	OHX29TC
+4	Tooth not present	OHX29TC
+5	Permanent dental root fragment present	OHX29TC
+9	Could not assess	OHX29TC
+.	Missing	OHX29TC
+Coronal Caries:  Surface condition #30	Value was recorded	OHX30CSC
+0	Lingual surface caries	OHX30CSC
+1	Occlusal/incisal caries	OHX30CSC
+2	Facial surface caries	OHX30CSC
+3	Mesial caries	OHX30CSC
+4	Distal caries	OHX30CSC
+5	Lingual surface restoration	OHX30CSC
+6	Occlusal/incisal restoration	OHX30CSC
+7	Facial surface restoration	OHX30CSC
+8	Mesial restoration	OHX30CSC
+9	Distal restoration	OHX30CSC
+< blank >	Missing	OHX30CSC
+D	Sound primary tooth	OHX30CTC
+E	Missing due to dental disease	OHX30CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX30CTC
+K	Primary tooth with surface condition (s)	OHX30CTC
+M	Missing due to other causes	OHX30CTC
+P	Missing due to dental disease, but replaced by a removable restoration	OHX30CTC
+Q	Missing due to other causes, but replaced by a removable restoration	OHX30CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX30CTC
+S	Sound permanent tooth	OHX30CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX30CTC
+U	Unerupted	OHX30CTC
+X	Missing due to other causes, but replaced  by a fixed restoration	OHX30CTC
+Y	Tooth present, condition cannot be assessed	OHX30CTC
+Z	Permanent tooth with surface condition (s)	OHX30CTC
+< blank >	Missing	OHX30CTC
+Dental Sealants:  #30	Value was recorded	OHX30SE
+0	Sealant not present	OHX30SE
+1	Occlusal sealant on permanent tooth	OHX30SE
+2	Facial sealant on permanent tooth	OHX30SE
+3	Lingual sealant on permanent tooth	OHX30SE
+4	Occlusal sealant on primary tooth	OHX30SE
+9	Cannot be assessed	OHX30SE
+< blank >	Missing	OHX30SE
+1	Primary tooth (deciduous) present	OHX30TC
+2	Permanent tooth present	OHX30TC
+3	Dental implant	OHX30TC
+4	Tooth not present	OHX30TC
+5	Permanent dental root fragment present	OHX30TC
+9	Could not assess	OHX30TC
+.	Missing	OHX30TC
+Coronal Caries:  Surface condition #31	Value was recorded	OHX31CSC
+0	Lingual surface caries	OHX31CSC
+1	Occlusal/incisal caries	OHX31CSC
+2	Facial surface caries	OHX31CSC
+3	Mesial caries	OHX31CSC
+4	Distal caries	OHX31CSC
+5	Lingual surface restoration	OHX31CSC
+6	Occlusal/incisal restoration	OHX31CSC
+7	Facial surface restoration	OHX31CSC
+8	Mesial restoration	OHX31CSC
+9	Distal restoration	OHX31CSC
+< blank >	Missing	OHX31CSC
+D	Sound primary tooth	OHX31CTC
+E	Missing due to dental disease	OHX31CTC
+J	Permanent root tip is present but no restorative replacement is present	OHX31CTC
+K	Primary tooth with surface condition (s)	OHX31CTC
+M	Missing due to other causes	OHX31CTC
+P	Missing due to dental disease, but replaced by a removable restoration	OHX31CTC
+Q	Missing due to other causes, but replaced by a removable restoration	OHX31CTC
+R	Missing due to dental disease, but replaced by a fixed restoration	OHX31CTC
+S	Sound permanent tooth	OHX31CTC
+T	Permanent root tip is present but a restorative replacement is present	OHX31CTC
+U	Unerupted	OHX31CTC
+X	Missing due to other causes, but replaced by a fixed restoration	OHX31CTC
+Y	Tooth present, condition cannot be assessed	OHX31CTC
+Z	Permanent tooth with surface condition (s)	OHX31CTC
+< blank >	Missing	OHX31CTC
+Dental Sealants:  #31	Value was recorded	OHX31SE
+0	Sealant not present	OHX31SE
+1	Occlusal sealant on permanent tooth	OHX31SE
+2	Facial sealant on permanent tooth	OHX31SE
+3	Lingual sealant on permanent tooth	OHX31SE
+4	Occlusal sealant on primary tooth	OHX31SE
+9	Cannot be assessed	OHX31SE
+< blank >	Missing	OHX31SE
+1	Primary tooth (deciduous) present	OHX31TC
+2	Permanent tooth present	OHX31TC
+3	Dental implant	OHX31TC
+4	Tooth not present	OHX31TC
+5	Permanent dental root fragment present	OHX31TC
+9	Could not assess	OHX31TC
+.	Missing	OHX31TC
+1	Primary tooth (deciduous) present	OHX32TC
+2	Permanent tooth present	OHX32TC
+3	Dental implant	OHX32TC
+4	Tooth not present	OHX32TC
+5	Permanent dental root fragment present	OHX32TC
+9	Could not assess	OHX32TC
+.	Missing	OHX32TC
+1	Yes	OHXIMP
+2	No	OHXIMP
+.	Missing	OHXIMP
+1 to 19	Range of Values	RXDCOUNT
+.	Missing	RXDCOUNT
+1 to 22995	Range of Values	RXDDAYS
+77777	Refused	RXDDAYS
+99999	Don't know	RXDDAYS
+.	Missing	RXDDAYS
+Generic drug code	Value was recorded	RXDDRGID
+< blank >	Missing	RXDDRGID
+Generic drug name	Value was recorded	RXDDRUG
+55555	Unknown	RXDDRUG
+77777	Refused	RXDDRUG
+99999	Don't know	RXDDRUG
+< blank >	Missing	RXDDRUG
+1	Yes	RXDUSE
+2	No	RXDUSE
+7	Refused	RXDUSE
+9	Don't know	RXDUSE
+.	Missing	RXDUSE
+1	Yes	RXQSEEN
+2	No	RXQSEEN
+.	Missing	RXQSEEN
+1	English	CFALANG
+2	Spanish	CFALANG
+3	Asian language	CFALANG
+.	Missing	CFALANG
+1	3 tests	CFASTAT
+2	2 tests	CFASTAT
+3	1 test	CFASTAT
+4	Ineligible, proxy	CFASTAT
+5	Ineligible, other language	CFASTAT
+6	No test done	CFASTAT
+.	Missing	CFASTAT
+1	Passed	CFDAPP
+2	Failed	CFDAPP
+3	Not done	CFDAPP
+.	Missing	CFDAPP
+1	Did not consent to audio record	CFDARNC
+2	Communication problem	CFDARNC
+3	Physical limitation	CFDARNC
+5	Refused	CFDARNC
+6	Equipment failure	CFDARNC
+7	Other	CFDARNC
+.	Missing	CFDARNC
+1 to 40	Range of Values	CFDAST
+.	Missing	CFDAST
+1	Four completed recalls	CFDCCS
+2	One to three completed recalls	CFDCCS
+3	Not done	CFDCCS
+.	Missing	CFDCCS
+0 to 10	Range of Values	CFDCIR
+.	Missing	CFDCIR
+0 to 4	Range of Values	CFDCIT1
+.	Missing	CFDCIT1
+0 to 3	Range of Values	CFDCIT2
+.	Missing	CFDCIT2
+0 to 5	Range of Values	CFDCIT3
+.	Missing	CFDCIT3
+1	Did not consent to audio record	CFDCRNC
+2	Communication problem	CFDCRNC
+3	Physical limitation	CFDCRNC
+4	Quit or gave up	CFDCRNC
+5	Refused	CFDCRNC
+6	Equipment failure	CFDCRNC
+7	Other	CFDCRNC
+.	Missing	CFDCRNC
+0 to 10	Range of Values	CFDCSR
+.	Missing	CFDCSR
+0 to 9	Range of Values	CFDCST1
+.	Missing	CFDCST1
+0 to 10	Range of Values	CFDCST2
+.	Missing	CFDCST2
+0 to 10	Range of Values	CFDCST3
+.	Missing	CFDCST3
+1	Passed	CFDDPP
+2	Failed	CFDDPP
+3	Not done	CFDDPP
+.	Missing	CFDDPP
+2	Communication problem	CFDDRNC
+3	Physical limitation	CFDDRNC
+5	Refused	CFDDRNC
+6	Equipment failure	CFDDRNC
+7	Other	CFDDRNC
+.	Missing	CFDDRNC
+0 to 100	Range of Values	CFDDS
+.	Missing	CFDDS
+1	English	AIALANGA
+2	Spanish	AIALANGA
+3	Asian languages	AIALANGA
+.	Missing	AIALANGA
+1	Born in 50 US states or Washington, DC	DMDBORN4
+2	Others	DMDBORN4
+77	Refused	DMDBORN4
+99	Don't Know	DMDBORN4
+.	Missing	DMDBORN4
+1	Citizen by birth or naturalization	DMDCITZN
+2	Not a citizen of the US	DMDCITZN
+7	Refused	DMDCITZN
+9	Don't Know	DMDCITZN
+.	Missing	DMDCITZN
+1	Less than 9th grade	DMDEDUC2
+2	9-11th grade (Includes 12th grade with no diploma)	DMDEDUC2
+3	High school graduate/GED or equivalent	DMDEDUC2
+4	Some college or AA degree	DMDEDUC2
+5	College graduate or above	DMDEDUC2
+7	Refused	DMDEDUC2
+9	Don't Know	DMDEDUC2
+.	Missing	DMDEDUC2
+0	Never attended / kindergarten only	DMDEDUC3
+1	1st grade	DMDEDUC3
+2	2nd grade	DMDEDUC3
+3	3rd grade	DMDEDUC3
+4	4th grade	DMDEDUC3
+5	5th grade	DMDEDUC3
+6	6th grade	DMDEDUC3
+7	7th grade	DMDEDUC3
+8	8th grade	DMDEDUC3
+9	9th grade	DMDEDUC3
+10	10th grade	DMDEDUC3
+11	11th grade	DMDEDUC3
+12	12th grade, no diploma	DMDEDUC3
+13	High school graduate	DMDEDUC3
+14	GED or equivalent	DMDEDUC3
+15	More than high school	DMDEDUC3
+55	Less than 5th grade	DMDEDUC3
+66	Less than 9th grade	DMDEDUC3
+77	Refused	DMDEDUC3
+99	Don't Know	DMDEDUC3
+.	Missing	DMDEDUC3
+1 to 6	Range of Values	DMDFMSIZ
+7	7 or more people in the Family	DMDFMSIZ
+.	Missing	DMDFMSIZ
+1 to 6	Range of Values	DMDHHSIZ
+7	7 or more people in the Household	DMDHHSIZ
+.	Missing	DMDHHSIZ
+0 to 2	Range of Values	DMDHHSZA
+3	3 or more	DMDHHSZA
+.	Missing	DMDHHSZA
+0 to 3	Range of Values	DMDHHSZB
+4	4 or more	DMDHHSZB
+.	Missing	DMDHHSZB
+0 to 2	Range of Values	DMDHHSZE
+3	3 or more	DMDHHSZE
+.	Missing	DMDHHSZE
+18 to 79	Range of Values	DMDHRAGE
+80	80 years of age and over	DMDHRAGE
+.	Missing	DMDHRAGE
+1	Born in 50 US states or Washington, DC	DMDHRBR4
+2	Others	DMDHRBR4
+77	Refused	DMDHRBR4
+99	Don't Know	DMDHRBR4
+.	Missing	DMDHRBR4
+1	Less Than 9th Grade	DMDHREDU
+2	9-11th Grade (Includes 12th grade with no diploma)	DMDHREDU
+3	High School Grad/GED or Equivalent	DMDHREDU
+4	Some College or AA degree	DMDHREDU
+5	College Graduate or above	DMDHREDU
+7	Refused	DMDHREDU
+9	Don't Know	DMDHREDU
+.	Missing	DMDHREDU
+1	Male	DMDHRGND
+2	Female	DMDHRGND
+.	Missing	DMDHRGND
+1	Married	DMDHRMAR
+2	Widowed	DMDHRMAR
+3	Divorced	DMDHRMAR
+4	Separated	DMDHRMAR
+5	Never married	DMDHRMAR
+6	Living with partner	DMDHRMAR
+77	Refused	DMDHRMAR
+99	Don't Know	DMDHRMAR
+.	Missing	DMDHRMAR
+1	Less Than 9th Grade	DMDHSEDU
+2	9-11th Grade (Includes 12th grade with no diploma)	DMDHSEDU
+3	High School Grad/GED or Equivalent	DMDHSEDU
+4	Some College or AA degree	DMDHSEDU
+5	College Graduate or above	DMDHSEDU
+7	Refused	DMDHSEDU
+9	Don't Know	DMDHSEDU
+.	Missing	DMDHSEDU
+1	Married	DMDMARTL
+2	Widowed	DMDMARTL
+3	Divorced	DMDMARTL
+4	Separated	DMDMARTL
+5	Never married	DMDMARTL
+6	Living with partner	DMDMARTL
+77	Refused	DMDMARTL
+99	Don't Know	DMDMARTL
+.	Missing	DMDMARTL
+1	Less than 1 year	DMDYRSUS
+2	1 year or more, but less than 5 years	DMDYRSUS
+3	5 year or more, but less than 10 years	DMDYRSUS
+4	10 year or more, but less than 15 years	DMDYRSUS
+5	15 year or more, but less than 20 years	DMDYRSUS
+6	20 year or more, but less than 30 years	DMDYRSUS
+7	30 year or more, but less than 40 years	DMDYRSUS
+8	40 year or more, but less than 50 years	DMDYRSUS
+9	50 years or more	DMDYRSUS
+77	Refused	DMDYRSUS
+99	Don't Know	DMDYRSUS
+.	Missing	DMDYRSUS
+1	Yes	DMQADFC
+2	No	DMQADFC
+7	Refused	DMQADFC
+9	Don't Know	DMQADFC
+.	Missing	DMQADFC
+1	Yes	DMQMILIZ
+2	No	DMQMILIZ
+7	Refused	DMQMILIZ
+9	Don't Know	DMQMILIZ
+.	Missing	DMQMILIZ
+1	Yes	FIAINTRP
+2	No	FIAINTRP
+.	Missing	FIAINTRP
+1	English	FIALANG
+2	Spanish	FIALANG
+.	Missing	FIALANG
+1	Yes	FIAPROXY
+2	No	FIAPROXY
+.	Missing	FIAPROXY
+1	$ 0 to $ 4,999	INDFMIN2
+2	$ 5,000 to $ 9,999	INDFMIN2
+3	$10,000 to $14,999	INDFMIN2
+4	$15,000 to $19,999	INDFMIN2
+5	$20,000 to $24,999	INDFMIN2
+6	$25,000 to $34,999	INDFMIN2
+7	$35,000 to $44,999	INDFMIN2
+8	$45,000 to $54,999	INDFMIN2
+9	$55,000 to $64,999	INDFMIN2
+10	$65,000 to $74,999	INDFMIN2
+12	$20,000 and Over	INDFMIN2
+13	Under $20,000	INDFMIN2
+14	$75,000 to $99,999	INDFMIN2
+15	$100,000 and Over	INDFMIN2
+77	Refused	INDFMIN2
+99	Don't know	INDFMIN2
+.	Missing	INDFMIN2
+0 to 4.99	Range of Values	INDFMPIR
+5	Value greater than or equal to 5.00	INDFMPIR
+.	Missing	INDFMPIR
+1	$ 0 to $ 4,999	INDHHIN2
+2	$ 5,000 to $ 9,999	INDHHIN2
+3	$10,000 to $14,999	INDHHIN2
+4	$15,000 to $19,999	INDHHIN2
+5	$20,000 to $24,999	INDHHIN2
+6	$25,000 to $34,999	INDHHIN2
+7	$35,000 to $44,999	INDHHIN2
+8	$45,000 to $54,999	INDHHIN2
+9	$55,000 to $64,999	INDHHIN2
+10	$65,000 to $74,999	INDHHIN2
+12	$20,000 and Over	INDHHIN2
+13	Under $20,000	INDHHIN2
+14	$75,000 to $99,999	INDHHIN2
+15	$100,000 and Over	INDHHIN2
+77	Refused	INDHHIN2
+99	Don't know	INDHHIN2
+.	Missing	INDHHIN2
+1	Yes	MIAINTRP
+2	No	MIAINTRP
+.	Missing	MIAINTRP
+1	English	MIALANG
+2	Spanish	MIALANG
+.	Missing	MIALANG
+1	Yes	MIAPROXY
+2	No	MIAPROXY
+.	Missing	MIAPROXY
+1	Male	RIAGENDR
+2	Female	RIAGENDR
+.	Missing	RIAGENDR
+0 to 24	Range of Values	RIDAGEMN
+.	Missing	RIDAGEMN
+0 to 79	Range of Values	RIDAGEYR
+80	80 years of age and over	RIDAGEYR
+.	Missing	RIDAGEYR
+0 to 239	Range of Values	RIDEXAGM
+.	Missing	RIDEXAGM
+2 to 20	Range of Values	RIDEXAGY
+.	Missing	RIDEXAGY
+1	November 1 through April 30	RIDEXMON
+2	May 1 through October 31	RIDEXMON
+.	Missing	RIDEXMON
+1	Yes, positive lab pregnancy test or self-reported pregnant at exam	RIDEXPRG
+2	The participant was not pregnant at exam	RIDEXPRG
+3	Cannot ascertain if the participant is pregnant at exam	RIDEXPRG
+.	Missing	RIDEXPRG
+1	Mexican American	RIDRETH1
+2	Other Hispanic	RIDRETH1
+3	Non-Hispanic White	RIDRETH1
+4	Non-Hispanic Black	RIDRETH1
+5	Other Race - Including Multi-Racial	RIDRETH1
+.	Missing	RIDRETH1
+1	Mexican American	RIDRETH3
+2	Other Hispanic	RIDRETH3
+3	Non-Hispanic White	RIDRETH3
+4	Non-Hispanic Black	RIDRETH3
+6	Non-Hispanic Asian	RIDRETH3
+7	Other Race - Including Multi-Racial	RIDRETH3
+.	Missing	RIDRETH3
+1	Interviewed only	RIDSTATR
+2	Both interviewed and MEC examined	RIDSTATR
+.	Missing	RIDSTATR
+7	NHANES 2011-2012 public release	SDDSRVYR
+.	Missing	SDDSRVYR
+1 to 3	Range of Values	SDMVPSU
+.	Missing	SDMVPSU
+90 to 103	Range of Values	SDMVSTRA
+.	Missing	SDMVSTRA
+1	Yes	SIAINTRP
+2	No	SIAINTRP
+.	Missing	SIAINTRP
+1	English	SIALANG
+2	Spanish	SIALANG
+.	Missing	SIALANG
+1	Yes	SIAPROXY
+2	No	SIAPROXY
+.	Missing	SIAPROXY
+3320.8855 to 220233.3152	Range of Values	WTINT2YR
+.	Missing	WTINT2YR
+0 to 222579.78343	Range of Values	WTMEC2YR
+.	Missing	WTMEC2YR
+1	Home Interview (20+ Yrs)	SMAQUEX2
+2	A-CASI (12 - 19 Yrs)	SMAQUEX2
+.	Missing	SMAQUEX2
+6 to 72	Range of Values	SMD030
+0	Never smoked cigarettes regularly	SMD030
+80	80 years or older	SMD030
+777	Refused	SMD030
+999	Don't know	SMD030
+.	Missing	SMD030
+13 to 78	Range of Values	SMD055
+80	80 years or older	SMD055
+777	Refused	SMD055
+999	Don't know	SMD055
+.	Missing	SMD055
+2 to 90	Range of Values	SMD057
+1	1 cigarette or less	SMD057
+95	95 cigarettes or more	SMD057
+777	Refused	SMD057
+999	Don't know	SMD057
+.	Missing	SMD057
+1	Yes	SMD093
+2	No	SMD093
+3	No usual brand	SMD093
+4	Rolls own	SMD093
+7	Refused	SMD093
+9	Don't know	SMD093
+.	Missing	SMD093
+Cigarette Brand/sub-brand	Value was recorded	SMD100BR
+< blank >	Missing	SMD100BR
+3 to 20	Range of Values	SMD100CO
+.	Missing	SMD100CO
+0	Non-filter	SMD100FL
+1	Filter	SMD100FL
+.	Missing	SMD100FL
+1	Regular (68-72 mm)	SMD100LN
+2	King (79-88 mm)	SMD100LN
+3	Long (94-101 mm)	SMD100LN
+4	Ultra long (110-121 mm)	SMD100LN
+.	Missing	SMD100LN
+0	Non-menthol	SMD100MN
+1	Menthol	SMD100MN
+.	Missing	SMD100MN
+0.1 to 1.9	Range of Values	SMD100NI
+.	Missing	SMD100NI
+2 to 20	Range of Values	SMD100TR
+.	Missing	SMD100TR
+7 to 19	Range of Values	SMD630
+6	6 years or less	SMD630
+77	Refused	SMD630
+99	Don't know	SMD630
+.	Missing	SMD630
+0 to 30	Range of Values	SMD641
+77	Refused	SMD641
+99	Don't know	SMD641
+.	Missing	SMD641
+2 to 80	Range of Values	SMD650
+1	1 cigarette or less	SMD650
+95	95 cigarettes or more	SMD650
+777	Refused	SMD650
+999	Don't know	SMD650
+.	Missing	SMD650
+Cig 12-digit Universal Product Code-UPC	Value was recorded	SMDUPCA
+< blank >	Missing	SMDUPCA
+1	Yes	SMQ020
+2	No	SMQ020
+7	Refused	SMQ020
+9	Don't know	SMQ020
+.	Missing	SMQ020
+1	Every day	SMQ040
+2	Some days	SMQ040
+3	Not at all	SMQ040
+7	Refused	SMQ040
+9	Don't know	SMQ040
+.	Missing	SMQ040
+1 to 193	Range of Values	SMQ050Q
+77777	Refused	SMQ050Q
+99999	Don't know	SMQ050Q
+.	Missing	SMQ050Q
+1	Days	SMQ050U
+2	Weeks	SMQ050U
+3	Months	SMQ050U
+4	Years	SMQ050U
+7	Refused	SMQ050U
+9	Don't know	SMQ050U
+.	Missing	SMQ050U
+1	Within 5 minutes	SMQ077
+2	From 6 to 30 minutes	SMQ077
+3	From more than 30 minutes to one hour	SMQ077
+4	More than one hour	SMQ077
+7	Refused	SMQ077
+9	Don't know	SMQ077
+.	Missing	SMQ077
+1	I have never smoked, not even a puff	SMQ621
+2	1 or more puffs but never a whole cigarette	SMQ621
+3	1 cigarette	SMQ621
+4	2 to 5 cigarettes	SMQ621
+5	6 to 15 cigarettes	SMQ621
+6	16 to 25 cigarettes	SMQ621
+7	26 to 99 cigarettes	SMQ621
+8	100 or more cigarettes	SMQ621
+77	Refused	SMQ621
+99	Don't know	SMQ621
+.	Missing	SMQ621
+1	Marlboro	SMQ660
+2	Camel	SMQ660
+3	Newport	SMQ660
+4	Kool	SMQ660
+5	Winston	SMQ660
+6	Benson and hedges	SMQ660
+7	Salem	SMQ660
+8	Some other brand	SMQ660
+77	Refused	SMQ660
+99	Don't know	SMQ660
+.	Missing	SMQ660
+1	Menthol	SMQ664B
+2	Non-menthol	SMQ664B
+7	Refused	SMQ664B
+9	Don't know	SMQ664B
+.	Missing	SMQ664B
+1	Menthol	SMQ664C
+2	Non-menthol	SMQ664C
+7	Refused	SMQ664C
+9	Don't know	SMQ664C
+.	Missing	SMQ664C
+1	Menthol	SMQ664M
+2	Non-menthol	SMQ664M
+7	Refused	SMQ664M
+9	Don't know	SMQ664M
+.	Missing	SMQ664M
+1	Menthol	SMQ664O
+2	Non-menthol	SMQ664O
+7	Refused	SMQ664O
+9	Don't know	SMQ664O
+.	Missing	SMQ664O
+1	Menthol	SMQ664W
+2	Non-menthol	SMQ664W
+7	Refused	SMQ664W
+9	Don't know	SMQ664W
+.	Missing	SMQ664W
+1	Yes	SMQ670
+2	No	SMQ670
+7	Refused	SMQ670
+9	Don't know	SMQ670
+.	Missing	SMQ670
+1	Yes	OHDEXCLU
+2	No	OHDEXCLU
+.	Missing	OHDEXCLU
+1	Complete	OHDEXSTS
+2	Partial	OHDEXSTS
+3	Not Done	OHDEXSTS
+.	Missing	OHDEXSTS
+1	Complete	OHDPDSTS
+2	Partial	OHDPDSTS
+3	Not Done	OHDPDSTS
+.	Missing	OHDPDSTS
+-11 to 2	Range of Values	OHX02CJA
+99	Cannot be assessed	OHX02CJA
+.	Missing	OHX02CJA
+-10 to 1	Range of Values	OHX02CJD
+99	Cannot be assessed	OHX02CJD
+.	Missing	OHX02CJD
+-11 to 2	Range of Values	OHX02CJL
+99	Cannot be assessed	OHX02CJL
+.	Missing	OHX02CJL
+-10 to 1	Range of Values	OHX02CJM
+99	Cannot be assessed	OHX02CJM
+.	Missing	OHX02CJM
+-8 to 2	Range of Values	OHX02CJP
+99	Cannot be assessed	OHX02CJP
+.	Missing	OHX02CJP
+-11 to 2	Range of Values	OHX02CJS
+99	Cannot be assessed	OHX02CJS
+.	Missing	OHX02CJS
+0 to 13	Range of Values	OHX02LAA
+99	Cannot be assessed	OHX02LAA
+.	Missing	OHX02LAA
+0 to 12	Range of Values	OHX02LAD
+99	Cannot be assessed	OHX02LAD
+.	Missing	OHX02LAD
+0 to 12	Range of Values	OHX02LAL
+99	Cannot be assessed	OHX02LAL
+.	Missing	OHX02LAL
+0 to 12	Range of Values	OHX02LAM
+99	Cannot be assessed	OHX02LAM
+.	Missing	OHX02LAM
+0 to 11	Range of Values	OHX02LAP
+99	Cannot be assessed	OHX02LAP
+.	Missing	OHX02LAP
+0 to 11	Range of Values	OHX02LAS
+99	Cannot be assessed	OHX02LAS
+.	Missing	OHX02LAS
+0 to 8	Range of Values	OHX02PCA
+99	Cannot be assessed	OHX02PCA
+.	Missing	OHX02PCA
+0 to 8	Range of Values	OHX02PCD
+99	Cannot be assessed	OHX02PCD
+.	Missing	OHX02PCD
+0 to 6	Range of Values	OHX02PCL
+99	Cannot be assessed	OHX02PCL
+.	Missing	OHX02PCL
+0 to 7	Range of Values	OHX02PCM
+99	Cannot be assessed	OHX02PCM
+.	Missing	OHX02PCM
+0 to 9	Range of Values	OHX02PCP
+99	Cannot be assessed	OHX02PCP
+.	Missing	OHX02PCP
+0 to 8	Range of Values	OHX02PCS
+99	Cannot be assessed	OHX02PCS
+.	Missing	OHX02PCS
+-8 to 2	Range of Values	OHX03CJA
+99	Cannot be assessed	OHX03CJA
+.	Missing	OHX03CJA
+-9 to 2	Range of Values	OHX03CJD
+99	Cannot be assessed	OHX03CJD
+.	Missing	OHX03CJD
+-12 to 1	Range of Values	OHX03CJL
+99	Cannot be assessed	OHX03CJL
+.	Missing	OHX03CJL
+-10 to 1	Range of Values	OHX03CJM
+99	Cannot be assessed	OHX03CJM
+.	Missing	OHX03CJM
+-10 to 2	Range of Values	OHX03CJP
+99	Cannot be assessed	OHX03CJP
+.	Missing	OHX03CJP
+-8 to 2	Range of Values	OHX03CJS
+99	Cannot be assessed	OHX03CJS
+.	Missing	OHX03CJS
+0 to 11	Range of Values	OHX03LAA
+99	Cannot be assessed	OHX03LAA
+.	Missing	OHX03LAA
+0 to 11	Range of Values	OHX03LAD
+99	Cannot be assessed	OHX03LAD
+.	Missing	OHX03LAD
+0 to 14	Range of Values	OHX03LAL
+99	Cannot be assessed	OHX03LAL
+.	Missing	OHX03LAL
+0 to 11	Range of Values	OHX03LAM
+99	Cannot be assessed	OHX03LAM
+.	Missing	OHX03LAM
+0 to 12	Range of Values	OHX03LAP
+99	Cannot be assessed	OHX03LAP
+.	Missing	OHX03LAP
+0 to 10	Range of Values	OHX03LAS
+99	Cannot be assessed	OHX03LAS
+.	Missing	OHX03LAS
+0 to 8	Range of Values	OHX03PCA
+99	Cannot be assessed	OHX03PCA
+.	Missing	OHX03PCA
+0 to 9	Range of Values	OHX03PCD
+99	Cannot be assessed	OHX03PCD
+.	Missing	OHX03PCD
+0 to 5	Range of Values	OHX03PCL
+99	Cannot be assessed	OHX03PCL
+.	Missing	OHX03PCL
+0 to 8	Range of Values	OHX03PCM
+99	Cannot be assessed	OHX03PCM
+.	Missing	OHX03PCM
+0 to 8	Range of Values	OHX03PCP
+99	Cannot be assessed	OHX03PCP
+.	Missing	OHX03PCP
+0 to 8	Range of Values	OHX03PCS
+99	Cannot be assessed	OHX03PCS
+.	Missing	OHX03PCS
+-6 to 3	Range of Values	OHX04CJA
+99	Cannot be assessed	OHX04CJA
+.	Missing	OHX04CJA
+-8 to 2	Range of Values	OHX04CJD
+99	Cannot be assessed	OHX04CJD
+.	Missing	OHX04CJD
+-8 to 3	Range of Values	OHX04CJL
+99	Cannot be assessed	OHX04CJL
+.	Missing	OHX04CJL
+-8 to 1	Range of Values	OHX04CJM
+99	Cannot be assessed	OHX04CJM
+.	Missing	OHX04CJM
+-8 to 2	Range of Values	OHX04CJP
+99	Cannot be assessed	OHX04CJP
+.	Missing	OHX04CJP
+-8 to 2	Range of Values	OHX04CJS
+99	Cannot be assessed	OHX04CJS
+.	Missing	OHX04CJS
+0 to 10	Range of Values	OHX04LAA
+99	Cannot be assessed	OHX04LAA
+.	Missing	OHX04LAA
+0 to 10	Range of Values	OHX04LAD
+99	Cannot be assessed	OHX04LAD
+.	Missing	OHX04LAD
+0 to 10	Range of Values	OHX04LAL
+99	Cannot be assessed	OHX04LAL
+.	Missing	OHX04LAL
+0 to 9	Range of Values	OHX04LAM
+99	Cannot be assessed	OHX04LAM
+.	Missing	OHX04LAM
+0 to 10	Range of Values	OHX04LAP
+99	Cannot be assessed	OHX04LAP
+.	Missing	OHX04LAP
+0 to 11	Range of Values	OHX04LAS
+99	Cannot be assessed	OHX04LAS
+.	Missing	OHX04LAS
+0 to 8	Range of Values	OHX04PCA
+99	Cannot be assessed	OHX04PCA
+.	Missing	OHX04PCA
+0 to 8	Range of Values	OHX04PCD
+99	Cannot be assessed	OHX04PCD
+.	Missing	OHX04PCD
+0 to 8	Range of Values	OHX04PCL
+99	Cannot be assessed	OHX04PCL
+.	Missing	OHX04PCL
+0 to 6	Range of Values	OHX04PCM
+99	Cannot be assessed	OHX04PCM
+.	Missing	OHX04PCM
+0 to 7	Range of Values	OHX04PCP
+99	Cannot be assessed	OHX04PCP
+.	Missing	OHX04PCP
+0 to 8	Range of Values	OHX04PCS
+99	Cannot be assessed	OHX04PCS
+.	Missing	OHX04PCS
+-7 to 2	Range of Values	OHX05CJA
+99	Cannot be assessed	OHX05CJA
+.	Missing	OHX05CJA
+-8 to 2	Range of Values	OHX05CJD
+99	Cannot be assessed	OHX05CJD
+.	Missing	OHX05CJD
+-8 to 1	Range of Values	OHX05CJL
+99	Cannot be assessed	OHX05CJL
+.	Missing	OHX05CJL
+-10 to 1	Range of Values	OHX05CJM
+99	Cannot be assessed	OHX05CJM
+.	Missing	OHX05CJM
+-8 to 3	Range of Values	OHX05CJP
+99	Cannot be assessed	OHX05CJP
+.	Missing	OHX05CJP
+-8 to 2	Range of Values	OHX05CJS
+99	Cannot be assessed	OHX05CJS
+.	Missing	OHX05CJS
+0 to 11	Range of Values	OHX05LAA
+99	Cannot be assessed	OHX05LAA
+.	Missing	OHX05LAA
+0 to 11	Range of Values	OHX05LAD
+99	Cannot be assessed	OHX05LAD
+.	Missing	OHX05LAD
+0 to 11	Range of Values	OHX05LAL
+99	Cannot be assessed	OHX05LAL
+.	Missing	OHX05LAL
+0 to 12	Range of Values	OHX05LAM
+99	Cannot be assessed	OHX05LAM
+.	Missing	OHX05LAM
+0 to 12	Range of Values	OHX05LAP
+99	Cannot be assessed	OHX05LAP
+.	Missing	OHX05LAP
+0 to 13	Range of Values	OHX05LAS
+99	Cannot be assessed	OHX05LAS
+.	Missing	OHX05LAS
+0 to 8	Range of Values	OHX05PCA
+99	Cannot be assessed	OHX05PCA
+.	Missing	OHX05PCA
+0 to 7	Range of Values	OHX05PCD
+99	Cannot be assessed	OHX05PCD
+.	Missing	OHX05PCD
+0 to 8	Range of Values	OHX05PCL
+99	Cannot be assessed	OHX05PCL
+.	Missing	OHX05PCL
+0 to 6	Range of Values	OHX05PCM
+99	Cannot be assessed	OHX05PCM
+.	Missing	OHX05PCM
+0 to 8	Range of Values	OHX05PCP
+99	Cannot be assessed	OHX05PCP
+.	Missing	OHX05PCP
+0 to 11	Range of Values	OHX05PCS
+99	Cannot be assessed	OHX05PCS
+.	Missing	OHX05PCS
+-8 to 2	Range of Values	OHX06CJA
+99	Cannot be assessed	OHX06CJA
+.	Missing	OHX06CJA
+-11 to 2	Range of Values	OHX06CJD
+99	Cannot be assessed	OHX06CJD
+.	Missing	OHX06CJD
+-10 to 2	Range of Values	OHX06CJL
+99	Cannot be assessed	OHX06CJL
+.	Missing	OHX06CJL
+-11 to 2	Range of Values	OHX06CJM
+99	Cannot be assessed	OHX06CJM
+.	Missing	OHX06CJM
+-10 to 2	Range of Values	OHX06CJP
+99	Cannot be assessed	OHX06CJP
+.	Missing	OHX06CJP
+-11 to 3	Range of Values	OHX06CJS
+99	Cannot be assessed	OHX06CJS
+.	Missing	OHX06CJS
+0 to 13	Range of Values	OHX06LAA
+99	Cannot be assessed	OHX06LAA
+.	Missing	OHX06LAA
+0 to 17	Range of Values	OHX06LAD
+99	Cannot be assessed	OHX06LAD
+.	Missing	OHX06LAD
+0 to 14	Range of Values	OHX06LAL
+99	Cannot be assessed	OHX06LAL
+.	Missing	OHX06LAL
+0 to 16	Range of Values	OHX06LAM
+99	Cannot be assessed	OHX06LAM
+.	Missing	OHX06LAM
+0 to 14	Range of Values	OHX06LAP
+99	Cannot be assessed	OHX06LAP
+.	Missing	OHX06LAP
+0 to 17	Range of Values	OHX06LAS
+99	Cannot be assessed	OHX06LAS
+.	Missing	OHX06LAS
+0 to 9	Range of Values	OHX06PCA
+99	Cannot be assessed	OHX06PCA
+.	Missing	OHX06PCA
+0 to 12	Range of Values	OHX06PCD
+99	Cannot be assessed	OHX06PCD
+.	Missing	OHX06PCD
+0 to 8	Range of Values	OHX06PCL
+99	Cannot be assessed	OHX06PCL
+.	Missing	OHX06PCL
+0 to 6	Range of Values	OHX06PCM
+99	Cannot be assessed	OHX06PCM
+.	Missing	OHX06PCM
+0 to 8	Range of Values	OHX06PCP
+99	Cannot be assessed	OHX06PCP
+.	Missing	OHX06PCP
+0 to 10	Range of Values	OHX06PCS
+99	Cannot be assessed	OHX06PCS
+.	Missing	OHX06PCS
+-6 to 3	Range of Values	OHX07CJA
+99	Cannot be assessed	OHX07CJA
+.	Missing	OHX07CJA
+-6 to 3	Range of Values	OHX07CJD
+99	Cannot be assessed	OHX07CJD
+.	Missing	OHX07CJD
+-6 to 2	Range of Values	OHX07CJL
+99	Cannot be assessed	OHX07CJL
+.	Missing	OHX07CJL
+-8 to 2	Range of Values	OHX07CJM
+99	Cannot be assessed	OHX07CJM
+.	Missing	OHX07CJM
+-5 to 2	Range of Values	OHX07CJP
+99	Cannot be assessed	OHX07CJP
+.	Missing	OHX07CJP
+-8 to 2	Range of Values	OHX07CJS
+99	Cannot be assessed	OHX07CJS
+.	Missing	OHX07CJS
+0 to 12	Range of Values	OHX07LAA
+99	Cannot be assessed	OHX07LAA
+.	Missing	OHX07LAA
+0 to 12	Range of Values	OHX07LAD
+99	Cannot be assessed	OHX07LAD
+.	Missing	OHX07LAD
+0 to 12	Range of Values	OHX07LAL
+99	Cannot be assessed	OHX07LAL
+.	Missing	OHX07LAL
+0 to 10	Range of Values	OHX07LAM
+99	Cannot be assessed	OHX07LAM
+.	Missing	OHX07LAM
+0 to 10	Range of Values	OHX07LAP
+99	Cannot be assessed	OHX07LAP
+.	Missing	OHX07LAP
+0 to 11	Range of Values	OHX07LAS
+99	Cannot be assessed	OHX07LAS
+.	Missing	OHX07LAS
+0 to 8	Range of Values	OHX07PCA
+99	Cannot be assessed	OHX07PCA
+.	Missing	OHX07PCA
+0 to 11	Range of Values	OHX07PCD
+99	Cannot be assessed	OHX07PCD
+.	Missing	OHX07PCD
+0 to 8	Range of Values	OHX07PCL
+99	Cannot be assessed	OHX07PCL
+.	Missing	OHX07PCL
+0 to 6	Range of Values	OHX07PCM
+99	Cannot be assessed	OHX07PCM
+.	Missing	OHX07PCM
+0 to 10	Range of Values	OHX07PCP
+99	Cannot be assessed	OHX07PCP
+.	Missing	OHX07PCP
+0 to 7	Range of Values	OHX07PCS
+99	Cannot be assessed	OHX07PCS
+.	Missing	OHX07PCS
+-8 to 2	Range of Values	OHX08CJA
+99	Cannot be assessed	OHX08CJA
+.	Missing	OHX08CJA
+-8 to 2	Range of Values	OHX08CJD
+99	Cannot be assessed	OHX08CJD
+.	Missing	OHX08CJD
+-7 to 2	Range of Values	OHX08CJL
+99	Cannot be assessed	OHX08CJL
+.	Missing	OHX08CJL
+-8 to 1	Range of Values	OHX08CJM
+99	Cannot be assessed	OHX08CJM
+.	Missing	OHX08CJM
+-8 to 2	Range of Values	OHX08CJP
+99	Cannot be assessed	OHX08CJP
+.	Missing	OHX08CJP
+-8 to 2	Range of Values	OHX08CJS
+99	Cannot be assessed	OHX08CJS
+.	Missing	OHX08CJS
+0 to 11	Range of Values	OHX08LAA
+99	Cannot be assessed	OHX08LAA
+.	Missing	OHX08LAA
+0 to 12	Range of Values	OHX08LAD
+99	Cannot be assessed	OHX08LAD
+.	Missing	OHX08LAD
+0 to 11	Range of Values	OHX08LAL
+99	Cannot be assessed	OHX08LAL
+.	Missing	OHX08LAL
+0 to 11	Range of Values	OHX08LAM
+99	Cannot be assessed	OHX08LAM
+.	Missing	OHX08LAM
+0 to 10	Range of Values	OHX08LAP
+99	Cannot be assessed	OHX08LAP
+.	Missing	OHX08LAP
+0 to 15	Range of Values	OHX08LAS
+99	Cannot be assessed	OHX08LAS
+.	Missing	OHX08LAS
+0 to 8	Range of Values	OHX08PCA
+99	Cannot be assessed	OHX08PCA
+.	Missing	OHX08PCA
+0 to 7	Range of Values	OHX08PCD
+99	Cannot be assessed	OHX08PCD
+.	Missing	OHX08PCD
+0 to 7	Range of Values	OHX08PCL
+99	Cannot be assessed	OHX08PCL
+.	Missing	OHX08PCL
+0 to 7	Range of Values	OHX08PCM
+99	Cannot be assessed	OHX08PCM
+.	Missing	OHX08PCM
+0 to 8	Range of Values	OHX08PCP
+99	Cannot be assessed	OHX08PCP
+.	Missing	OHX08PCP
+0 to 9	Range of Values	OHX08PCS
+99	Cannot be assessed	OHX08PCS
+.	Missing	OHX08PCS
+-6 to 2	Range of Values	OHX09CJA
+99	Cannot be assessed	OHX09CJA
+.	Missing	OHX09CJA
+-8 to 2	Range of Values	OHX09CJD
+99	Cannot be assessed	OHX09CJD
+.	Missing	OHX09CJD
+-7 to 1	Range of Values	OHX09CJL
+99	Cannot be assessed	OHX09CJL
+.	Missing	OHX09CJL
+-7 to 2	Range of Values	OHX09CJM
+99	Cannot be assessed	OHX09CJM
+.	Missing	OHX09CJM
+-7 to 2	Range of Values	OHX09CJP
+99	Cannot be assessed	OHX09CJP
+.	Missing	OHX09CJP
+-6 to 2	Range of Values	OHX09CJS
+99	Cannot be assessed	OHX09CJS
+.	Missing	OHX09CJS
+0 to 11	Range of Values	OHX09LAA
+99	Cannot be assessed	OHX09LAA
+.	Missing	OHX09LAA
+0 to 10	Range of Values	OHX09LAD
+99	Cannot be assessed	OHX09LAD
+.	Missing	OHX09LAD
+0 to 10	Range of Values	OHX09LAL
+99	Cannot be assessed	OHX09LAL
+.	Missing	OHX09LAL
+0 to 10	Range of Values	OHX09LAM
+99	Cannot be assessed	OHX09LAM
+.	Missing	OHX09LAM
+0 to 11	Range of Values	OHX09LAP
+99	Cannot be assessed	OHX09LAP
+.	Missing	OHX09LAP
+0 to 11	Range of Values	OHX09LAS
+99	Cannot be assessed	OHX09LAS
+.	Missing	OHX09LAS
+0 to 8	Range of Values	OHX09PCA
+99	Cannot be assessed	OHX09PCA
+.	Missing	OHX09PCA
+0 to 8	Range of Values	OHX09PCD
+99	Cannot be assessed	OHX09PCD
+.	Missing	OHX09PCD
+0 to 6	Range of Values	OHX09PCL
+99	Cannot be assessed	OHX09PCL
+.	Missing	OHX09PCL
+0 to 10	Range of Values	OHX09PCM
+99	Cannot be assessed	OHX09PCM
+.	Missing	OHX09PCM
+0 to 7	Range of Values	OHX09PCP
+99	Cannot be assessed	OHX09PCP
+.	Missing	OHX09PCP
+0 to 10	Range of Values	OHX09PCS
+99	Cannot be assessed	OHX09PCS
+.	Missing	OHX09PCS
+-8 to 2	Range of Values	OHX10CJA
+99	Cannot be assessed	OHX10CJA
+.	Missing	OHX10CJA
+-6 to 2	Range of Values	OHX10CJD
+99	Cannot be assessed	OHX10CJD
+.	Missing	OHX10CJD
+-6 to 2	Range of Values	OHX10CJL
+99	Cannot be assessed	OHX10CJL
+.	Missing	OHX10CJL
+-6 to 1	Range of Values	OHX10CJM
+99	Cannot be assessed	OHX10CJM
+.	Missing	OHX10CJM
+-6 to 2	Range of Values	OHX10CJP
+99	Cannot be assessed	OHX10CJP
+.	Missing	OHX10CJP
+-8 to 2	Range of Values	OHX10CJS
+99	Cannot be assessed	OHX10CJS
+.	Missing	OHX10CJS
+0 to 10	Range of Values	OHX10LAA
+99	Cannot be assessed	OHX10LAA
+.	Missing	OHX10LAA
+0 to 12	Range of Values	OHX10LAD
+99	Cannot be assessed	OHX10LAD
+.	Missing	OHX10LAD
+0 to 11	Range of Values	OHX10LAL
+99	Cannot be assessed	OHX10LAL
+.	Missing	OHX10LAL
+0 to 9	Range of Values	OHX10LAM
+99	Cannot be assessed	OHX10LAM
+.	Missing	OHX10LAM
+0 to 12	Range of Values	OHX10LAP
+99	Cannot be assessed	OHX10LAP
+.	Missing	OHX10LAP
+0 to 11	Range of Values	OHX10LAS
+99	Cannot be assessed	OHX10LAS
+.	Missing	OHX10LAS
+0 to 8	Range of Values	OHX10PCA
+99	Cannot be assessed	OHX10PCA
+.	Missing	OHX10PCA
+0 to 8	Range of Values	OHX10PCD
+99	Cannot be assessed	OHX10PCD
+.	Missing	OHX10PCD
+0 to 9	Range of Values	OHX10PCL
+99	Cannot be assessed	OHX10PCL
+.	Missing	OHX10PCL
+0 to 8	Range of Values	OHX10PCM
+99	Cannot be assessed	OHX10PCM
+.	Missing	OHX10PCM
+0 to 9	Range of Values	OHX10PCP
+99	Cannot be assessed	OHX10PCP
+.	Missing	OHX10PCP
+0 to 7	Range of Values	OHX10PCS
+99	Cannot be assessed	OHX10PCS
+.	Missing	OHX10PCS
+-8 to 2	Range of Values	OHX11CJA
+99	Cannot be assessed	OHX11CJA
+.	Missing	OHX11CJA
+-11 to 2	Range of Values	OHX11CJD
+99	Cannot be assessed	OHX11CJD
+.	Missing	OHX11CJD
+-8 to 2	Range of Values	OHX11CJL
+99	Cannot be assessed	OHX11CJL
+.	Missing	OHX11CJL
+-12 to 1	Range of Values	OHX11CJM
+99	Cannot be assessed	OHX11CJM
+.	Missing	OHX11CJM
+-8 to 2	Range of Values	OHX11CJP
+99	Cannot be assessed	OHX11CJP
+.	Missing	OHX11CJP
+-11 to 2	Range of Values	OHX11CJS
+99	Cannot be assessed	OHX11CJS
+.	Missing	OHX11CJS
+0 to 13	Range of Values	OHX11LAA
+99	Cannot be assessed	OHX11LAA
+.	Missing	OHX11LAA
+0 to 15	Range of Values	OHX11LAD
+99	Cannot be assessed	OHX11LAD
+.	Missing	OHX11LAD
+0 to 13	Range of Values	OHX11LAL
+99	Cannot be assessed	OHX11LAL
+.	Missing	OHX11LAL
+0 to 14	Range of Values	OHX11LAM
+99	Cannot be assessed	OHX11LAM
+.	Missing	OHX11LAM
+0 to 14	Range of Values	OHX11LAP
+99	Cannot be assessed	OHX11LAP
+.	Missing	OHX11LAP
+0 to 15	Range of Values	OHX11LAS
+99	Cannot be assessed	OHX11LAS
+.	Missing	OHX11LAS
+0 to 9	Range of Values	OHX11PCA
+99	Cannot be assessed	OHX11PCA
+.	Missing	OHX11PCA
+0 to 9	Range of Values	OHX11PCD
+99	Cannot be assessed	OHX11PCD
+.	Missing	OHX11PCD
+0 to 11	Range of Values	OHX11PCL
+99	Cannot be assessed	OHX11PCL
+.	Missing	OHX11PCL
+0 to 10	Range of Values	OHX11PCM
+99	Cannot be assessed	OHX11PCM
+.	Missing	OHX11PCM
+0 to 8	Range of Values	OHX11PCP
+99	Cannot be assessed	OHX11PCP
+.	Missing	OHX11PCP
+0 to 8	Range of Values	OHX11PCS
+99	Cannot be assessed	OHX11PCS
+.	Missing	OHX11PCS
+-6 to 2	Range of Values	OHX12CJA
+99	Cannot be assessed	OHX12CJA
+.	Missing	OHX12CJA
+-9 to 2	Range of Values	OHX12CJD
+99	Cannot be assessed	OHX12CJD
+.	Missing	OHX12CJD
+-10 to 2	Range of Values	OHX12CJL
+99	Cannot be assessed	OHX12CJL
+.	Missing	OHX12CJL
+-10 to 2	Range of Values	OHX12CJM
+99	Cannot be assessed	OHX12CJM
+.	Missing	OHX12CJM
+-11 to 2	Range of Values	OHX12CJP
+99	Cannot be assessed	OHX12CJP
+.	Missing	OHX12CJP
+-8 to 2	Range of Values	OHX12CJS
+99	Cannot be assessed	OHX12CJS
+.	Missing	OHX12CJS
+0 to 11	Range of Values	OHX12LAA
+99	Cannot be assessed	OHX12LAA
+.	Missing	OHX12LAA
+0 to 13	Range of Values	OHX12LAD
+99	Cannot be assessed	OHX12LAD
+.	Missing	OHX12LAD
+0 to 13	Range of Values	OHX12LAL
+99	Cannot be assessed	OHX12LAL
+.	Missing	OHX12LAL
+0 to 10	Range of Values	OHX12LAM
+99	Cannot be assessed	OHX12LAM
+.	Missing	OHX12LAM
+0 to 15	Range of Values	OHX12LAP
+99	Cannot be assessed	OHX12LAP
+.	Missing	OHX12LAP
+0 to 12	Range of Values	OHX12LAS
+99	Cannot be assessed	OHX12LAS
+.	Missing	OHX12LAS
+0 to 8	Range of Values	OHX12PCA
+99	Cannot be assessed	OHX12PCA
+.	Missing	OHX12PCA
+0 to 8	Range of Values	OHX12PCD
+99	Cannot be assessed	OHX12PCD
+.	Missing	OHX12PCD
+0 to 6	Range of Values	OHX12PCL
+99	Cannot be assessed	OHX12PCL
+.	Missing	OHX12PCL
+0 to 6	Range of Values	OHX12PCM
+99	Cannot be assessed	OHX12PCM
+.	Missing	OHX12PCM
+0 to 8	Range of Values	OHX12PCP
+99	Cannot be assessed	OHX12PCP
+.	Missing	OHX12PCP
+0 to 8	Range of Values	OHX12PCS
+99	Cannot be assessed	OHX12PCS
+.	Missing	OHX12PCS
+-8 to 1	Range of Values	OHX13CJA
+99	Cannot be assessed	OHX13CJA
+.	Missing	OHX13CJA
+-10 to 2	Range of Values	OHX13CJD
+99	Cannot be assessed	OHX13CJD
+.	Missing	OHX13CJD
+-10 to 1	Range of Values	OHX13CJL
+99	Cannot be assessed	OHX13CJL
+.	Missing	OHX13CJL
+-9 to 2	Range of Values	OHX13CJM
+99	Cannot be assessed	OHX13CJM
+.	Missing	OHX13CJM
+-10 to 1	Range of Values	OHX13CJP
+99	Cannot be assessed	OHX13CJP
+.	Missing	OHX13CJP
+-8 to 2	Range of Values	OHX13CJS
+99	Cannot be assessed	OHX13CJS
+.	Missing	OHX13CJS
+0 to 12	Range of Values	OHX13LAA
+99	Cannot be assessed	OHX13LAA
+.	Missing	OHX13LAA
+0 to 12	Range of Values	OHX13LAD
+99	Cannot be assessed	OHX13LAD
+.	Missing	OHX13LAD
+0 to 13	Range of Values	OHX13LAL
+99	Cannot be assessed	OHX13LAL
+.	Missing	OHX13LAL
+0 to 11	Range of Values	OHX13LAM
+99	Cannot be assessed	OHX13LAM
+.	Missing	OHX13LAM
+0 to 12	Range of Values	OHX13LAP
+99	Cannot be assessed	OHX13LAP
+.	Missing	OHX13LAP
+0 to 12	Range of Values	OHX13LAS
+99	Cannot be assessed	OHX13LAS
+.	Missing	OHX13LAS
+0 to 8	Range of Values	OHX13PCA
+99	Cannot be assessed	OHX13PCA
+.	Missing	OHX13PCA
+0 to 8	Range of Values	OHX13PCD
+99	Cannot be assessed	OHX13PCD
+.	Missing	OHX13PCD
+0 to 7	Range of Values	OHX13PCL
+99	Cannot be assessed	OHX13PCL
+.	Missing	OHX13PCL
+0 to 10	Range of Values	OHX13PCM
+99	Cannot be assessed	OHX13PCM
+.	Missing	OHX13PCM
+0 to 8	Range of Values	OHX13PCP
+99	Cannot be assessed	OHX13PCP
+.	Missing	OHX13PCP
+0 to 10	Range of Values	OHX13PCS
+99	Cannot be assessed	OHX13PCS
+.	Missing	OHX13PCS
+-8 to 1	Range of Values	OHX14CJA
+99	Cannot be assessed	OHX14CJA
+.	Missing	OHX14CJA
+-8 to 2	Range of Values	OHX14CJD
+99	Cannot be assessed	OHX14CJD
+.	Missing	OHX14CJD
+-12 to 1	Range of Values	OHX14CJL
+99	Cannot be assessed	OHX14CJL
+.	Missing	OHX14CJL
+-8 to 1	Range of Values	OHX14CJM
+99	Cannot be assessed	OHX14CJM
+.	Missing	OHX14CJM
+-12 to 2	Range of Values	OHX14CJP
+99	Cannot be assessed	OHX14CJP
+.	Missing	OHX14CJP
+-9 to 2	Range of Values	OHX14CJS
+99	Cannot be assessed	OHX14CJS
+.	Missing	OHX14CJS
+0 to 10	Range of Values	OHX14LAA
+99	Cannot be assessed	OHX14LAA
+.	Missing	OHX14LAA
+0 to 13	Range of Values	OHX14LAD
+99	Cannot be assessed	OHX14LAD
+.	Missing	OHX14LAD
+0 to 14	Range of Values	OHX14LAL
+99	Cannot be assessed	OHX14LAL
+.	Missing	OHX14LAL
+0 to 12	Range of Values	OHX14LAM
+99	Cannot be assessed	OHX14LAM
+.	Missing	OHX14LAM
+0 to 16	Range of Values	OHX14LAP
+99	Cannot be assessed	OHX14LAP
+.	Missing	OHX14LAP
+0 to 12	Range of Values	OHX14LAS
+99	Cannot be assessed	OHX14LAS
+.	Missing	OHX14LAS
+0 to 8	Range of Values	OHX14PCA
+99	Cannot be assessed	OHX14PCA
+.	Missing	OHX14PCA
+0 to 10	Range of Values	OHX14PCD
+99	Cannot be assessed	OHX14PCD
+.	Missing	OHX14PCD
+0 to 8	Range of Values	OHX14PCL
+99	Cannot be assessed	OHX14PCL
+.	Missing	OHX14PCL
+0 to 10	Range of Values	OHX14PCM
+99	Cannot be assessed	OHX14PCM
+.	Missing	OHX14PCM
+0 to 9	Range of Values	OHX14PCP
+99	Cannot be assessed	OHX14PCP
+.	Missing	OHX14PCP
+0 to 10	Range of Values	OHX14PCS
+99	Cannot be assessed	OHX14PCS
+.	Missing	OHX14PCS
+-8 to 2	Range of Values	OHX15CJA
+99	Cannot be assessed	OHX15CJA
+.	Missing	OHX15CJA
+-10 to 9	Range of Values	OHX15CJD
+99	Cannot be assessed	OHX15CJD
+.	Missing	OHX15CJD
+-10 to 2	Range of Values	OHX15CJL
+99	Cannot be assessed	OHX15CJL
+.	Missing	OHX15CJL
+-8 to 9	Range of Values	OHX15CJM
+99	Cannot be assessed	OHX15CJM
+.	Missing	OHX15CJM
+-9 to 2	Range of Values	OHX15CJP
+99	Cannot be assessed	OHX15CJP
+.	Missing	OHX15CJP
+-8 to 9	Range of Values	OHX15CJS
+99	Cannot be assessed	OHX15CJS
+.	Missing	OHX15CJS
+0 to 12	Range of Values	OHX15LAA
+99	Cannot be assessed	OHX15LAA
+.	Missing	OHX15LAA
+0 to 13	Range of Values	OHX15LAD
+99	Cannot be assessed	OHX15LAD
+.	Missing	OHX15LAD
+0 to 12	Range of Values	OHX15LAL
+99	Cannot be assessed	OHX15LAL
+.	Missing	OHX15LAL
+0 to 13	Range of Values	OHX15LAM
+99	Cannot be assessed	OHX15LAM
+.	Missing	OHX15LAM
+0 to 13	Range of Values	OHX15LAP
+99	Cannot be assessed	OHX15LAP
+.	Missing	OHX15LAP
+0 to 12	Range of Values	OHX15LAS
+99	Cannot be assessed	OHX15LAS
+.	Missing	OHX15LAS
+0 to 10	Range of Values	OHX15PCA
+99	Cannot be assessed	OHX15PCA
+.	Missing	OHX15PCA
+0 to 9	Range of Values	OHX15PCD
+99	Cannot be assessed	OHX15PCD
+.	Missing	OHX15PCD
+0 to 9	Range of Values	OHX15PCL
+99	Cannot be assessed	OHX15PCL
+.	Missing	OHX15PCL
+0 to 10	Range of Values	OHX15PCM
+99	Cannot be assessed	OHX15PCM
+.	Missing	OHX15PCM
+0 to 9	Range of Values	OHX15PCP
+99	Cannot be assessed	OHX15PCP
+.	Missing	OHX15PCP
+0 to 9	Range of Values	OHX15PCS
+99	Cannot be assessed	OHX15PCS
+.	Missing	OHX15PCS
+-8 to 2	Range of Values	OHX18CJA
+99	Cannot be assessed	OHX18CJA
+.	Missing	OHX18CJA
+-10 to 2	Range of Values	OHX18CJD
+99	Cannot be assessed	OHX18CJD
+.	Missing	OHX18CJD
+-10 to 1	Range of Values	OHX18CJL
+99	Cannot be assessed	OHX18CJL
+.	Missing	OHX18CJL
+-8 to 1	Range of Values	OHX18CJM
+99	Cannot be assessed	OHX18CJM
+.	Missing	OHX18CJM
+-10 to 2	Range of Values	OHX18CJP
+99	Cannot be assessed	OHX18CJP
+.	Missing	OHX18CJP
+-8 to 1	Range of Values	OHX18CJS
+99	Cannot be assessed	OHX18CJS
+.	Missing	OHX18CJS
+0 to 14	Range of Values	OHX18LAA
+99	Cannot be assessed	OHX18LAA
+.	Missing	OHX18LAA
+0 to 12	Range of Values	OHX18LAD
+99	Cannot be assessed	OHX18LAD
+.	Missing	OHX18LAD
+0 to 11	Range of Values	OHX18LAL
+99	Cannot be assessed	OHX18LAL
+.	Missing	OHX18LAL
+0 to 10	Range of Values	OHX18LAM
+99	Cannot be assessed	OHX18LAM
+.	Missing	OHX18LAM
+0 to 13	Range of Values	OHX18LAP
+99	Cannot be assessed	OHX18LAP
+.	Missing	OHX18LAP
+0 to 12	Range of Values	OHX18LAS
+99	Cannot be assessed	OHX18LAS
+.	Missing	OHX18LAS
+0 to 8	Range of Values	OHX18PCA
+99	Cannot be assessed	OHX18PCA
+.	Missing	OHX18PCA
+0 to 10	Range of Values	OHX18PCD
+99	Cannot be assessed	OHX18PCD
+.	Missing	OHX18PCD
+0 to 7	Range of Values	OHX18PCL
+99	Cannot be assessed	OHX18PCL
+.	Missing	OHX18PCL
+0 to 10	Range of Values	OHX18PCM
+99	Cannot be assessed	OHX18PCM
+.	Missing	OHX18PCM
+0 to 10	Range of Values	OHX18PCP
+99	Cannot be assessed	OHX18PCP
+.	Missing	OHX18PCP
+0 to 11	Range of Values	OHX18PCS
+99	Cannot be assessed	OHX18PCS
+.	Missing	OHX18PCS
+-11 to 2	Range of Values	OHX19CJA
+99	Cannot be assessed	OHX19CJA
+.	Missing	OHX19CJA
+-11 to 1	Range of Values	OHX19CJD
+99	Cannot be assessed	OHX19CJD
+.	Missing	OHX19CJD
+-10 to 3	Range of Values	OHX19CJL
+99	Cannot be assessed	OHX19CJL
+.	Missing	OHX19CJL
+-10 to 1	Range of Values	OHX19CJM
+99	Cannot be assessed	OHX19CJM
+.	Missing	OHX19CJM
+-11 to 2	Range of Values	OHX19CJP
+99	Cannot be assessed	OHX19CJP
+.	Missing	OHX19CJP
+-11 to 2	Range of Values	OHX19CJS
+99	Cannot be assessed	OHX19CJS
+.	Missing	OHX19CJS
+0 to 13	Range of Values	OHX19LAA
+99	Cannot be assessed	OHX19LAA
+.	Missing	OHX19LAA
+0 to 13	Range of Values	OHX19LAD
+99	Cannot be assessed	OHX19LAD
+.	Missing	OHX19LAD
+0 to 13	Range of Values	OHX19LAL
+99	Cannot be assessed	OHX19LAL
+.	Missing	OHX19LAL
+0 to 13	Range of Values	OHX19LAM
+99	Cannot be assessed	OHX19LAM
+.	Missing	OHX19LAM
+0 to 13	Range of Values	OHX19LAP
+99	Cannot be assessed	OHX19LAP
+.	Missing	OHX19LAP
+0 to 13	Range of Values	OHX19LAS
+99	Cannot be assessed	OHX19LAS
+.	Missing	OHX19LAS
+0 to 6	Range of Values	OHX19PCA
+99	Cannot be assessed	OHX19PCA
+.	Missing	OHX19PCA
+0 to 8	Range of Values	OHX19PCD
+99	Cannot be assessed	OHX19PCD
+.	Missing	OHX19PCD
+0 to 7	Range of Values	OHX19PCL
+99	Cannot be assessed	OHX19PCL
+.	Missing	OHX19PCL
+0 to 9	Range of Values	OHX19PCM
+99	Cannot be assessed	OHX19PCM
+.	Missing	OHX19PCM
+0 to 8	Range of Values	OHX19PCP
+99	Cannot be assessed	OHX19PCP
+.	Missing	OHX19PCP
+0 to 8	Range of Values	OHX19PCS
+99	Cannot be assessed	OHX19PCS
+.	Missing	OHX19PCS
+-11 to 2	Range of Values	OHX20CJA
+99	Cannot be assessed	OHX20CJA
+.	Missing	OHX20CJA
+-10 to 2	Range of Values	OHX20CJD
+99	Cannot be assessed	OHX20CJD
+.	Missing	OHX20CJD
+-11 to 1	Range of Values	OHX20CJL
+99	Cannot be assessed	OHX20CJL
+.	Missing	OHX20CJL
+-11 to 1	Range of Values	OHX20CJM
+99	Cannot be assessed	OHX20CJM
+.	Missing	OHX20CJM
+-10 to 2	Range of Values	OHX20CJP
+99	Cannot be assessed	OHX20CJP
+.	Missing	OHX20CJP
+-11 to 2	Range of Values	OHX20CJS
+99	Cannot be assessed	OHX20CJS
+.	Missing	OHX20CJS
+0 to 13	Range of Values	OHX20LAA
+99	Cannot be assessed	OHX20LAA
+.	Missing	OHX20LAA
+0 to 13	Range of Values	OHX20LAD
+99	Cannot be assessed	OHX20LAD
+.	Missing	OHX20LAD
+0 to 13	Range of Values	OHX20LAL
+99	Cannot be assessed	OHX20LAL
+.	Missing	OHX20LAL
+0 to 13	Range of Values	OHX20LAM
+99	Cannot be assessed	OHX20LAM
+.	Missing	OHX20LAM
+0 to 13	Range of Values	OHX20LAP
+99	Cannot be assessed	OHX20LAP
+.	Missing	OHX20LAP
+0 to 13	Range of Values	OHX20LAS
+99	Cannot be assessed	OHX20LAS
+.	Missing	OHX20LAS
+0 to 7	Range of Values	OHX20PCA
+99	Cannot be assessed	OHX20PCA
+.	Missing	OHX20PCA
+0 to 10	Range of Values	OHX20PCD
+99	Cannot be assessed	OHX20PCD
+.	Missing	OHX20PCD
+0 to 7	Range of Values	OHX20PCL
+99	Cannot be assessed	OHX20PCL
+.	Missing	OHX20PCL
+0 to 7	Range of Values	OHX20PCM
+99	Cannot be assessed	OHX20PCM
+.	Missing	OHX20PCM
+0 to 8	Range of Values	OHX20PCP
+99	Cannot be assessed	OHX20PCP
+.	Missing	OHX20PCP
+0 to 8	Range of Values	OHX20PCS
+99	Cannot be assessed	OHX20PCS
+.	Missing	OHX20PCS
+-8 to 1	Range of Values	OHX21CJA
+99	Cannot be assessed	OHX21CJA
+.	Missing	OHX21CJA
+-10 to 2	Range of Values	OHX21CJD
+99	Cannot be assessed	OHX21CJD
+.	Missing	OHX21CJD
+-10 to 1	Range of Values	OHX21CJL
+99	Cannot be assessed	OHX21CJL
+.	Missing	OHX21CJL
+-11 to 1	Range of Values	OHX21CJM
+99	Cannot be assessed	OHX21CJM
+.	Missing	OHX21CJM
+-10 to 2	Range of Values	OHX21CJP
+99	Cannot be assessed	OHX21CJP
+.	Missing	OHX21CJP
+-10 to 2	Range of Values	OHX21CJS
+99	Cannot be assessed	OHX21CJS
+.	Missing	OHX21CJS
+0 to 11	Range of Values	OHX21LAA
+99	Cannot be assessed	OHX21LAA
+.	Missing	OHX21LAA
+0 to 13	Range of Values	OHX21LAD
+99	Cannot be assessed	OHX21LAD
+.	Missing	OHX21LAD
+0 to 12	Range of Values	OHX21LAL
+99	Cannot be assessed	OHX21LAL
+.	Missing	OHX21LAL
+0 to 13	Range of Values	OHX21LAM
+99	Cannot be assessed	OHX21LAM
+.	Missing	OHX21LAM
+0 to 13	Range of Values	OHX21LAP
+99	Cannot be assessed	OHX21LAP
+.	Missing	OHX21LAP
+0 to 13	Range of Values	OHX21LAS
+99	Cannot be assessed	OHX21LAS
+.	Missing	OHX21LAS
+0 to 7	Range of Values	OHX21PCA
+99	Cannot be assessed	OHX21PCA
+.	Missing	OHX21PCA
+0 to 8	Range of Values	OHX21PCD
+99	Cannot be assessed	OHX21PCD
+.	Missing	OHX21PCD
+0 to 8	Range of Values	OHX21PCL
+99	Cannot be assessed	OHX21PCL
+.	Missing	OHX21PCL
+0 to 6	Range of Values	OHX21PCM
+99	Cannot be assessed	OHX21PCM
+.	Missing	OHX21PCM
+0 to 7	Range of Values	OHX21PCP
+99	Cannot be assessed	OHX21PCP
+.	Missing	OHX21PCP
+0 to 6	Range of Values	OHX21PCS
+99	Cannot be assessed	OHX21PCS
+.	Missing	OHX21PCS
+-11 to 2	Range of Values	OHX22CJA
+99	Cannot be assessed	OHX22CJA
+.	Missing	OHX22CJA
+-11 to 2	Range of Values	OHX22CJD
+99	Cannot be assessed	OHX22CJD
+.	Missing	OHX22CJD
+-10 to 1	Range of Values	OHX22CJL
+99	Cannot be assessed	OHX22CJL
+.	Missing	OHX22CJL
+-11 to 1	Range of Values	OHX22CJM
+99	Cannot be assessed	OHX22CJM
+.	Missing	OHX22CJM
+-10 to 2	Range of Values	OHX22CJP
+99	Cannot be assessed	OHX22CJP
+.	Missing	OHX22CJP
+-11 to 4	Range of Values	OHX22CJS
+99	Cannot be assessed	OHX22CJS
+.	Missing	OHX22CJS
+0 to 13	Range of Values	OHX22LAA
+99	Cannot be assessed	OHX22LAA
+.	Missing	OHX22LAA
+0 to 13	Range of Values	OHX22LAD
+99	Cannot be assessed	OHX22LAD
+.	Missing	OHX22LAD
+0 to 12	Range of Values	OHX22LAL
+99	Cannot be assessed	OHX22LAL
+.	Missing	OHX22LAL
+0 to 14	Range of Values	OHX22LAM
+99	Cannot be assessed	OHX22LAM
+.	Missing	OHX22LAM
+0 to 13	Range of Values	OHX22LAP
+99	Cannot be assessed	OHX22LAP
+.	Missing	OHX22LAP
+0 to 13	Range of Values	OHX22LAS
+99	Cannot be assessed	OHX22LAS
+.	Missing	OHX22LAS
+0 to 9	Range of Values	OHX22PCA
+99	Cannot be assessed	OHX22PCA
+.	Missing	OHX22PCA
+0 to 8	Range of Values	OHX22PCD
+99	Cannot be assessed	OHX22PCD
+.	Missing	OHX22PCD
+0 to 9	Range of Values	OHX22PCL
+99	Cannot be assessed	OHX22PCL
+.	Missing	OHX22PCL
+0 to 7	Range of Values	OHX22PCM
+99	Cannot be assessed	OHX22PCM
+.	Missing	OHX22PCM
+0 to 8	Range of Values	OHX22PCP
+99	Cannot be assessed	OHX22PCP
+.	Missing	OHX22PCP
+0 to 8	Range of Values	OHX22PCS
+99	Cannot be assessed	OHX22PCS
+.	Missing	OHX22PCS
+-8 to 2	Range of Values	OHX23CJA
+99	Cannot be assessed	OHX23CJA
+.	Missing	OHX23CJA
+-11 to 4	Range of Values	OHX23CJD
+99	Cannot be assessed	OHX23CJD
+.	Missing	OHX23CJD
+-10 to 2	Range of Values	OHX23CJL
+99	Cannot be assessed	OHX23CJL
+.	Missing	OHX23CJL
+-11 to 3	Range of Values	OHX23CJM
+99	Cannot be assessed	OHX23CJM
+.	Missing	OHX23CJM
+-8 to 2	Range of Values	OHX23CJP
+99	Cannot be assessed	OHX23CJP
+.	Missing	OHX23CJP
+-10 to 4	Range of Values	OHX23CJS
+99	Cannot be assessed	OHX23CJS
+.	Missing	OHX23CJS
+0 to 11	Range of Values	OHX23LAA
+99	Cannot be assessed	OHX23LAA
+.	Missing	OHX23LAA
+0 to 13	Range of Values	OHX23LAD
+99	Cannot be assessed	OHX23LAD
+.	Missing	OHX23LAD
+0 to 12	Range of Values	OHX23LAL
+99	Cannot be assessed	OHX23LAL
+.	Missing	OHX23LAL
+0 to 12	Range of Values	OHX23LAM
+99	Cannot be assessed	OHX23LAM
+.	Missing	OHX23LAM
+0 to 11	Range of Values	OHX23LAP
+99	Cannot be assessed	OHX23LAP
+.	Missing	OHX23LAP
+0 to 13	Range of Values	OHX23LAS
+99	Cannot be assessed	OHX23LAS
+.	Missing	OHX23LAS
+0 to 5	Range of Values	OHX23PCA
+99	Cannot be assessed	OHX23PCA
+.	Missing	OHX23PCA
+0 to 8	Range of Values	OHX23PCD
+99	Cannot be assessed	OHX23PCD
+.	Missing	OHX23PCD
+0 to 5	Range of Values	OHX23PCL
+99	Cannot be assessed	OHX23PCL
+.	Missing	OHX23PCL
+0 to 7	Range of Values	OHX23PCM
+99	Cannot be assessed	OHX23PCM
+.	Missing	OHX23PCM
+0 to 6	Range of Values	OHX23PCP
+99	Cannot be assessed	OHX23PCP
+.	Missing	OHX23PCP
+0 to 8	Range of Values	OHX23PCS
+99	Cannot be assessed	OHX23PCS
+.	Missing	OHX23PCS
+-8 to 2	Range of Values	OHX24CJA
+99	Cannot be assessed	OHX24CJA
+.	Missing	OHX24CJA
+-10 to 4	Range of Values	OHX24CJD
+99	Cannot be assessed	OHX24CJD
+.	Missing	OHX24CJD
+-8 to 2	Range of Values	OHX24CJL
+99	Cannot be assessed	OHX24CJL
+.	Missing	OHX24CJL
+-11 to 3	Range of Values	OHX24CJM
+99	Cannot be assessed	OHX24CJM
+.	Missing	OHX24CJM
+-6 to 2	Range of Values	OHX24CJP
+99	Cannot be assessed	OHX24CJP
+.	Missing	OHX24CJP
+-11 to 4	Range of Values	OHX24CJS
+99	Cannot be assessed	OHX24CJS
+.	Missing	OHX24CJS
+0 to 11	Range of Values	OHX24LAA
+99	Cannot be assessed	OHX24LAA
+.	Missing	OHX24LAA
+0 to 12	Range of Values	OHX24LAD
+99	Cannot be assessed	OHX24LAD
+.	Missing	OHX24LAD
+0 to 11	Range of Values	OHX24LAL
+99	Cannot be assessed	OHX24LAL
+.	Missing	OHX24LAL
+0 to 13	Range of Values	OHX24LAM
+99	Cannot be assessed	OHX24LAM
+.	Missing	OHX24LAM
+0 to 10	Range of Values	OHX24LAP
+99	Cannot be assessed	OHX24LAP
+.	Missing	OHX24LAP
+0 to 13	Range of Values	OHX24LAS
+99	Cannot be assessed	OHX24LAS
+.	Missing	OHX24LAS
+0 to 6	Range of Values	OHX24PCA
+99	Cannot be assessed	OHX24PCA
+.	Missing	OHX24PCA
+0 to 8	Range of Values	OHX24PCD
+99	Cannot be assessed	OHX24PCD
+.	Missing	OHX24PCD
+0 to 6	Range of Values	OHX24PCL
+99	Cannot be assessed	OHX24PCL
+.	Missing	OHX24PCL
+0 to 7	Range of Values	OHX24PCM
+99	Cannot be assessed	OHX24PCM
+.	Missing	OHX24PCM
+0 to 8	Range of Values	OHX24PCP
+99	Cannot be assessed	OHX24PCP
+.	Missing	OHX24PCP
+0 to 6	Range of Values	OHX24PCS
+99	Cannot be assessed	OHX24PCS
+.	Missing	OHX24PCS
+-9 to 2	Range of Values	OHX25CJA
+99	Cannot be assessed	OHX25CJA
+.	Missing	OHX25CJA
+-8 to 3	Range of Values	OHX25CJD
+99	Cannot be assessed	OHX25CJD
+.	Missing	OHX25CJD
+-6 to 2	Range of Values	OHX25CJL
+99	Cannot be assessed	OHX25CJL
+.	Missing	OHX25CJL
+-8 to 4	Range of Values	OHX25CJM
+99	Cannot be assessed	OHX25CJM
+.	Missing	OHX25CJM
+-8 to 2	Range of Values	OHX25CJP
+99	Cannot be assessed	OHX25CJP
+.	Missing	OHX25CJP
+-8 to 4	Range of Values	OHX25CJS
+99	Cannot be assessed	OHX25CJS
+.	Missing	OHX25CJS
+0 to 11	Range of Values	OHX25LAA
+99	Cannot be assessed	OHX25LAA
+.	Missing	OHX25LAA
+0 to 11	Range of Values	OHX25LAD
+99	Cannot be assessed	OHX25LAD
+.	Missing	OHX25LAD
+0 to 9	Range of Values	OHX25LAL
+99	Cannot be assessed	OHX25LAL
+.	Missing	OHX25LAL
+0 to 11	Range of Values	OHX25LAM
+99	Cannot be assessed	OHX25LAM
+.	Missing	OHX25LAM
+0 to 10	Range of Values	OHX25LAP
+99	Cannot be assessed	OHX25LAP
+.	Missing	OHX25LAP
+0 to 12	Range of Values	OHX25LAS
+99	Cannot be assessed	OHX25LAS
+.	Missing	OHX25LAS
+0 to 6	Range of Values	OHX25PCA
+99	Cannot be assessed	OHX25PCA
+.	Missing	OHX25PCA
+0 to 8	Range of Values	OHX25PCD
+99	Cannot be assessed	OHX25PCD
+.	Missing	OHX25PCD
+0 to 5	Range of Values	OHX25PCL
+99	Cannot be assessed	OHX25PCL
+.	Missing	OHX25PCL
+0 to 9	Range of Values	OHX25PCM
+99	Cannot be assessed	OHX25PCM
+.	Missing	OHX25PCM
+0 to 5	Range of Values	OHX25PCP
+99	Cannot be assessed	OHX25PCP
+.	Missing	OHX25PCP
+0 to 8	Range of Values	OHX25PCS
+99	Cannot be assessed	OHX25PCS
+.	Missing	OHX25PCS
+-10 to 1	Range of Values	OHX26CJA
+99	Cannot be assessed	OHX26CJA
+.	Missing	OHX26CJA
+-10 to 4	Range of Values	OHX26CJD
+99	Cannot be assessed	OHX26CJD
+.	Missing	OHX26CJD
+-8 to 1	Range of Values	OHX26CJL
+99	Cannot be assessed	OHX26CJL
+.	Missing	OHX26CJL
+-10 to 3	Range of Values	OHX26CJM
+99	Cannot be assessed	OHX26CJM
+.	Missing	OHX26CJM
+-8 to 1	Range of Values	OHX26CJP
+99	Cannot be assessed	OHX26CJP
+.	Missing	OHX26CJP
+-10 to 3	Range of Values	OHX26CJS
+99	Cannot be assessed	OHX26CJS
+.	Missing	OHX26CJS
+0 to 15	Range of Values	OHX26LAA
+99	Cannot be assessed	OHX26LAA
+.	Missing	OHX26LAA
+0 to 12	Range of Values	OHX26LAD
+99	Cannot be assessed	OHX26LAD
+.	Missing	OHX26LAD
+0 to 13	Range of Values	OHX26LAL
+99	Cannot be assessed	OHX26LAL
+.	Missing	OHX26LAL
+0 to 12	Range of Values	OHX26LAM
+99	Cannot be assessed	OHX26LAM
+.	Missing	OHX26LAM
+0 to 13	Range of Values	OHX26LAP
+99	Cannot be assessed	OHX26LAP
+.	Missing	OHX26LAP
+0 to 12	Range of Values	OHX26LAS
+99	Cannot be assessed	OHX26LAS
+.	Missing	OHX26LAS
+0 to 10	Range of Values	OHX26PCA
+99	Cannot be assessed	OHX26PCA
+.	Missing	OHX26PCA
+0 to 10	Range of Values	OHX26PCD
+99	Cannot be assessed	OHX26PCD
+.	Missing	OHX26PCD
+0 to 8	Range of Values	OHX26PCL
+99	Cannot be assessed	OHX26PCL
+.	Missing	OHX26PCL
+0 to 8	Range of Values	OHX26PCM
+99	Cannot be assessed	OHX26PCM
+.	Missing	OHX26PCM
+0 to 8	Range of Values	OHX26PCP
+99	Cannot be assessed	OHX26PCP
+.	Missing	OHX26PCP
+0 to 9	Range of Values	OHX26PCS
+99	Cannot be assessed	OHX26PCS
+.	Missing	OHX26PCS
+-12 to 1	Range of Values	OHX27CJA
+99	Cannot be assessed	OHX27CJA
+.	Missing	OHX27CJA
+-11 to 2	Range of Values	OHX27CJD
+99	Cannot be assessed	OHX27CJD
+.	Missing	OHX27CJD
+-11 to 1	Range of Values	OHX27CJL
+99	Cannot be assessed	OHX27CJL
+.	Missing	OHX27CJL
+-11 to 2	Range of Values	OHX27CJM
+99	Cannot be assessed	OHX27CJM
+.	Missing	OHX27CJM
+-11 to 2	Range of Values	OHX27CJP
+99	Cannot be assessed	OHX27CJP
+.	Missing	OHX27CJP
+-11 to 4	Range of Values	OHX27CJS
+99	Cannot be assessed	OHX27CJS
+.	Missing	OHX27CJS
+0 to 13	Range of Values	OHX27LAA
+99	Cannot be assessed	OHX27LAA
+.	Missing	OHX27LAA
+0 to 13	Range of Values	OHX27LAD
+99	Cannot be assessed	OHX27LAD
+.	Missing	OHX27LAD
+0 to 12	Range of Values	OHX27LAL
+99	Cannot be assessed	OHX27LAL
+.	Missing	OHX27LAL
+0 to 13	Range of Values	OHX27LAM
+99	Cannot be assessed	OHX27LAM
+.	Missing	OHX27LAM
+0 to 13	Range of Values	OHX27LAP
+99	Cannot be assessed	OHX27LAP
+.	Missing	OHX27LAP
+0 to 14	Range of Values	OHX27LAS
+99	Cannot be assessed	OHX27LAS
+.	Missing	OHX27LAS
+0 to 8	Range of Values	OHX27PCA
+99	Cannot be assessed	OHX27PCA
+.	Missing	OHX27PCA
+0 to 9	Range of Values	OHX27PCD
+99	Cannot be assessed	OHX27PCD
+.	Missing	OHX27PCD
+0 to 9	Range of Values	OHX27PCL
+99	Cannot be assessed	OHX27PCL
+.	Missing	OHX27PCL
+0 to 7	Range of Values	OHX27PCM
+99	Cannot be assessed	OHX27PCM
+.	Missing	OHX27PCM
+0 to 9	Range of Values	OHX27PCP
+99	Cannot be assessed	OHX27PCP
+.	Missing	OHX27PCP
+0 to 10	Range of Values	OHX27PCS
+99	Cannot be assessed	OHX27PCS
+.	Missing	OHX27PCS
+-10 to 1	Range of Values	OHX28CJA
+99	Cannot be assessed	OHX28CJA
+.	Missing	OHX28CJA
+-11 to 1	Range of Values	OHX28CJD
+99	Cannot be assessed	OHX28CJD
+.	Missing	OHX28CJD
+-8 to 1	Range of Values	OHX28CJL
+99	Cannot be assessed	OHX28CJL
+.	Missing	OHX28CJL
+-12 to 1	Range of Values	OHX28CJM
+99	Cannot be assessed	OHX28CJM
+.	Missing	OHX28CJM
+-8 to 2	Range of Values	OHX28CJP
+99	Cannot be assessed	OHX28CJP
+.	Missing	OHX28CJP
+-11 to 2	Range of Values	OHX28CJS
+99	Cannot be assessed	OHX28CJS
+.	Missing	OHX28CJS
+0 to 14	Range of Values	OHX28LAA
+99	Cannot be assessed	OHX28LAA
+.	Missing	OHX28LAA
+0 to 13	Range of Values	OHX28LAD
+99	Cannot be assessed	OHX28LAD
+.	Missing	OHX28LAD
+0 to 11	Range of Values	OHX28LAL
+99	Cannot be assessed	OHX28LAL
+.	Missing	OHX28LAL
+0 to 14	Range of Values	OHX28LAM
+99	Cannot be assessed	OHX28LAM
+.	Missing	OHX28LAM
+0 to 11	Range of Values	OHX28LAP
+99	Cannot be assessed	OHX28LAP
+.	Missing	OHX28LAP
+0 to 13	Range of Values	OHX28LAS
+99	Cannot be assessed	OHX28LAS
+.	Missing	OHX28LAS
+0 to 9	Range of Values	OHX28PCA
+99	Cannot be assessed	OHX28PCA
+.	Missing	OHX28PCA
+0 to 10	Range of Values	OHX28PCD
+99	Cannot be assessed	OHX28PCD
+.	Missing	OHX28PCD
+0 to 8	Range of Values	OHX28PCL
+99	Cannot be assessed	OHX28PCL
+.	Missing	OHX28PCL
+0 to 6	Range of Values	OHX28PCM
+99	Cannot be assessed	OHX28PCM
+.	Missing	OHX28PCM
+0 to 9	Range of Values	OHX28PCP
+99	Cannot be assessed	OHX28PCP
+.	Missing	OHX28PCP
+0 to 8	Range of Values	OHX28PCS
+99	Cannot be assessed	OHX28PCS
+.	Missing	OHX28PCS
+-10 to 2	Range of Values	OHX29CJA
+99	Cannot be assessed	OHX29CJA
+.	Missing	OHX29CJA
+-10 to 1	Range of Values	OHX29CJD
+99	Cannot be assessed	OHX29CJD
+.	Missing	OHX29CJD
+-10 to 1	Range of Values	OHX29CJL
+99	Cannot be assessed	OHX29CJL
+.	Missing	OHX29CJL
+-10 to 1	Range of Values	OHX29CJM
+99	Cannot be assessed	OHX29CJM
+.	Missing	OHX29CJM
+-10 to 2	Range of Values	OHX29CJP
+99	Cannot be assessed	OHX29CJP
+.	Missing	OHX29CJP
+-8 to 2	Range of Values	OHX29CJS
+99	Cannot be assessed	OHX29CJS
+.	Missing	OHX29CJS
+0 to 13	Range of Values	OHX29LAA
+99	Cannot be assessed	OHX29LAA
+.	Missing	OHX29LAA
+0 to 16	Range of Values	OHX29LAD
+99	Cannot be assessed	OHX29LAD
+.	Missing	OHX29LAD
+0 to 12	Range of Values	OHX29LAL
+99	Cannot be assessed	OHX29LAL
+.	Missing	OHX29LAL
+0 to 14	Range of Values	OHX29LAM
+99	Cannot be assessed	OHX29LAM
+.	Missing	OHX29LAM
+0 to 12	Range of Values	OHX29LAP
+99	Cannot be assessed	OHX29LAP
+.	Missing	OHX29LAP
+0 to 12	Range of Values	OHX29LAS
+99	Cannot be assessed	OHX29LAS
+.	Missing	OHX29LAS
+0 to 10	Range of Values	OHX29PCA
+99	Cannot be assessed	OHX29PCA
+.	Missing	OHX29PCA
+0 to 12	Range of Values	OHX29PCD
+99	Cannot be assessed	OHX29PCD
+.	Missing	OHX29PCD
+0 to 9	Range of Values	OHX29PCL
+99	Cannot be assessed	OHX29PCL
+.	Missing	OHX29PCL
+0 to 10	Range of Values	OHX29PCM
+99	Cannot be assessed	OHX29PCM
+.	Missing	OHX29PCM
+0 to 10	Range of Values	OHX29PCP
+99	Cannot be assessed	OHX29PCP
+.	Missing	OHX29PCP
+0 to 8	Range of Values	OHX29PCS
+99	Cannot be assessed	OHX29PCS
+.	Missing	OHX29PCS
+-10 to 2	Range of Values	OHX30CJA
+99	Cannot be assessed	OHX30CJA
+.	Missing	OHX30CJA
+-12 to 2	Range of Values	OHX30CJD
+99	Cannot be assessed	OHX30CJD
+.	Missing	OHX30CJD
+-10 to 1	Range of Values	OHX30CJL
+99	Cannot be assessed	OHX30CJL
+.	Missing	OHX30CJL
+-6 to 2	Range of Values	OHX30CJM
+99	Cannot be assessed	OHX30CJM
+.	Missing	OHX30CJM
+-11 to 2	Range of Values	OHX30CJP
+99	Cannot be assessed	OHX30CJP
+.	Missing	OHX30CJP
+-8 to 2	Range of Values	OHX30CJS
+99	Cannot be assessed	OHX30CJS
+.	Missing	OHX30CJS
+0 to 12	Range of Values	OHX30LAA
+99	Cannot be assessed	OHX30LAA
+.	Missing	OHX30LAA
+0 to 12	Range of Values	OHX30LAD
+99	Cannot be assessed	OHX30LAD
+.	Missing	OHX30LAD
+0 to 12	Range of Values	OHX30LAL
+99	Cannot be assessed	OHX30LAL
+.	Missing	OHX30LAL
+0 to 12	Range of Values	OHX30LAM
+99	Cannot be assessed	OHX30LAM
+.	Missing	OHX30LAM
+0 to 13	Range of Values	OHX30LAP
+99	Cannot be assessed	OHX30LAP
+.	Missing	OHX30LAP
+0 to 12	Range of Values	OHX30LAS
+99	Cannot be assessed	OHX30LAS
+.	Missing	OHX30LAS
+0 to 7	Range of Values	OHX30PCA
+99	Cannot be assessed	OHX30PCA
+.	Missing	OHX30PCA
+0 to 8	Range of Values	OHX30PCD
+99	Cannot be assessed	OHX30PCD
+.	Missing	OHX30PCD
+0 to 8	Range of Values	OHX30PCL
+99	Cannot be assessed	OHX30PCL
+.	Missing	OHX30PCL
+0 to 9	Range of Values	OHX30PCM
+99	Cannot be assessed	OHX30PCM
+.	Missing	OHX30PCM
+0 to 10	Range of Values	OHX30PCP
+99	Cannot be assessed	OHX30PCP
+.	Missing	OHX30PCP
+0 to 8	Range of Values	OHX30PCS
+99	Cannot be assessed	OHX30PCS
+.	Missing	OHX30PCS
+-8 to 2	Range of Values	OHX31CJA
+99	Cannot be assessed	OHX31CJA
+.	Missing	OHX31CJA
+-6 to 1	Range of Values	OHX31CJD
+99	Cannot be assessed	OHX31CJD
+.	Missing	OHX31CJD
+-8 to 2	Range of Values	OHX31CJL
+99	Cannot be assessed	OHX31CJL
+.	Missing	OHX31CJL
+-8 to 1	Range of Values	OHX31CJM
+99	Cannot be assessed	OHX31CJM
+.	Missing	OHX31CJM
+-8 to 2	Range of Values	OHX31CJP
+99	Cannot be assessed	OHX31CJP
+.	Missing	OHX31CJP
+-6 to 2	Range of Values	OHX31CJS
+99	Cannot be assessed	OHX31CJS
+.	Missing	OHX31CJS
+0 to 11	Range of Values	OHX31LAA
+99	Cannot be assessed	OHX31LAA
+.	Missing	OHX31LAA
+0 to 11	Range of Values	OHX31LAD
+99	Cannot be assessed	OHX31LAD
+.	Missing	OHX31LAD
+0 to 14	Range of Values	OHX31LAL
+99	Cannot be assessed	OHX31LAL
+.	Missing	OHX31LAL
+0 to 12	Range of Values	OHX31LAM
+99	Cannot be assessed	OHX31LAM
+.	Missing	OHX31LAM
+0 to 13	Range of Values	OHX31LAP
+99	Cannot be assessed	OHX31LAP
+.	Missing	OHX31LAP
+0 to 12	Range of Values	OHX31LAS
+99	Cannot be assessed	OHX31LAS
+.	Missing	OHX31LAS
+0 to 7	Range of Values	OHX31PCA
+99	Cannot be assessed	OHX31PCA
+.	Missing	OHX31PCA
+0 to 9	Range of Values	OHX31PCD
+99	Cannot be assessed	OHX31PCD
+.	Missing	OHX31PCD
+0 to 7	Range of Values	OHX31PCL
+99	Cannot be assessed	OHX31PCL
+.	Missing	OHX31PCL
+0 to 8	Range of Values	OHX31PCM
+99	Cannot be assessed	OHX31PCM
+.	Missing	OHX31PCM
+0 to 8	Range of Values	OHX31PCP
+99	Cannot be assessed	OHX31PCP
+.	Missing	OHX31PCP
+0 to 10	Range of Values	OHX31PCS
+99	Cannot be assessed	OHX31PCS
+.	Missing	OHX31PCS
+1	6 months or less	OHQ030
+2	More than 6 months, but not more than 1 year ago	OHQ030
+3	More than 1 year, but not more than 2 years ago	OHQ030
+4	More than 2 years, but not more than 3 years ago	OHQ030
+5	More than 3 years, but not more than 5 years ago	OHQ030
+6	More than 5 years ago	OHQ030
+7	Never have been	OHQ030
+77	Refused	OHQ030
+99	Don't know	OHQ030
+.	Missing	OHQ030
+1	Went in on own for check-up, examination, or cleaning	OHQ033
+2	Was called in by the dentist for check-up, examination, or cleaning	OHQ033
+3	Something was wrong, bothering or hurting {me/SP}	OHQ033
+4	Went for treatment of a condition that dentist discovered at earlier checkup or examination	OHQ033
+5	Other	OHQ033
+7	Refused	OHQ033
+9	Don't know	OHQ033
+.	Missing	OHQ033
+1	Yes	OHQ610
+2	No	OHQ610
+7	Refused	OHQ610
+9	Don't know	OHQ610
+.	Missing	OHQ610
+1	Yes	OHQ612
+2	No	OHQ612
+7	Refused	OHQ612
+9	Don't know	OHQ612
+.	Missing	OHQ612
+1	Yes	OHQ614
+2	No	OHQ614
+7	Refused	OHQ614
+9	Don't know	OHQ614
+.	Missing	OHQ614
+1	Very often	OHQ620
+2	Fairly often	OHQ620
+3	Occasionally	OHQ620
+4	Hardly ever, or	OHQ620
+5	Never?	OHQ620
+7	Refused	OHQ620
+9	Don't know	OHQ620
+.	Missing	OHQ620
+1	Very often	OHQ640
+2	Fairly often	OHQ640
+3	Occasionally	OHQ640
+4	Hardly ever, or	OHQ640
+5	Never?	OHQ640
+7	Refused	OHQ640
+9	Don't know	OHQ640
+.	Missing	OHQ640
+1	Very often	OHQ680
+2	Fairly often	OHQ680
+3	Occasionally	OHQ680
+4	Hardly ever, or	OHQ680
+5	Never?	OHQ680
+7	Refused	OHQ680
+9	Don't know	OHQ680
+.	Missing	OHQ680
+1	Yes	OHQ770
+2	No	OHQ770
+7	Refused	OHQ770
+9	Don't know	OHQ770
+.	Missing	OHQ770
+10	Could not afford the cost	OHQ780A
+77	Refused	OHQ780A
+99	Don't know	OHQ780A
+.	Missing	OHQ780A
+11	Did not want to spend the money	OHQ780B
+.	Missing	OHQ780B
+12	Insurance did not cover recommended procedure	OHQ780C
+.	Missing	OHQ780C
+13	Dental office is too far away	OHQ780D
+.	Missing	OHQ780D
+14	Dental office not open at convenient time	OHQ780E
+.	Missing	OHQ780E
+15	Another dentist recommended not doing it	OHQ780F
+.	Missing	OHQ780F
+16	Afraid or do not like dentists	OHQ780G
+.	Missing	OHQ780G
+17	Unable to take time off from work	OHQ780H
+.	Missing	OHQ780H
+18	Too busy	OHQ780I
+.	Missing	OHQ780I
+19	I did not think anything serious was wrong - expected dental problems to go away	OHQ780J
+.	Missing	OHQ780J
+20	Other	OHQ780K
+.	Missing	OHQ780K
+1	Yes	OHQ835
+2	No	OHQ835
+7	Refused	OHQ835
+9	Don't know	OHQ835
+.	Missing	OHQ835
+1	Excellent	OHQ845
+2	Very good	OHQ845
+3	Good	OHQ845
+4	Fair	OHQ845
+5	Poor	OHQ845
+7	Refused	OHQ845
+9	Don't know	OHQ845
+.	Missing	OHQ845
+1	Yes	OHQ850
+2	No	OHQ850
+7	Refused	OHQ850
+9	Don't know	OHQ850
+.	Missing	OHQ850
+1	Yes	OHQ855
+2	No	OHQ855
+7	Refused	OHQ855
+9	Don't know	OHQ855
+.	Missing	OHQ855
+1	Yes	OHQ860
+2	No	OHQ860
+7	Refused	OHQ860
+9	Don't know	OHQ860
+.	Missing	OHQ860
+1	Yes	OHQ865
+2	No	OHQ865
+7	Refused	OHQ865
+9	Don't know	OHQ865
+.	Missing	OHQ865
+0 to 7	Range of Values	OHQ870
+77	Refused	OHQ870
+99	Don't know	OHQ870
+.	Missing	OHQ870
+0 to 7	Range of Values	OHQ875
+77	Refused	OHQ875
+99	Don't know	OHQ875
+.	Missing	OHQ875
+1	Yes	OHQ880
+2	No	OHQ880
+7	Refused	OHQ880
+9	Don't know	OHQ880
+.	Missing	OHQ880
+1	Yes	OHQ885
+2	No	OHQ885
+7	Refused	OHQ885
+9	Don't know	OHQ885
+.	Missing	OHQ885
+1	Within past year	OHQ895
+2	Between 1 and 3 years ago	OHQ895
+3	Over 3 years ago	OHQ895
+7	Refused	OHQ895
+9	Don't know	OHQ895
+.	Missing	OHQ895
+1	Doctor/physician	OHQ900
+2	Nurse/nurse practitioner	OHQ900
+3	Dentist (include oral surgeons)	OHQ900
+4	Dental Hygienist	OHQ900
+5	Other	OHQ900
+7	Refused	OHQ900
+9	Don't know	OHQ900
+.	Missing	OHQ900
+1	Yes	OHAPOS
+2	No	OHAPOS
+.	Missing	OHAPOS
+1	See a dentist immediately	OHAREC
+2	See a dentist within the next 2 weeks	OHAREC
+3	See a dentist at your earliest convenience	OHAREC
+4	Continue your regular routine care	OHAREC
+.	Missing	OHAREC
+1	Yes	OHARNF
+2	No	OHARNF
+.	Missing	OHARNF
+1	Yes	OHAROCCI
+2	No	OHAROCCI
+.	Missing	OHAROCCI
+1	Yes	OHAROCDE
+2	No	OHAROCDE
+.	Missing	OHAROCDE
+1	Yes	OHAROCDT
+2	No	OHAROCDT
+.	Missing	OHAROCDT
+1	Yes	OHAROCGP
+2	No	OHAROCGP
+.	Missing	OHAROCGP
+1	Yes	OHAROCOH
+2	No	OHAROCOH
+.	Missing	OHAROCOH
+1	Yes	OHAROTH
+2	No	OHAROTH
+.	Missing	OHAROTH
+1	Complete	OHDEXSTS
+2	Partial	OHDEXSTS
+3	Not Done	OHDEXSTS
+.	Missing	OHDEXSTS
+1	Complete	OHDRCSTS
+2	Partial	OHDRCSTS
+3	Not Done	OHDRCSTS
+.	Missing	OHDRCSTS

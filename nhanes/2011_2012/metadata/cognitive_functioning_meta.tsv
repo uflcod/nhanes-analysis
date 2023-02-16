@@ -1,0 +1,20 @@
+Variable.Name	Variable.Description
+CFALANG	Language - Cognitive Functioning
+CFASTAT	Cognitive functioning status
+CFDAPP	Animal Fluency: Sample Practice Pretest
+CFDARNC	Animal Fluency: Reason Not Done
+CFDAST	Animal Fluency: Score Total
+CFDCCS	CERAD: Number of recalls completed
+CFDCIR	CERAD: Intrusion word count Recall
+CFDCIT1	CERAD: Intrusion word count Trial 1
+CFDCIT2	CERAD: Intrusion word count Trial 2
+CFDCIT3	CERAD: Intrusion word count Trial 3
+CFDCRNC	CERAD: Reason Not Complete
+CFDCSR	CERAD: Score Delayed Recall
+CFDCST1	CERAD: Score Trial 1 Recall
+CFDCST2	CERAD: Score Trial 2 Recall
+CFDCST3	CERAD: Score Trial 3 Recall
+CFDDPP	Digit Symbol Coding: Sample Practice Pretest
+CFDDRNC	Digit Symbol Coding: Reason Not Done
+CFDDS	Digit Symbol Coding: Score
+SEQN	Respondent sequence number

@@ -1,0 +1,16 @@
+Code.or.Value	Value.Description
+D	Sound primary tooth
+E	Missing due to dental disease
+J	Permanent root tip is present but no restorative replacement is present
+K	Primary tooth with surface condition (s)
+M	Missing due to other causes
+P	Missing due to dental disease, but replaced by a removable restoration
+Q	Missing due to other causes, but replaced by a removable restoration
+R	Missing due to dental disease, but replaced by a fixed restoration
+S	Sound permanent tooth
+T	Permanent root tip is present but a restorative replacement is present
+U	Unerupted
+X	Missing due to other causes, but replaced  by a fixed restoration
+Y	Tooth present, condition cannot be assessed
+Z	Permanent tooth with surface condition (s)
+< blank >	Missing

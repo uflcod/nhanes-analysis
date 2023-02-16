@@ -1,0 +1,12 @@
+Code.or.Value	Value.Description
+1	I have never smoked, not even a puff
+2	1 or more puffs but never a whole cigarette
+3	1 cigarette
+4	2 to 5 cigarettes
+5	6 to 15 cigarettes
+6	16 to 25 cigarettes
+7	26 to 99 cigarettes
+8	100 or more cigarettes
+77	Refused
+99	Don't know
+.	Missing

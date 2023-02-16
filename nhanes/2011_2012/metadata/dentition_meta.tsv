@@ -1,0 +1,130 @@
+Variable.Name	Variable.Description
+OHDDESTS	Dentition Status Code
+OHDEXSTS	Overall Oral Health Exam Status
+OHX01TC	Tooth Count:  Upper right 3rd molar (3M)
+OHX02CSC	Coronal Caries:  Upper right 2nd molar (2M) surface calls.
+These values can be recorded as a string variable, for example:"0", 
+OHX02CTC	Coronal Caries:  Upper right 2nd molar (2M) tooth code
+OHX02SE	Dental Sealants:  Upper right 2nd molar (2M) sealant codes.
+These values can be recorded as a string variable, for example:"0",
+OHX02TC	Tooth Count:  Upper right 2nd molar (2M)
+OHX03CSC	Coronal Caries:  Upper right 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:"0", "1
+OHX03CTC	Coronal Caries:  Upper right 1st molar (1M) tooth code
+OHX03SE	Dental Sealants:  Upper right 1st molar (1M) sealant codes.
+These values can be recorded as a string variable, for example:"0",
+OHX03TC	Tooth Count:  Upper right 1st molar (1M)
+OHX04CSC	Coronal Caries:  Upper right 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable
+OHX04CTC	Coronal Caries:  Upper right 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX04SE	Dental Sealants:  Upper right 2nd biscuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string vari
+OHX04TC	Tooth Count:  Upper right 2nd bicuspid/2nd primary molar (2B)
+OHX05CSC	Coronal Caries:  Upper right 1st biscuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variabl
+OHX05CTC	Coronal Caries:  Upper right 1st bicuspid/1st primary molar (1B) tooth code
+OHX05SE	Dental Sealants:  Upper right 1st biscuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string vari
+OHX05TC	Tooth Count:  Upper right 1st bicuspid/1st primary molar (1B)
+OHX06CSC	Coronal Caries:  Upper right cuspid (C) surface calls.These values can be recorded as a string variable, for example:"0", "13", 
+OHX06CTC	Coronal Caries:  Upper right cuspid (C) tooth code
+OHX06TC	Tooth Count:  Upper right cuspid (C)
+OHX07CSC	Coronal Caries:  Upper right lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:"
+OHX07CTC	Coronal Caries:  Upper right lateral incisor (LI) tooth code
+OHX07SE	Dental Sealants:  Upper right lateral incisor (LI) sealant codes.
+These values can be recorded as a string variable, for exampl
+OHX07TC	Tooth Count:  Upper right lateral incisor (LI)
+OHX08CSC	Coronal Caries:  Upper right central incisor (CI) surface calls.These values can be recorded as a string variable, for example:"
+OHX08CTC	Coronal Caries:  Upper right central incisor (CI) tooth code
+OHX08TC	Tooth Count:  Upper right central incisor (CI)
+OHX09CSC	Coronal Caries:  Upper left central incisor (CI) surface calls.These values can be recorded as a string variable, for example:"0
+OHX09CTC	Coronal Caries:  Upper left central incisor (CI) tooth code
+OHX09TC	Tooth Count:  Upper left central incisor (CI)
+OHX10CSC	Coronal Caries:  Upper left lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:"0
+OHX10CTC	Coronal Caries:  Upper left lateral incisor (LI) tooth code
+OHX10SE	Dental Sealants:  Upper left lateral incisor (LI) sealant codes.
+These values can be recorded as a string variable, for example
+OHX10TC	Tooth Count:  Upper left lateral incisor (LI)
+OHX11CSC	Coronal Caries:  Upper left cuspid (C) surface calls.These values can be recorded as a string variable, for example:"0", "13", "
+OHX11CTC	Coronal Caries:  Upper left cuspid (C) tooth code
+OHX11TC	Tooth Count:  Upper left cuspid (C)
+OHX12CSC	Coronal Caries:  Upper left 1st bicuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variable,
+OHX12CTC	Coronal Caries:  Upper left 1st bicuspid/1st primary molar (1B) tooth code
+OHX12SE	Dental Sealants:  Upper left 1st biscuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string varia
+OHX12TC	Tooth Count:  Upper left 1st bicuspid/1st primary molar (1B)
+OHX13CSC	Coronal Caries:  Upper left 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable,
+OHX13CTC	Coronal Caries: Upper left 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX13SE	Dental Sealants:  Upper left 2nd bicuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string variab
+OHX13TC	Tooth Count:  Upper left 2nd bicuspid/2nd primary molar (2B)
+OHX14CSC	Coronal Caries:  Upper left 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:"0", "13
+OHX14CTC	Coronal Caries:  Upper left 1st molar (1M) tooth code
+OHX14SE	Dental Sealants:  Upper left 1st molar (1M) sealant codes.
+These values can be recorded as a string variable, for example:"0", 
+OHX14TC	Tooth Count:  Upper left 1st molar (1M)
+OHX15CSC	Coronal Caries:  Upper left 2nd molar (2M) surface calls.These values can be recorded as a string variable, for example:"0", "13
+OHX15CTC	Coronal Caries: Upper left 2nd molar (2M) tooth code
+OHX15SE	Dental Sealants:  Upper left 2nd molar (2M) sealant codes.
+These values can be recorded as a string variable, for example:"0", 
+OHX15TC	Tooth Count:  Upper left 2nd molar (2M)
+OHX16TC	Tooth Count:  Upper left 3rd molar (3M)
+OHX17TC	Tooth Count:  Lower left 3rd molar (3M)
+OHX18CSC	Coronal Caries:  Lower left 2nd molar (2M) surface calls.These values can be recorded as a string variable, for example:"0", "13
+OHX18CTC	Coronal Caries:  Lower left 2nd molar (2M) tooth code
+OHX18SE	Dental Sealants:  Lower left 2nd molar (2M) sealant codes.
+These values can be recorded as a string variable, for example:"0", 
+OHX18TC	Tooth Count:  Lower left 2nd molar (2M)
+OHX19CSC	Coronal Caries:  Lower left 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:"0", "13
+OHX19CTC	Coronal Caries:  Lower left 1st molar (1M) tooth code
+OHX19SE	Dental Sealants:  Lower left 1st molar (1M) sealant codes.
+These values can be recorded as a string variable, for example:"0", 
+OHX19TC	Tooth Count:  Lower left 1st molar (1M)
+OHX20CSC	Coronal Caries:  Lower left 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable,
+OHX20CTC	Coronal Caries:  Lower left 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX20SE	Dental Sealants:  Lower left 2nd bicuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string variab
+OHX20TC	Tooth Count:  Lower left 2nd bicuspid/2nd primary molar (2B)
+OHX21CSC	Coronal Caries:  Lower left 1st bicuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variable,
+OHX21CTC	Coronal Caries:  Lower left 1st bicuspid/1st primary molar (1B) tooth code
+OHX21SE	Dental Sealants:  Lower left 1st bicuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string variab
+OHX21TC	Tooth Count:  Lower left 1st bicuspid/1st primary molar (1B)
+OHX22CSC	Coronal Caries:  Lower left cuspid (C) surface calls.These values can be recorded as a string variable, for example:"0", "13", "
+OHX22CTC	Coronal Caries:  Lower left cuspid (C) tooth code
+OHX22TC	Tooth Count:  Lower left cuspid (C)
+OHX23CSC	Coronal Caries:  Lower left lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:"0
+OHX23CTC	Coronal Caries:  Lower left lateral incisor (LI) tooth code
+OHX23TC	Tooth Count:  Lower left lateral incisor (LI)
+OHX24CSC	Coronal Caries:  Lower left central incisor (CI) surface calls.These values can be recorded as a string variable, for example:"0
+OHX24CTC	Coronal Caries:  Lower left central incisor (CI) tooth code
+OHX24TC	Tooth Count:  Lower left central incisor (CI)
+OHX25CSC	Coronal Caries:  Lower right central incisor (CI) surface calls.These values can be recorded as a string variable, for example:"
+OHX25CTC	Coronal Caries:  Lower right central incisor (CI) tooth code
+OHX25TC	Tooth Count:  Lower right central incisor (CI)
+OHX26CSC	Coronal Caries:  Lower right lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:"
+OHX26CTC	Coronal Caries:  Lower right lateral incisor (LI) tooth code
+OHX26TC	Tooth Count:  Lower right lateral incisor (LI)
+OHX27CSC	Coronal Caries:  Lower right cuspid (C) surface calls.These values can be recorded as a string variable, for example:"0", "13", 
+OHX27CTC	Coronal Caries:  Lower right cuspid (C) tooth code
+OHX27TC	Tooth Count:  Lower right cuspid (C)
+OHX28CSC	Coronal Caries:  Lower right 1st bicuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variable
+OHX28CTC	Coronal Caries:  Lower right 1st bicuspid/1st primary molar (1B) tooth code
+OHX28SE	Dental Sealants:  Lower right 1st bicuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string varia
+OHX28TC	Tooth Count:  Lower right 1st bicuspid/1st primary molar (1B)
+OHX29CSC	Coronal Caries:  Lower right 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable
+OHX29CTC	Coronal Caries:  Lower right 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX29SE	Dental Sealants:  Lower right 2nd bicuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string varia
+OHX29TC	Tooth Count:  Lower right 2nd bicuspid/2nd primary molar (2B)
+OHX30CSC	Coronal Caries:  Lower right 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:"0", "1
+OHX30CTC	Coronal Caries:  Lower right 1st molar (1M) tooth code
+OHX30SE	Dental Sealants:  Lower right 1st molar (1M) sealant codes.
+These values can be recorded as a string variable, for example:"0",
+OHX30TC	Tooth Count:  Lower right 1st molar (1M)
+OHX31CSC	Coronal Caries:  Lower right 2nd molar (2M) surface calls.These values can be recorded as a string variable, for example:"0", "1
+OHX31CTC	Coronal Caries:  Lower right 2nd molar (2M) tooth code
+OHX31SE	Dental Sealants:  Lower right 2nd molar (2M) sealant codes.
+These values can be recorded as a string variable, for example:"0",
+OHX31TC	Tooth Count:  Lower right 2nd molar (2M)
+OHX32TC	Tooth Count:  Lower right 3rd molar (3M)
+OHXIMP	Tooth Count:  Ever had a tooth replaced with a surgical implant?
+SEQN	Respondent sequence number.

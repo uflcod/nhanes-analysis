@@ -1,0 +1,787 @@
+Variable.Name	Variable.Description
+OHDDESTS	Dentition Status Code
+OHDEXSTS	Overall Oral Health Exam Status
+OHX01TC	Tooth Count:  Upper right 3rd molar (3M)
+OHX02CSC	Coronal Caries:  Upper right 2nd molar (2M) surface calls.
+"These values can be recorded as a string variable, for example:""0"", "	
+OHX02CTC	Coronal Caries:  Upper right 2nd molar (2M) tooth code
+OHX02SE	Dental Sealants:  Upper right 2nd molar (2M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"","	
+OHX02TC	Tooth Count:  Upper right 2nd molar (2M)
+OHX03CSC	"Coronal Caries:  Upper right 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:""0"", ""1"
+OHX03CTC	Coronal Caries:  Upper right 1st molar (1M) tooth code
+OHX03SE	Dental Sealants:  Upper right 1st molar (1M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"","	
+OHX03TC	Tooth Count:  Upper right 1st molar (1M)
+OHX04CSC	Coronal Caries:  Upper right 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable
+OHX04CTC	Coronal Caries:  Upper right 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX04SE	Dental Sealants:  Upper right 2nd biscuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string vari	
+OHX04TC	Tooth Count:  Upper right 2nd bicuspid/2nd primary molar (2B)
+OHX05CSC	Coronal Caries:  Upper right 1st biscuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variabl
+OHX05CTC	Coronal Caries:  Upper right 1st bicuspid/1st primary molar (1B) tooth code
+OHX05SE	Dental Sealants:  Upper right 1st biscuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string vari	
+OHX05TC	Tooth Count:  Upper right 1st bicuspid/1st primary molar (1B)
+OHX06CSC	"Coronal Caries:  Upper right cuspid (C) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"", "
+OHX06CTC	Coronal Caries:  Upper right cuspid (C) tooth code
+OHX06TC	Tooth Count:  Upper right cuspid (C)
+OHX07CSC	"Coronal Caries:  Upper right lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:"""
+OHX07CTC	Coronal Caries:  Upper right lateral incisor (LI) tooth code
+OHX07SE	Dental Sealants:  Upper right lateral incisor (LI) sealant codes.
+These values can be recorded as a string variable, for exampl	
+OHX07TC	Tooth Count:  Upper right lateral incisor (LI)
+OHX08CSC	"Coronal Caries:  Upper right central incisor (CI) surface calls.These values can be recorded as a string variable, for example:"""
+OHX08CTC	Coronal Caries:  Upper right central incisor (CI) tooth code
+OHX08TC	Tooth Count:  Upper right central incisor (CI)
+OHX09CSC	"Coronal Caries:  Upper left central incisor (CI) surface calls.These values can be recorded as a string variable, for example:""0"
+OHX09CTC	Coronal Caries:  Upper left central incisor (CI) tooth code
+OHX09TC	Tooth Count:  Upper left central incisor (CI)
+OHX10CSC	"Coronal Caries:  Upper left lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:""0"
+OHX10CTC	Coronal Caries:  Upper left lateral incisor (LI) tooth code
+OHX10SE	Dental Sealants:  Upper left lateral incisor (LI) sealant codes.
+These values can be recorded as a string variable, for example	
+OHX10TC	Tooth Count:  Upper left lateral incisor (LI)
+OHX11CSC	"Coronal Caries:  Upper left cuspid (C) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"", """
+OHX11CTC	Coronal Caries:  Upper left cuspid (C) tooth code
+OHX11TC	Tooth Count:  Upper left cuspid (C)
+OHX12CSC	Coronal Caries:  Upper left 1st bicuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variable,
+OHX12CTC	Coronal Caries:  Upper left 1st bicuspid/1st primary molar (1B) tooth code
+OHX12SE	Dental Sealants:  Upper left 1st biscuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string varia	
+OHX12TC	Tooth Count:  Upper left 1st bicuspid/1st primary molar (1B)
+OHX13CSC	Coronal Caries:  Upper left 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable,
+OHX13CTC	Coronal Caries: Upper left 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX13SE	Dental Sealants:  Upper left 2nd bicuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string variab	
+OHX13TC	Tooth Count:  Upper left 2nd bicuspid/2nd primary molar (2B)
+OHX14CSC	"Coronal Caries:  Upper left 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"
+OHX14CTC	Coronal Caries:  Upper left 1st molar (1M) tooth code
+OHX14SE	Dental Sealants:  Upper left 1st molar (1M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"", "	
+OHX14TC	Tooth Count:  Upper left 1st molar (1M)
+OHX15CSC	"Coronal Caries:  Upper left 2nd molar (2M) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"
+OHX15CTC	Coronal Caries: Upper left 2nd molar (2M) tooth code
+OHX15SE	Dental Sealants:  Upper left 2nd molar (2M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"", "	
+OHX15TC	Tooth Count:  Upper left 2nd molar (2M)
+OHX16TC	Tooth Count:  Upper left 3rd molar (3M)
+OHX17TC	Tooth Count:  Lower left 3rd molar (3M)
+OHX18CSC	"Coronal Caries:  Lower left 2nd molar (2M) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"
+OHX18CTC	Coronal Caries:  Lower left 2nd molar (2M) tooth code
+OHX18SE	Dental Sealants:  Lower left 2nd molar (2M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"", "	
+OHX18TC	Tooth Count:  Lower left 2nd molar (2M)
+OHX19CSC	"Coronal Caries:  Lower left 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"
+OHX19CTC	Coronal Caries:  Lower left 1st molar (1M) tooth code
+OHX19SE	Dental Sealants:  Lower left 1st molar (1M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"", "	
+OHX19TC	Tooth Count:  Lower left 1st molar (1M)
+OHX20CSC	Coronal Caries:  Lower left 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable,
+OHX20CTC	Coronal Caries:  Lower left 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX20SE	Dental Sealants:  Lower left 2nd bicuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string variab	
+OHX20TC	Tooth Count:  Lower left 2nd bicuspid/2nd primary molar (2B)
+OHX21CSC	Coronal Caries:  Lower left 1st bicuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variable,
+OHX21CTC	Coronal Caries:  Lower left 1st bicuspid/1st primary molar (1B) tooth code
+OHX21SE	Dental Sealants:  Lower left 1st bicuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string variab	
+OHX21TC	Tooth Count:  Lower left 1st bicuspid/1st primary molar (1B)
+OHX22CSC	"Coronal Caries:  Lower left cuspid (C) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"", """
+OHX22CTC	Coronal Caries:  Lower left cuspid (C) tooth code
+OHX22TC	Tooth Count:  Lower left cuspid (C)
+OHX23CSC	"Coronal Caries:  Lower left lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:""0"
+OHX23CTC	Coronal Caries:  Lower left lateral incisor (LI) tooth code
+OHX23TC	Tooth Count:  Lower left lateral incisor (LI)
+OHX24CSC	"Coronal Caries:  Lower left central incisor (CI) surface calls.These values can be recorded as a string variable, for example:""0"
+OHX24CTC	Coronal Caries:  Lower left central incisor (CI) tooth code
+OHX24TC	Tooth Count:  Lower left central incisor (CI)
+OHX25CSC	"Coronal Caries:  Lower right central incisor (CI) surface calls.These values can be recorded as a string variable, for example:"""
+OHX25CTC	Coronal Caries:  Lower right central incisor (CI) tooth code
+OHX25TC	Tooth Count:  Lower right central incisor (CI)
+OHX26CSC	"Coronal Caries:  Lower right lateral incisor (LI) surface calls.These values can be recorded as a string variable, for example:"""
+OHX26CTC	Coronal Caries:  Lower right lateral incisor (LI) tooth code
+OHX26TC	Tooth Count:  Lower right lateral incisor (LI)
+OHX27CSC	"Coronal Caries:  Lower right cuspid (C) surface calls.These values can be recorded as a string variable, for example:""0"", ""13"", "
+OHX27CTC	Coronal Caries:  Lower right cuspid (C) tooth code
+OHX27TC	Tooth Count:  Lower right cuspid (C)
+OHX28CSC	Coronal Caries:  Lower right 1st bicuspid/1st primary molar (1B) surface calls.These values can be recorded as a string variable
+OHX28CTC	Coronal Caries:  Lower right 1st bicuspid/1st primary molar (1B) tooth code
+OHX28SE	Dental Sealants:  Lower right 1st bicuspid/1st primary molar (1B) sealant codes.
+These values can be recorded as a string varia	
+OHX28TC	Tooth Count:  Lower right 1st bicuspid/1st primary molar (1B)
+OHX29CSC	Coronal Caries:  Lower right 2nd bicuspid/2nd primary molar (2B) surface calls.These values can be recorded as a string variable
+OHX29CTC	Coronal Caries:  Lower right 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX29SE	Dental Sealants:  Lower right 2nd bicuspid/2nd primary molar (2B) sealant codes.
+These values can be recorded as a string varia	
+OHX29TC	Tooth Count:  Lower right 2nd bicuspid/2nd primary molar (2B)
+OHX30CSC	"Coronal Caries:  Lower right 1st molar (1M) surface calls.These values can be recorded as a string variable, for example:""0"", ""1"
+OHX30CTC	Coronal Caries:  Lower right 1st molar (1M) tooth code
+OHX30SE	Dental Sealants:  Lower right 1st molar (1M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"","	
+OHX30TC	Tooth Count:  Lower right 1st molar (1M)
+OHX31CSC	"Coronal Caries:  Lower right 2nd molar (2M) surface calls.These values can be recorded as a string variable, for example:""0"", ""1"
+OHX31CTC	Coronal Caries:  Lower right 2nd molar (2M) tooth code
+OHX31SE	Dental Sealants:  Lower right 2nd molar (2M) sealant codes.
+"These values can be recorded as a string variable, for example:""0"","	
+OHX31TC	Tooth Count:  Lower right 2nd molar (2M)
+OHX32TC	Tooth Count:  Lower right 3rd molar (3M)
+OHXIMP	Tooth Count:  Ever had a tooth replaced with a surgical implant?
+SEQN	Respondent sequence number.
+RXDCOUNT	The number of prescription medicines reported
+RXDDAYS	For how long have you been using or taking {PRODUCT NAME}?
+RXDDRGID	Generic drug code
+RXDDRUG	Generic drug name
+RXDUSE	In the past 30 days, have you used or taken medication for which a prescription is needed?  Do not include prescription vitamins
+RXQSEEN	Was prescription container seen by interviewer?
+SEQN	Respondent sequence number.
+CFALANG	Language - Cognitive Functioning
+CFASTAT	Cognitive functioning status
+CFDAPP	Animal Fluency: Sample Practice Pretest
+CFDARNC	Animal Fluency: Reason Not Done
+CFDAST	Animal Fluency: Score Total
+CFDCCS	CERAD: Number of recalls completed
+CFDCIR	CERAD: Intrusion word count Recall
+CFDCIT1	CERAD: Intrusion word count Trial 1
+CFDCIT2	CERAD: Intrusion word count Trial 2
+CFDCIT3	CERAD: Intrusion word count Trial 3
+CFDCRNC	CERAD: Reason Not Complete
+CFDCSR	CERAD: Score Delayed Recall
+CFDCST1	CERAD: Score Trial 1 Recall
+CFDCST2	CERAD: Score Trial 2 Recall
+CFDCST3	CERAD: Score Trial 3 Recall
+CFDDPP	Digit Symbol Coding: Sample Practice Pretest
+CFDDRNC	Digit Symbol Coding: Reason Not Done
+CFDDS	Digit Symbol Coding: Score
+SEQN	Respondent sequence number
+AIALANGA	Language of the MEC ACASI Interview Instrument
+DMDBORN4	In what country {were you/was SP} born?
+DMDCITZN	{Are you/Is SP} a citizen of the United States? [Information about citizenship is being collected by the U.S. Public Health Serv
+DMDEDUC2	What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received?
+DMDEDUC3	What is the highest grade or level of school {you have/SP has} completed or the highest degree {you have/s/he has} received?
+DMDFMSIZ	Total number of people in the Family
+DMDHHSIZ	Total number of people in the Household
+DMDHHSZA	Number of children aged 5 years or younger in the household
+DMDHHSZB	Number of children aged 6-17 years old in the household
+DMDHHSZE	Number of adults aged 60 years or older in the household
+DMDHRAGE	HH reference person's age in years
+DMDHRBR4	HH reference person's country of birth
+DMDHREDU	HH reference person's education level
+DMDHRGND	HH reference person's gender
+DMDHRMAR	HH reference person's marital status
+DMDHSEDU	HH reference person's spouse's education level
+DMDMARTL	Marital status
+DMDYRSUS	Length of time the participant has been in the US.
+DMQADFC	Did {you/SP} ever serve in a foreign country during a time of armed conflict or on a humanitarian or peace-keeping mission? (Thi
+DMQMILIZ	{Have you/Has SP} ever served on active duty in the U.S. Armed Forces, military Reserves, or National Guard? (Active duty does n
+FIAINTRP	Was an interpreter used to conduct the Family interview?
+FIALANG	Language of the Family Interview Instrument
+FIAPROXY	Was a Proxy respondent used in conducting the Family Interview?
+INDFMIN2	Total family income (reported as a range value in dollars)
+INDFMPIR	A ratio of family income to poverty guidelines.
+INDHHIN2	Total household income (reported as a range value in dollars)
+MIAINTRP	Was an interpreter used to conduct the MEC CAPI interview?
+MIALANG	Language of the MEC CAPI Interview Instrument
+MIAPROXY	Was a Proxy respondent used in conducting the MEC CAPI Interview?
+RIAGENDR	Gender of the participant.
+RIDAGEMN	Age in months of the participant at the time of screening. Reported for persons aged 24 months or younger at the time of exam (o
+RIDAGEYR	Age in years of the participant at the time of screening. Individuals 80 and over are topcoded at 80 years of age.
+RIDEXAGM	Age in months of the participant at the time of examination. Reported for persons aged 19 years or younger at the time of examin
+RIDEXAGY	Age in years of the participant at the time of examination. Reported for persons aged 2-19 years at the time of screening.
+RIDEXMON	Six month time period when the examination was performed - two categories: November 1 through April 30, May 1 through October 31
+RIDEXPRG	Pregnancy status for females between 20 and 44 years of age at the time of MEC exam.
+RIDRETH1	Recode of reported race and Hispanic origin information
+RIDRETH3	Recode of reported race and Hispanic origin information, with Non-Hispanic Asian Category
+RIDSTATR	Interview and examination status of the participant.
+SDDSRVYR	Data release cycle
+SDMVPSU	Masked variance unit pseudo-PSU variable for variance estimation
+SDMVSTRA	Masked variance unit pseudo-stratum variable for variance estimation
+SEQN	Respondent sequence number.
+SIAINTRP	Was an interpreter used to conduct the Sample Person (SP) interview?
+SIALANG	Language of the Sample Person Interview Instrument
+SIAPROXY	Was a Proxy respondent used in conducting the Sample Person (SP) interview?
+WTINT2YR	Interviewed participants.
+WTMEC2YR	Both interviewed and MEC examined participants.
+SEQN	Respondent sequence number.
+SMAQUEX2	Questionnaire Mode Flag
+SMD030	How old {were you/was SP} when {you/s/he} first started to smoke cigarettes fairly regularly?
+SMD055	How old {were you/was SP} when {you/s/he} last smoked cigarettes {fairly regularly}?
+SMD057	At that time, about how many cigarettes did {you/SP} usually smoke per day?
+SMD093	May I please see the pack for the brand of cigarettes {you usually smoke/SP usually smokes}.
+SMD100BR	BRAND OF CIGARETTES SMOKED BY SP (SUB-BRAND INCLUDED IF APPLICABLE AND AVAILABLE)
+SMD100CO	CIGARETTE CARBON MONOXIDE CONTENT
+SMD100FL	CIGARETTE PRODUCT FILTERED OR NON-FILTERED
+SMD100LN	CIGARETTE PRODUCT LENGTH
+SMD100MN	CIGARETTE PRODUCT MENTHOLATED OR NON-MENTHOLATED
+SMD100NI	CIGARETTE NICOTINE CONTENT
+SMD100TR	CIGARETTE TAR CONTENT
+SMD630	How old were you when you smoked a whole cigarette for the first time?
+SMD641	On how many of the past 30 days did {you/SP} smoke a cigarette?
+SMD650	During the past 30 days, on the days that {you/SP} smoked, about how many cigarettes did {you/s/he} smoke per day?
+SMDUPCA	Cigarette 12-digit Universal Product Code (UPC)
+SMQ020	These next questions are about cigarette smoking and other tobacco use. {Have you/Has SP} smoked at least 100 cigarettes in {you
+SMQ040	{Do you/Does SP} now smoke cigarettes . .
+SMQ050Q	How long has it been since {you/SP} quit smoking cigarettes?
+SMQ050U	UNIT OF MEASURE
+SMQ077	How soon after you wake up do you smoke? Would you say...
+SMQ621	The following questions are about cigarette smoking and other tobacco use.  Do not include cigars or marijuana.  About how many 
+SMQ660	During the past 30 days, on the days that you smoked, which brand of cigarettes did you usually smoke?
+SMQ664B	{Were/Was} the Benson and Hedges cigarettes menthol or non-menthol?
+SMQ664C	{Were/Was} the Camel cigarettes menthol or non-menthol?
+SMQ664M	{Were/Was} the Marlboro cigarettes menthol or non-menthol?
+SMQ664O	{Were/Was} the other brand cigarettes menthol or non-menthol?
+SMQ664W	{Were/Was} the Winston cigarettes menthol or non-menthol?
+SMQ670	During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking?
+OHDEXCLU	Excluded from perio exam for med reasons
+OHDEXSTS	Overall Oral Health Exam Status
+OHDPDSTS	Periodontal Status Code
+OHX02CJA	Loss of Attachment: Upper right 2nd molar (2M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX02CJD	Loss of Attachment: Upper right 2nd molar (2M) distal - FGM to CEJ measurement (mm)
+OHX02CJL	Loss of Attachment: Upper right 2nd molar (2M) mid - lingual - FGM to CEJ measurement (mm)
+OHX02CJM	Loss of Attachment:  Upper right 2nd molar (2M) mid-facial - FGM to CEJ measurement (mm)
+OHX02CJP	Loss of Attachment: Upper right 2nd molar (2M) distal - lingual - FGM to CEJ measurement (mm)
+OHX02CJS	Loss of Attachment:  Upper right 2nd molar (2M) mesio-facial - FGM to CEJ measurement (mm)
+OHX02LAA	Loss of Attachment:  Upper right 2nd molar (2M) mesio- lingual - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX02LAD	Loss of Attachment:  Upper right 2nd molar (2M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measur
+OHX02LAL	Loss of Attachment:  Upper right 2nd molar (2M) mid- lingual - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHX02LAM	Loss of Attachment:  Upper right 2nd molar (2M) mid-facial - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base me
+OHX02LAP	Loss of Attachment:  Upper right 2nd molar (2M) distal lingual - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX02LAS	Loss of Attachment:  Upper right 2nd molar (2M) mesio-facial - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHX02PCA	Loss of Attachment: Upper right 2nd molar (2M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX02PCD	Loss of Attachment: Upper right 2nd molar (2M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX02PCL	Loss of Attachment: Upper right 2nd molar (2M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX02PCM	Loss of Attachment:  Upper right 2nd molar (2M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX02PCP	Loss of Attachment: Upper right 2nd molar (2M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX02PCS	Loss of Attachment:  Upper right 2nd molar (2M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX03CJA	Loss of Attachment: Upper right 1st molar (1M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX03CJD	Loss of Attachment: Upper right 1st molar (1M) distal - FGM to CEJ measurement (mm)
+OHX03CJL	Loss of Attachment: Upper right 1st molar (1M) mid - lingual - FGM to CEJ measurement (mm)
+OHX03CJM	Loss of Attachment:  Upper right 1st molar (1M) mid-facial - FGM to CEJ measurement (mm)
+OHX03CJP	Loss of Attachment: Upper right 1st molar (1M) distal - lingual - FGM to CEJ measurement (mm)
+OHX03CJS	Loss of Attachment:  Upper right 1st molar (1M) mesio-facial - FGM to CEJ measurement (mm)
+OHX03LAA	Loss of Attachment:  Upper right 1st molar (1M) mesio- lingual - Calculation of :   (FGM to sulcus base measurement) - (FGM to C
+OHX03LAD	Loss of Attachment:  Upper right 1st molar (1M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measur
+OHX03LAL	Loss of Attachment:  Upper right 1st molar (1M) mid- lingual - Calculation of :   (FGM to sulcus base measurement) - (FGM to CEJ
+OHX03LAM	Loss of Attachment:  Upper right 1st molar (1M) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX03LAP	Loss of Attachment:  Upper right 1st molar (1M) distal lingual - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX03LAS	Loss of Attachment:  Upper right 1st molar (1M) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX03PCA	Loss of Attachment: Upper right 1st molar (1M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX03PCD	Loss of Attachment: Upper right 1st molar (1M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX03PCL	Loss of Attachment: Upper right 1st molar (1M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX03PCM	Loss of Attachment:  Upper right 1st molar (1M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX03PCP	Loss of Attachment: Upper right 1st molar (1M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX03PCS	Loss of Attachment:  Upper right 1st molar (1M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX04CJA	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX04CJD	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) distal - FGM to CEJ measurement (mm)
+OHX04CJL	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) mid - lingual - FGM to CEJ measurement (mm)
+OHX04CJM	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to CEJ measurement (mm)
+OHX04CJP	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to CEJ measurement (mm)
+OHX04CJS	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to CEJ measurement (mm)
+OHX04LAA	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mesio-lingual - Calculation of:  (FGM to sulcus base measur
+OHX04LAD	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM 
+OHX04LAL	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mid- lingual - Calculation of :   (FGM to sulcus base measu
+OHX04LAM	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mid-facial - Calculation of :  (FGM to sulcus base measurem
+OHX04LAP	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) distal lingual - Calculation of :  (FGM to CEJ measurement)
+OHX04LAS	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mesio-facial - Calculation of :  (FGM to sulcus base measur
+OHX04PCA	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX04PCD	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX04PCL	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX04PCM	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mid-facial mid-facial - FGM to sulcus base (pocket depth) (
+OHX04PCP	Loss of Attachment: Upper right 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX04PCS	Loss of Attachment:  Upper right 2nd bicuspid/2nd primary molar (2B) mesio-facial mesio-facial - FGM to sulcus base (pocket dept
+OHX05CJA	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX05CJD	Loss of Attachment: Upper right 1st bicuspid/1st primary molar (1B) distal - FGM to CEJ measurement (mm)
+OHX05CJL	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to CEJ measurement (mm)
+OHX05CJM	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mid-facial - FGM to CEJ measurement (mm)
+OHX05CJP	Loss of Attachment: Upper right 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to CEJ measurement (mm)
+OHX05CJS	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to CEJ measurement (mm)
+OHX05LAA	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mesio-lingual - Calculation of:  (FGM to sulcus base measur
+OHX05LAD	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM 
+OHX05LAL	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mid- lingual - Calculation of:  (FGM to sulcus base measure
+OHX05LAM	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mid-facial - Calculation of :  (FGM to sulcus base measurem
+OHX05LAP	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) distal - lingual - Calculation of:  (FGM to CEJ measurement
+OHX05LAS	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mesio-facial - Calculation of :  (FGM to sulcus base measur
+OHX05PCA	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX05PCD	Loss of Attachment: Upper right 1st bicuspid/1st primary molar (1B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX05PCL	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX05PCM	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mid-facial - FGM to sulcus base (pocket depth)(mm)
+OHX05PCP	Loss of Attachment: Upper right 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX05PCS	Loss of Attachment:  Upper right 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX06CJA	Loss of Attachment:  Upper right cuspid (C) mesio- lingual - FGM to CEJ measurement (mm)
+OHX06CJD	Loss of Attachment: Upper right cuspid (C) distal - FGM to CEJ measurement (mm)
+OHX06CJL	Loss of Attachment:  Upper right cuspid (C) mid- lingual - FGM to CEJ measurement (mm)
+OHX06CJM	Loss of Attachment:  Upper right cuspid (C) mid-facial - FGM to CEJ measurement (mm)
+OHX06CJP	Loss of Attachment: Upper right cuspid (C) distal - lingual - FGM to CEJ measurement (mm)
+OHX06CJS	Loss of Attachment:  Upper right cuspid (C) mesio-facial - FGM to CEJ measurement (mm)
+OHX06LAA	Loss of Attachment:  Upper right cuspid (C) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ meas
+OHX06LAD	Loss of Attachment:  Upper right cuspid (C) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measuremen
+OHX06LAL	Loss of Attachment:  Upper right cuspid (C) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ measu
+OHX06LAM	Loss of Attachment:  Upper right cuspid (C) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measurement) 
+OHX06LAP	Loss of Attachment:  Upper right cuspid (C) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHX06LAS	Loss of Attachment:  Upper right cuspid (C) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ meas
+OHX06PCA	Loss of Attachment:  Upper right cuspid (C) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX06PCD	Loss of Attachment: Upper right cuspid (C) distal - FGM to sulcus base (pocket depth) (mm)
+OHX06PCL	Loss of Attachment:  Upper right cuspid (C) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX06PCM	Loss of Attachment:  Upper right cuspid (C) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX06PCP	Loss of Attachment: Upper right cuspid (C) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX06PCS	Loss of Attachment:  Upper right cuspid (C) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX07CJA	Loss of Attachment:  Upper right lateral incisor (LI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX07CJD	Loss of Attachment: Upper right lateral incisor (LI) distal - FGM to CEJ measurement (mm)
+OHX07CJL	Loss of Attachment:  Upper right lateral incisor (LI) mid- lingual - FGM to CEJ measurement (mm)
+OHX07CJM	Loss of Attachment:  Upper right lateral incisor (LI) mid-facial - FGM to CEJ measurement (mm)
+OHX07CJP	Loss of Attachment: Upper right lateral incisor (LI) distal - lingual - FGM to CEJ measurement (mm)
+OHX07CJS	Loss of Attachment:  Upper right lateral incisor (LI) mesio-facial - FGM to CEJ measurement (mm)
+OHX07LAA	Loss of Attachment:  Upper right lateral incisor (LI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM t
+OHX07LAD	Loss of Attachment:  Upper right lateral incisor (LI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHX07LAL	Loss of Attachment:  Upper right lateral incisor (LI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX07LAM	Loss of Attachment:  Upper right lateral incisor (LI) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to 
+OHX07LAP	Loss of Attachment:  Upper right lateral incisor (LI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sul
+OHX07LAS	Loss of Attachment:  Upper right lateral incisor (LI) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM t
+OHX07PCA	Loss of Attachment:  Upper right lateral incisor (LI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX07PCD	Loss of Attachment: Upper right lateral incisor (LI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX07PCL	Loss of Attachment:  Upper right lateral incisor (LI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX07PCM	Loss of Attachment:  Upper right lateral incisor (LI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX07PCP	Loss of Attachment: Upper right lateral incisor (LI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX07PCS	Loss of Attachment:  Upper right lateral incisor (LI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX08CJA	Loss of Attachment:  Upper right central incisor (CI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX08CJD	Loss of Attachment: Upper right central incisor (CI) distal - FGM to CEJ measurement (mm)
+OHX08CJL	Loss of Attachment:  Upper right central incisor (CI) mid- lingual - FGM to CEJ measurement (mm)
+OHX08CJM	Loss of Attachment:  Upper right central incisor (CI) mid-facial - FGM to CEJ measurement (mm)
+OHX08CJP	Loss of Attachment: Upper right central incisor (CI) distal - lingual - FGM to CEJ measurement (mm)
+OHX08CJS	Loss of Attachment:  Upper right central incisor (CI) mesio-facial - FGM to CEJ measurement (mm)
+OHX08LAA	Loss of Attachment:  Upper right central incisor (CI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM t
+OHX08LAD	Loss of Attachment:  Upper right central incisor (CI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHX08LAL	Loss of Attachment:  Upper right central incisor (CI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX08LAM	Loss of Attachment:  Upper right central incisor (CI) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to 
+OHX08LAP	Loss of Attachment:  Upper right central incisor (CI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sul
+OHX08LAS	Loss of Attachment:  Upper right central incisor (CI) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM t
+OHX08PCA	Loss of Attachment:  Upper right central incisor (CI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX08PCD	Loss of Attachment: Upper right central incisor (CI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX08PCL	Loss of Attachment:  Upper right central incisor (CI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX08PCM	Loss of Attachment:  Upper right central incisor (CI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX08PCP	Loss of Attachment: Upper right central incisor (CI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX08PCS	Loss of Attachment:  Upper right central incisor (CI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX09CJA	Loss of Attachment:  Upper left central incisor (CI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX09CJD	Loss of Attachment: Upper left central incisor (CI) distal - FGM to CEJ measurement (mm)
+OHX09CJL	Loss of Attachment:  Upper left central incisor (CI) mid- lingual - FGM to CEJ measurement (mm)
+OHX09CJM	Loss of Attachment:  Upper left central incisor (CI) mid-facial - FGM to CEJ measurement (mm)
+OHX09CJP	Loss of Attachment: Upper left central incisor (CI) distal - lingual - FGM to CEJ measurement (mm)
+OHX09CJS	Loss of Attachment:  Upper left central incisor (CI) mesio-facial - FGM to CEJ measurement (mm)
+OHX09LAA	Loss of Attachment:  Upper left central incisor (CI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX09LAD	Loss of Attachment:  Upper left central incisor (CI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHX09LAL	Loss of Attachment:  Upper left central incisor (CI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to 
+OHX09LAM	Loss of Attachment:  Upper left central incisor (CI) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to C
+OHX09LAP	Loss of Attachment:  Upper left central incisor (CI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulc
+OHX09LAS	Loss of Attachment:  Upper left central incisor (CI) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to
+OHX09PCA	Loss of Attachment:  Upper left central incisor (CI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX09PCD	Loss of Attachment: Upper left central incisor (CI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX09PCL	Loss of Attachment:  Upper left central incisor (CI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX09PCM	Loss of Attachment:  Upper left central incisor (CI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX09PCP	Loss of Attachment: Upper left central incisor (CI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX09PCS	Loss of Attachment:  Upper left central incisor (CI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX10CJA	Loss of Attachment:  Upper left lateral incisor (LI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX10CJD	Loss of Attachment: Upper left lateral incisor (LI) distal - FGM to CEJ measurement (mm)
+OHX10CJL	Loss of Attachment:  Upper left lateral incisor (LI) mid- lingual - FGM to CEJ measurement (mm)
+OHX10CJM	Loss of Attachment:  Upper left lateral incisor (LI) mid-facial - FGM to CEJ measurement (mm)
+OHX10CJP	Loss of Attachment: Upper left lateral incisor (LI) distal - lingual - FGM to CEJ measurement (mm)
+OHX10CJS	Loss of Attachment:  Upper left lateral incisor (LI) mesio-facial - FGM to CEJ measurement (mm)
+OHX10LAA	Loss of Attachment:  Upper left lateral incisor (LI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX10LAD	Loss of Attachment:  Upper left lateral incisor (LI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHX10LAL	Loss of Attachment:  Upper left lateral incisor (LI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to 
+OHX10LAM	Loss of Attachment:  Upper left lateral incisor (LI) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to C
+OHX10LAP	Loss of Attachment:  Upper left lateral incisor (LI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulc
+OHX10LAS	Loss of Attachment:  Upper left lateral incisor (LI) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to
+OHX10PCA	Loss of Attachment:  Upper left lateral incisor (LI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX10PCD	Loss of Attachment: Upper left lateral incisor (LI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX10PCL	Loss of Attachment:  Upper left lateral incisor (LI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX10PCM	Loss of Attachment:  Upper left lateral incisor (LI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX10PCP	Loss of Attachment: Upper left lateral incisor (LI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX10PCS	Loss of Attachment:  Upper left lateral incisor (LI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX11CJA	Loss of Attachment:  Upper left cuspid (C) mesio- lingual - FGM to CEJ measurement (mm)
+OHX11CJD	Loss of Attachment: Upper left cuspid (C) distal - FGM to CEJ measurement (mm)
+OHX11CJL	Loss of Attachment:  Upper left cuspid (C) mid- lingual - FGM to CEJ measurement (mm)
+OHX11CJM	Loss of Attachment:  Upper left cuspid (C) mid-facial - FGM to CEJ measurement (mm)
+OHX11CJP	Loss of Attachment: Upper left cuspid (C) distal - lingual - FGM to CEJ measurement (mm)
+OHX11CJS	Loss of Attachment:  Upper left cuspid (C) mesio-facial - FGM to CEJ measurement (mm)
+OHX11LAA	Loss of Attachment:  Upper left cuspid (C) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ measu
+OHX11LAD	Loss of Attachment:  Upper left cuspid (C) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measurement
+OHX11LAL	Loss of Attachment:  Upper left cuspid (C) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ measur
+OHX11LAM	Loss of Attachment:  Upper left cuspid (C) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ measure
+OHX11LAP	Loss of Attachment:  Upper left cuspid (C) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus base me
+OHX11LAS	Loss of Attachment:  Upper left cuspid (C) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ measu
+OHX11PCA	Loss of Attachment:  Upper left cuspid (C) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX11PCD	Loss of Attachment: Upper left cuspid (C) distal - FGM to sulcus base (pocket depth) (mm)
+OHX11PCL	Loss of Attachment:  Upper left cuspid (C) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX11PCM	Loss of Attachment:  Upper left cuspid (C) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX11PCP	Loss of Attachment: Upper left cuspid (C) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX11PCS	Loss of Attachment:  Upper left cuspid (C) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX12CJA	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX12CJD	Loss of Attachment: Upper left 1st bicuspid/1st primary molar (1B) distal - FGM to CEJ measurement (mm)
+OHX12CJL	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to CEJ measurement (mm)
+OHX12CJM	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mid-facial - FGM to CEJ measurement (mm)
+OHX12CJP	Loss of Attachment: Upper left 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to CEJ measurement (mm)
+OHX12CJS	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to CEJ measurement (mm)
+OHX12LAA	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mesio-lingual - Calculation of:  (FGM to sulcus base measure
+OHX12LAD	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM t
+OHX12LAL	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mid- lingual - Calculation of:  (FGM to sulcus base measurem
+OHX12LAM	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mid-facial - Calculation of :  (FGM to sulcus base measureme
+OHX12LAP	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) distal - lingual - Calculation of:  (FGM to CEJ measurement)
+OHX12LAS	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mesio-facial - Calculation of :  (FGM to sulcus base measure
+OHX12PCA	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX12PCD	Loss of Attachment: Upper left 1st bicuspid/1st primary molar (1B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX12PCL	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX12PCM	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX12PCP	Loss of Attachment: Upper left 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX12PCS	Loss of Attachment:  Upper left 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX13CJA	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX13CJD	Loss of Attachment: Upper left 2nd bicuspid/2nd primary molar (2B) distal - FGM to CEJ measurement (mm)
+OHX13CJL	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to CEJ measurement (mm)
+OHX13CJM	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to CEJ measurement (mm)
+OHX13CJP	Loss of Attachment: Upper left 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to CEJ measurement (mm)
+OHX13CJS	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to CEJ measurement (mm)
+OHX13LAA	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mesio-lingual - Calculation of:  (FGM to sulcus base measure
+OHX13LAD	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM t
+OHX13LAL	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mid- lingual - Calculation of:  (FGM to sulcus base measurem
+OHX13LAM	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mid-facial - Calculation of :  (FGM to sulcus base measureme
+OHX13LAP	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) distal - lingual - Calculation of:  (FGM to CEJ measurement)
+OHX13LAS	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mesio-facial - Calculation of :  (FGM to sulcus base measure
+OHX13PCA	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX13PCD	Loss of Attachment: Upper left 2nd bicuspid/2nd primary molar (2B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX13PCL	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX13PCM	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX13PCP	Loss of Attachment: Upper left 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX13PCS	Loss of Attachment:  Upper left 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX14CJA	Loss of Attachment:  Upper left 1st molar (1M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX14CJD	Loss of Attachment: Upper left 1st molar (1M) distal - FGM to CEJ measurement (mm)
+OHX14CJL	Loss of Attachment:  Upper left 1st molar (1M) mid- lingual - FGM to CEJ measurement (mm)
+OHX14CJM	Loss of Attachment:  Upper left 1st molar (1M) mid-facial - FGM to CEJ measurement (mm)
+OHX14CJP	Loss of Attachment: Upper left 1st molar (1M) distal - lingual - FGM to CEJ measurement (mm)
+OHX14CJS	Loss of Attachment:  Upper left 1st molar (1M) mesio-facial - FGM to CEJ measurement (mm)
+OHX14LAA	Loss of Attachment:  Upper left 1st molar (1M) mesio- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX14LAD	Loss of Attachment:  Upper left 1st molar (1M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measure
+OHX14LAL	Loss of Attachment:  Upper left 1st molar (1M) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX14LAM	Loss of Attachment:  Upper left 1st molar (1M) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ mea
+OHX14LAP	Loss of Attachment:  Upper left 1st molar (1M) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX14LAS	Loss of Attachment:  Upper left 1st molar (1M) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ m
+OHX14PCA	Loss of Attachment:  Upper left 1st molar (1M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX14PCD	Loss of Attachment: Upper left 1st molar (1M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX14PCL	Loss of Attachment:  Upper left 1st molar (1M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX14PCM	Loss of Attachment:  Upper left 1st molar (1M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX14PCP	Loss of Attachment: Upper left 1st molar (1M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX14PCS	Loss of Attachment:  Upper left 1st molar (1M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX15CJA	Loss of Attachment:  Upper left 2nd molar (2M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX15CJD	Loss of Attachment: Upper left 2nd molar (2M) distal - FGM to CEJ measurement (mm)
+OHX15CJL	Loss of Attachment:  Upper left 2nd molar (2M) mid- lingual - FGM to CEJ measurement (mm)
+OHX15CJM	Loss of Attachment:  Upper left 2nd molar (2M) mid-facial - FGM to CEJ measurement (mm)
+OHX15CJP	Loss of Attachment: Upper left 2nd molar (2M) distal - lingual - FGM to CEJ measurement (mm)
+OHX15CJS	Loss of Attachment:  Upper left 2nd molar (2M) mesio-facial - FGM to CEJ measurement (mm)
+OHX15LAA	Loss of Attachment:  Upper left 2nd molar (2M) mesio- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX15LAD	Loss of Attachment:  Upper left 2nd molar (2M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measure
+OHX15LAL	Loss of Attachment:  Upper left 2nd molar (2M) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX15LAM	Loss of Attachment:  Upper left 2nd molar (2M) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ mea
+OHX15LAP	Loss of Attachment:  Upper left 2nd molar (2M) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX15LAS	Loss of Attachment:  Upper left 2nd molar (2M) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ m
+OHX15PCA	Loss of Attachment:  Upper left 2nd molar (2M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX15PCD	Loss of Attachment: Upper left 2nd molar (2M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX15PCL	Loss of Attachment:  Upper left 2nd molar (2M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX15PCM	Loss of Attachment:  Upper left 2nd molar (2M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX15PCP	Loss of Attachment: Upper left 2nd molar (2M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX15PCS	Loss of Attachment:  Upper left 2nd molar (2M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX18CJA	Loss of Attachment:  Lower left 2nd molar (2M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX18CJD	Loss of Attachment: Lower left 2nd molar (2M) distal - FGM to CEJ measurement (mm)
+OHX18CJL	Loss of Attachment:  Lower left 2nd molar (2M) mid- lingual - FGM to CEJ measurement (mm)
+OHX18CJM	Loss of Attachment:  Lower left 2nd molar (2M) mid-facial - FGM to CEJ measurement (mm)
+OHX18CJP	Loss of Attachment: Lower left 2nd molar (2M) distal - lingual - FGM to CEJ measurement (mm)
+OHX18CJS	Loss of Attachment:  Lower left 2nd molar (2M) mesio-facial - FGM to CEJ measurement (mm)
+OHX18LAA	Loss of Attachment:  Lower left 2nd molar (2M) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ m
+OHX18LAD	Loss of Attachment:  Lower left 2nd molar (2M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measure
+OHX18LAL	Loss of Attachment:  Lower left 2nd molar (2M) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX18LAM	Loss of Attachment:  Lower left 2nd molar (2M) mid-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ meas
+OHX18LAP	Loss of Attachment:  Lower left 2nd molar (2M) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX18LAS	Loss of Attachment:  Lower left 2nd molar (2M) mesio-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX18PCA	Loss of Attachment:  Lower left 2nd molar (2M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX18PCD	Loss of Attachment: Lower left 2nd molar (2M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX18PCL	Loss of Attachment:  Lower left 2nd molar (2M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX18PCM	Loss of Attachment:  Lower left 2nd molar (2M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX18PCP	Loss of Attachment: Lower left 2nd molar (2M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX18PCS	Loss of Attachment:  Lower left 2nd molar (2M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX19CJA	Loss of Attachment:  Lower left 1st molar (1M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX19CJD	Loss of Attachment: Lower left 1st molar (1M) distal - FGM to CEJ measurement (mm)
+OHX19CJL	Loss of Attachment:  Lower left 1st molar (1M) mid- lingual - FGM to CEJ measurement (mm)
+OHX19CJM	Loss of Attachment:  Lower left 1st molar (1M) mid-facial - FGM to CEJ measurement (mm)
+OHX19CJP	Loss of Attachment: Lower left 1st molar (1M) distal - lingual - FGM to CEJ measurement (mm)
+OHX19CJS	Loss of Attachment:  Lower left 1st molar (1M) mesio-facial - FGM to CEJ measurement (mm)
+OHX19LAA	Loss of Attachment:  Lower left 1st molar (1M) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ m
+OHX19LAD	Loss of Attachment:  Lower left 1st molar (1M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measure
+OHX19LAL	Loss of Attachment:  Lower left 1st molar (1M) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX19LAM	Loss of Attachment:  Lower left 1st molar (1M) mid-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ meas
+OHX19LAP	Loss of Attachment:  Lower left 1st molar (1M) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus bas
+OHX19LAS	Loss of Attachment:  Lower left 1st molar (1M) mesio-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX19PCA	Loss of Attachment:  Lower left 1st molar (1M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX19PCD	Loss of Attachment: Lower left 1st molar (1M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX19PCL	Loss of Attachment:  Lower left 1st molar (1M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX19PCM	Loss of Attachment:  Lower left 1st molar (1M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX19PCP	Loss of Attachment: Lower left 1st molar (1M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX19PCS	Loss of Attachment:  Lower left 1st molar (1M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX20CJA	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX20CJD	Loss of Attachment: Lower left 2nd bicuspid/2nd primary molar (2B) distal - FGM to CEJ measurement (mm)
+OHX20CJL	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to CEJ measurement (mm)
+OHX20CJM	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to CEJ measurement (mm)
+OHX20CJP	Loss of Attachment: Lower left 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to CEJ measurement (mm)
+OHX20CJS	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to CEJ measurement (mm)
+OHX20LAA	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-lingual - Calculation of:  (FGM to sulcus base measure
+OHX20LAD	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM t
+OHX20LAL	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid- lingual - Calculation of:  (FGM to sulcus base measurem
+OHX20LAM	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid-facial - Calculation of :  (FGM to sulcus base measureme
+OHX20LAP	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) distal - lingual - Calculation of:  (FGM to CEJ measurement)
+OHX20LAS	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-facial - Level of attachment calculation of :  (FGM to
+OHX20PCA	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX20PCD	Loss of Attachment: Lower left 2nd bicuspid/2nd primary molar (2B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX20PCL	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX20PCM	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX20PCP	Loss of Attachment: Lower left 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX20PCS	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX21CJA	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX21CJD	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) distal - FGM to CEJ measurement (mm)
+OHX21CJL	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to CEJ measurement (mm)
+OHX21CJM	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid-facial - FGM to CEJ measurement (mm)
+OHX21CJP	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to CEJ measurement (mm)
+OHX21CJS	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to CEJ measurement (mm)
+OHX21LAA	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-lingual - Calculation of:  (FGM to sulcus base measure
+OHX21LAD	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM t
+OHX21LAL	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid- lingual - Calculation of:  (FGM to sulcus base measurem
+OHX21LAM	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid-facial - Calculation of :  (FGM to sulcus base measureme
+OHX21LAP	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) distal - lingual - Calculation of:  (FGM to CEJ measurement)
+OHX21LAS	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-facial - Calculation of :  (FGM to sulcus base measure
+OHX21PCA	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX21PCD	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX21PCL	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX21PCM	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX21PCP	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX21PCS	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX22CJA	Loss of Attachment:  Lower left cuspid (C) mesio- lingual - FGM to CEJ measurement (mm)
+OHX22CJD	Loss of Attachment: Lower left cuspid (C) distal - FGM to CEJ measurement (mm)
+OHX22CJL	Loss of Attachment:  Lower left cuspid (C) mid- lingual - FGM to CEJ measurement (mm)
+OHX22CJM	Loss of Attachment:  Lower left cuspid (C) mid-facial - FGM to CEJ measurement (mm)
+OHX22CJP	Loss of Attachment: Lower left cuspid (C) distal - lingual - FGM to CEJ measurement (mm)
+OHX22CJS	Loss of Attachment:  Lower left cuspid (C) mesio-facial - FGM to CEJ measurement (mm)
+OHX22LAA	Loss of Attachment:  Lower left cuspid (C) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ measu
+OHX22LAD	Loss of Attachment:  Lower left cuspid (C) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measurement
+OHX22LAL	Loss of Attachment:  Lower left cuspid (C) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ measur
+OHX22LAM	Loss of Attachment: Lower left cuspid (C) mid-facial - Level of attachment calculation of : (FGM to sulcus base measurement) - (
+OHX22LAP	Loss of Attachment:  Lower left cuspid (C) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus base me
+OHX22LAS	Loss of Attachment:  Lower left cuspid (C) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ measu
+OHX22PCA	Loss of Attachment:  Lower left cuspid (C) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX22PCD	Loss of Attachment: Lower left cuspid (C) distal - FGM to sulcus base (pocket depth) (mm)
+OHX22PCL	Loss of Attachment:  Lower left cuspid (C) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX22PCM	Loss of Attachment:  Lower left cuspid (C) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX22PCP	Loss of Attachment: Lower left cuspid (C) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX22PCS	Loss of Attachment:  Lower left cuspid (C) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX23CJA	Loss of Attachment:  Lower left lateral incisor (LI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX23CJD	Loss of Attachment: Lower left lateral incisor (LI) distal - FGM to CEJ measurement (mm)
+OHX23CJL	Loss of Attachment:  Lower left lateral incisor (LI) mid- lingual - FGM to CEJ measurement (mm)
+OHX23CJM	Loss of Attachment:  Lower left lateral incisor (LI) mid-facial - FGM to CEJ measurement (mm)
+OHX23CJP	Loss of Attachment: Lower left lateral incisor (LI) distal - lingual - FGM to CEJ measurement (mm)
+OHX23CJS	Loss of Attachment:  Lower left lateral incisor (LI) mesio-facial - FGM to CEJ measurement (mm)
+OHX23LAA	Loss of Attachment:  Lower left lateral incisor (LI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX23LAD	Loss of Attachment:  Lower left lateral incisor (LI) distal - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus base me
+OHX23LAL	Loss of Attachment:  Lower left lateral incisor (LI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to 
+OHX23LAM	Loss of Attachment:  Lower left lateral incisor (LI) mid-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to CE
+OHX23LAP	Loss of Attachment:  Lower left lateral incisor (LI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulc
+OHX23LAS	Loss of Attachment:  Lower left lateral incisor (LI) mesio-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to 
+OHX23PCA	Loss of Attachment:  Lower left lateral incisor (LI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX23PCD	Loss of Attachment: Lower left lateral incisor (LI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX23PCL	Loss of Attachment:  Lower left lateral incisor (LI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX23PCM	Loss of Attachment:  Lower left lateral incisor (LI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX23PCP	Loss of Attachment: Lower left lateral incisor (LI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX23PCS	Loss of Attachment:  Lower left lateral incisor (LI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX24CJA	Loss of Attachment:  Lower left central incisor (CI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX24CJD	Loss of Attachment: Lower left central incisor (CI) distal - FGM to CEJ measurement (mm)
+OHX24CJL	Loss of Attachment:  Lower left central incisor (CI) mid- lingual - FGM to CEJ measurement (mm)
+OHX24CJM	Loss of Attachment:  Lower left central incisor (CI) mid-facial - FGM to CEJ measurement (mm)
+OHX24CJP	Loss of Attachment: Lower left central incisor (CI) distal - lingual - FGM to CEJ measurement (mm)
+OHX24CJS	Loss of Attachment:  Lower left central incisor (CI) mesio-facial - FGM to CEJ measurement (mm)
+OHX24LAA	Loss of Attachment:  Lower left central incisor (CI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX24LAD	Loss of Attachment:  Lower left central incisor (CI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHX24LAL	Loss of Attachment:  Lower left central incisor (CI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to 
+OHX24LAM	Loss of Attachment:  Lower left central incisor (CI) mid-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to CE
+OHX24LAP	Loss of Attachment:  Lower left central incisor (CI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulc
+OHX24LAS	Loss of Attachment:  Lower left central incisor (CI) mesio-facial - Calculation of:  (FGM to sulcus base measurement) - (FGM to 
+OHX24PCA	Loss of Attachment:  Lower left central incisor (CI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX24PCD	Loss of Attachment: Lower left central incisor (CI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX24PCL	Loss of Attachment:  Lower left central incisor (CI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX24PCM	Loss of Attachment:  Lower left central incisor (CI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX24PCP	Loss of Attachment: Lower left central incisor (CI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX24PCS	Loss of Attachment:  Lower left central incisor (CI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX25CJA	Loss of Attachment:  Lower right central incisor (CI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX25CJD	Loss of Attachment: Lower right central incisor (CI) distal - FGM to CEJ measurement (mm)
+OHX25CJL	Loss of Attachment:  Lower right central incisor (CI) mid- lingual - FGM to CEJ measurement (mm)
+OHX25CJM	Loss of Attachment:  Lower right central incisor (CI) mid-facial - FGM to CEJ measurement (mm)
+OHX25CJP	Loss of Attachment: Lower right central incisor (CI) distal - lingual - FGM to CEJ measurement (mm)
+OHX25CJS	Loss of Attachment:  Lower right central incisor (CI) mesio-facial - FGM to CEJ measurement (mm)
+OHX25LAA	Loss of Attachment:  Lower right central incisor (CI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM t
+OHX25LAD	Loss of Attachment:  Lower right central incisor (CI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHX25LAL	Loss of Attachment:  Lower right central incisor (CI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX25LAM	Loss of Attachment:  Lower right central incisor (CI) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to 
+OHX25LAP	Loss of Attachment:  Lower right central incisor (CI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sul
+OHX25LAS	Loss of Attachment:  Lower right central incisor (CI) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM t
+OHX25PCA	Loss of Attachment:  Lower right central incisor (CI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX25PCD	Loss of Attachment: Lower right central incisor (CI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX25PCL	Loss of Attachment:  Lower right central incisor (CI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX25PCM	Loss of Attachment:  Lower right central incisor (CI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX25PCP	Loss of Attachment: Lower right central incisor (CI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX25PCS	Loss of Attachment:  Lower right central incisor (CI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX26CJA	Loss of Attachment:  Lower right lateral incisor (LI) mesio- lingual - FGM to CEJ measurement (mm)
+OHX26CJD	Loss of Attachment: Lower right lateral incisor (LI) distal - FGM to CEJ measurement (mm)
+OHX26CJL	Loss of Attachment:  Lower right lateral incisor (LI) mid- lingual - FGM to CEJ measurement (mm)
+OHX26CJM	Loss of Attachment:  Lower right lateral incisor (LI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX26CJP	Loss of Attachment: Lower right lateral incisor (LI) distal - lingual - FGM to CEJ measurement (mm)
+OHX26CJS	Loss of Attachment:  Lower right lateral incisor (LI) mesio-facial - FGM to CEJ measurement (mm)
+OHX26LAA	Loss of Attachment:  Lower right lateral incisor (LI) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM t
+OHX26LAD	Loss of Attachment:  Lower right lateral incisor (LI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHX26LAL	Loss of Attachment:  Lower right lateral incisor (LI) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to
+OHX26LAM	Loss of Attachment:  Lower right lateral incisor (LI) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to 
+OHX26LAP	Loss of Attachment:  Lower right lateral incisor (LI) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sul
+OHX26LAS	Loss of Attachment:  Lower right lateral incisor (LI) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM t
+OHX26PCA	Loss of Attachment:  Lower right lateral incisor (LI) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX26PCD	Loss of Attachment: Lower right lateral incisor (LI) distal - FGM to sulcus base (pocket depth) (mm)
+OHX26PCL	Loss of Attachment:  Lower right lateral incisor (LI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX26PCM	Loss of Attachment:  Lower right lateral incisor (LI) mid-facial - FGM to CEJ measurement (mm)
+OHX26PCP	Loss of Attachment: Lower right lateral incisor (LI) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX26PCS	Loss of Attachment:  Lower right lateral incisor (LI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX27CJA	Loss of Attachment:  Lower right cuspid (C) mesio- lingual - FGM to CEJ measurement (mm)
+OHX27CJD	Loss of Attachment: Lower right cuspid (C) distal - FGM to CEJ measurement (mm)
+OHX27CJL	Loss of Attachment:  Lower right cuspid (C) mid- lingual - FGM to CEJ measurement (mm)
+OHX27CJM	Loss of Attachment:  Lower right cuspid (C) mid-facial - FGM to CEJ measurement (mm)
+OHX27CJP	Loss of Attachment: Lower right cuspid (C) distal - lingual - FGM to CEJ measurement (mm)
+OHX27CJS	Loss of Attachment:  Lower right cuspid (C) mesio-facial - FGM to CEJ measurement (mm)
+OHX27LAA	Loss of Attachment:  Lower right cuspid (C) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ meas
+OHX27LAD	Loss of Attachment:  Lower right cuspid (C) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measuremen
+OHX27LAL	Loss of Attachment:  Lower right cuspid (C) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ measu
+OHX27LAM	Loss of Attachment:  Lower right cuspid (C) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ measur
+OHX27LAP	Loss of Attachment:  Lower right cuspid (C) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHX27LAS	Loss of Attachment:  Lower right cuspid (C) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ meas
+OHX27PCA	Loss of Attachment:  Lower right cuspid (C) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX27PCD	Loss of Attachment: Lower right cuspid (C) distal - FGM to sulcus base (pocket depth) (mm)
+OHX27PCL	Loss of Attachment:  Lower right lateral incisor (LI) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX27PCM	Loss of Attachment:  Lower right cuspid (C) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX27PCP	Loss of Attachment: Lower right cuspid (C) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX27PCS	Loss of Attachment:  Lower right cuspid (C) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX28CJA	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX28CJD	Loss of Attachment: Lower right 1st bicuspid/1st primary molar (1B) distal - FGM to CEJ measurement (mm)
+OHX28CJL	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to CEJ measurement (mm)
+OHX28CJM	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid-facial - FGM to CEJ measurement (mm)
+OHX28CJP	Loss of Attachment: Lower right 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to CEJ measurement (mm)
+OHX28CJS	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to CEJ measurement (mm)
+OHX28LAA	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-lingual - Calculation of:  (FGM to sulcus base measur
+OHX28LAD	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM 
+OHX28LAL	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid- lingual - Calculation of:  (FGM to sulcus base measure
+OHX28LAM	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid-facial - Calculation of :  (FGM to sulcus base measurem
+OHX28LAP	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) distal - lingual - Calculation of:  (FGM to CEJ measurement
+OHX28LAS	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-facial - Calculation of :  (FGM to sulcus base measur
+OHX28PCA	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX28PCD	Loss of Attachment: Lower right 1st bicuspid/1st primary molar (1B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX28PCL	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX28PCM	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX28PCP	Loss of Attachment: Lower right 1st bicuspid/1st primary molar (1B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX28PCS	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX29CJA	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to CEJ measurement (mm)
+OHX29CJD	Loss of Attachment: Lower right 2nd bicuspid/2nd primary molar (2B) distal - FGM to CEJ measurement (mm)
+OHX29CJL	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to CEJ measurement (mm)
+OHX29CJM	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX29CJP	Loss of Attachment: Lower right 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to CEJ measurement (mm)
+OHX29CJS	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to CEJ measurement (mm)
+OHX29LAA	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-lingual - Calculation of:  (FGM to sulcus base measur
+OHX29LAD	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM 
+OHX29LAL	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid- lingual - Calculation of:  (FGM to sulcus base measure
+OHX29LAM	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid-facial - Calculation of :  (FGM to sulcus base measurem
+OHX29LAP	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) distal - lingual - Calculation of:  (FGM to CEJ measurement
+OHX29LAS	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-facial - Calculation of :  (FGM to sulcus base measur
+OHX29PCA	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX29PCD	Loss of Attachment: Lower right 2nd bicuspid/2nd primary molar (2B) distal - FGM to sulcus base (pocket depth) (mm)
+OHX29PCL	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX29PCM	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to CEJ measurement (mm)
+OHX29PCP	Loss of Attachment: Lower right 2nd bicuspid/2nd primary molar (2B) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX29PCS	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX30CJA	Loss of Attachment:  Lower right 1st molar (1M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX30CJD	Loss of Attachment: Lower right 1st molar (1M) distal - FGM to CEJ measurement (mm)
+OHX30CJL	Loss of Attachment:  Lower right 1st molar (1M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX30CJM	Loss of Attachment:  Lower right 1st molar (1M) mid-facial - FGM to CEJ measurement (mm)
+OHX30CJP	Loss of Attachment: Lower right 1st molar (1M) distal - lingual - FGM to CEJ measurement (mm)
+OHX30CJS	Loss of Attachment:  Lower right 1st molar (1M) mesio-facial - FGM to CEJ measurement (mm)
+OHX30LAA	Loss of Attachment:  Lower right 1st molar (1M) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX30LAD	Loss of Attachment:  Lower right 1st molar (1M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measur
+OHX30LAL	Loss of Attachment:  Lower right 1st molar (1M) mid- lingual - LCalculation of:  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX30LAM	Loss of Attachment:  Lower right 1st molar (1M) mid-facial - LCalculation of :  (FGM to sulcus base measurement) - (FGM to CEJ m
+OHX30LAP	Loss of Attachment:  Lower right 1st molar (1M) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus ba
+OHX30LAS	Loss of Attachment:  Lower right 1st molar (1M) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX30PCA	Loss of Attachment:  Lower right 1st molar (1M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX30PCD	Loss of Attachment: Lower right 1st molar (1M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX30PCL	Loss of Attachment:  Lower right 1st molar (1M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX30PCM	Loss of Attachment:  Lower right 1st molar (1M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX30PCP	Loss of Attachment: Lower right 1st molar (1M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX30PCS	Loss of Attachment:  Lower right 1st molar (1M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX31CJA	Loss of Attachment:  Lower right 2nd molar (2M) mesio- lingual - FGM to CEJ measurement (mm)
+OHX31CJD	Loss of Attachment: Lower right 2nd molar (2M) distal - FGM to CEJ measurement (mm)
+OHX31CJL	Loss of Attachment:  Lower right 2nd molar (2M) mid- lingual - FGM to CEJ measurement (mm)
+OHX31CJM	Loss of Attachment:  Lower right 2nd molar (2M) mid-facial - FGM to CEJ measurement (mm)
+OHX31CJP	Loss of Attachment: Lower right 2nd molar (2M) distal - lingual - FGM to CEJ measurement (mm)
+OHX31CJS	Loss of Attachment:  Lower right 2nd molar (2M) mesio-facial - FGM to CEJ measurement (mm)
+OHX31LAA	Loss of Attachment:  Lower right 2nd molar (2M) mesio-lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX31LAD	Loss of Attachment:  Lower right 2nd molar (2M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measur
+OHX31LAL	Loss of Attachment:  Lower right 2nd molar (2M) mid- lingual - Calculation of:  (FGM to sulcus base measurement) - (FGM to CEJ m
+OHX31LAM	Loss of Attachment:  Lower right 2nd molar (2M) mid-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ me
+OHX31LAP	Loss of Attachment:  Lower right 2nd molar (2M) distal - lingual - Calculation of:  (FGM to CEJ measurement) - (FGM to sulcus ba
+OHX31LAS	Loss of Attachment:  Lower right 2nd molar (2M) mesio-facial - Calculation of :  (FGM to sulcus base measurement) - (FGM to CEJ 
+OHX31PCA	Loss of Attachment:  Lower right 2nd molar (2M) mesio- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX31PCD	Loss of Attachment: Lower right 2nd molar (2M) distal - FGM to sulcus base (pocket depth) (mm)
+OHX31PCL	Loss of Attachment:  Lower right 2nd molar (2M) mid- lingual - FGM to sulcus base (pocket depth) (mm)
+OHX31PCM	Loss of Attachment:  Lower right 2nd molar (2M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHX31PCP	Loss of Attachment: Lower right 2nd molar (2M) distal - lingual - FGM to sulcus base (pocket depth) (mm)
+OHX31PCS	Loss of Attachment:  Lower right 2nd molar (2M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+SEQN	Respondent sequence number.
+OHQ030	The next questions are about {your/SP's} teeth and gums.  About how long has it been since {you/SP} last visited a dentist? Incl
+OHQ033	What was the main reason {you/SP} last visited the dentist?
+OHQ610	In the past 12 months, did a dentist, hygienist or other dental professional have a direct conversation with {you/SP} about... .
+OHQ612	(In the past 12 months, did a dentist, hygienist or other dental professional have a direct conversation with {you/SP} about...)
+OHQ614	(In the past 12 months, did a dentist, hygienist or other dental professional have a direct conversation with {you/SP} about...)
+OHQ620	How often during the last year (have you/ has SP) had painful aching anywhere in (your/his/her) mouth?  Would you say....
+OHQ640	How often during the last year {have you/has SP} had difficulty doing {your/his/her} usual jobs or attending school because of p
+OHQ680	How often during the last year {have you/has SP} been self-conscious or embarrassed because of  {your/his/her} teeth, mouth or d
+OHQ770	During the past 12 months was there a time when (you/SP) needed dental care but could not get it at that time?
+OHQ780A	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780B	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780C	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780D	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780E	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780F	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780G	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780H	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780I	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780J	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ780K	What were the reasons that (you/SP) could not get the dental care (you/she/he) needed?
+OHQ835	The next questions will ask about the condition of {your/SP's} teeth and some factors related to gum health.  Gum disease is a c
+OHQ845	Overall, how would {you/SP} rate the health of {your/his/her} teeth and gums?
+OHQ850	"{Have you/Has SP} ever had treatment for gum disease such as scaling and root planing, sometimes called ""deep cleaning""?"
+OHQ855	{Have you/Has SP} ever had any teeth become loose on their own, without an injury?
+OHQ860	{Have you/Has SP} ever been told by a dental professional that {you/s/he} lost bone around [your/his/her} teeth?
+OHQ865	During the past three months, {have you/has SP} noticed a tooth that doesn't look right?
+OHQ870	Aside from brushing {your/his/her} teeth with a toothbrush, in the last seven days, how many days did {you/SP} use dental floss 
+OHQ875	Aside from brushing {your/his/her} teeth with a toothbrush, in the last seven days, how many days did {you/SP} use mouthwash or 
+OHQ880	{Have you/Has SP} ever had an exam for oral cancer in which the doctor or dentist pulls on {your/his/her} tongue, sometimes with
+OHQ885	{Have you/Has SP} ever had an exam for oral cancer in which the doctor or dentist feels {your/his/her} neck?
+OHQ895	When did {you/SP} have {your/his/her} most recent oral or mouth cancer exam?  Was it within the past year, between 1 and 3 years
+OHQ900	What type of health care professional performed {your/SP's} most recent oral cancer exam?
+SEQN	Respondent sequence number.
+OHAPOS	Was the SP in a recumbent (laying down) position for all eligible assessments of the oral health exam?
+OHAREC	Overall recommendation for care
+OHARNF	No significant findings
+OHAROCCI	Clinical impression of soft tissue condition
+OHAROCDE	Denture/Partial Denture/Plates
+OHAROCDT	Decayed teeth
+OHAROCGP	Gum disease/problem
+OHAROCOH	Oral hygiene
+OHAROTH	Some other finding (specify w/referral letter)
+OHDEXSTS	Overall Oral Health Exam Status
+OHDRCSTS	Recommendation Care Status Code
+SEQN	Respondent sequence number.

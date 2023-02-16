@@ -1,0 +1,13 @@
+Variable.Name	Variable.Description
+OHAPOS	Was the SP in a recumbent (laying down) position for all eligible assessments of the oral health exam?
+OHAREC	Overall recommendation for care
+OHARNF	No significant findings
+OHAROCCI	Clinical impression of soft tissue condition
+OHAROCDE	Denture/Partial Denture/Plates
+OHAROCDT	Decayed teeth
+OHAROCGP	Gum disease/problem
+OHAROCOH	Oral hygiene
+OHAROTH	Some other finding (specify w/referral letter)
+OHDEXSTS	Overall Oral Health Exam Status
+OHDRCSTS	Recommendation Care Status Code
+SEQN	Respondent sequence number.
