@@ -148,4 +148,4 @@ def main(dentition_file='../data/OHXDEN_G_dentition.tsv',
 
 if __name__ == "__main__":
     df = main()
-    df.to_csv('../data/perio_summary.tsv', sep='\t')
+    df.to_csv('../refined_data/perio_summary.tsv', sep='\t')
