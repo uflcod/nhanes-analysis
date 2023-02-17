@@ -51,9 +51,10 @@ def main(cfq_file='../data/CFQ_G_cognitive_functioning.tsv') -> pds.DataFrame:
     std_scaler = StandardScaler()
     zscore_df = pds.DataFrame(std_scaler.fit_transform(score_df), columns=score_df.columns, index=score_df.index)
 
-    # rename z-score column names
+    # rename z-score column names and sum scores
     zscore_name_map = {'CFDCSR': 'z_CFDCSR', 'CFDCIR': 'z_CFDCIR', 'CFDAST': 'z_CFDAST', 'CFDDS': 'z_CFDDS'}
     zscore_df = zscore_df.rename(columns=zscore_name_map)
+    zscore_df['z_total'] = zscore_df.sum(axis=1).round(2)
     print('zscore len', len(zscore_df))
 
     # return merge of score and zscore dfs
