@@ -59,7 +59,7 @@ def make_dentition_df(dentition_file:str)-> pds.DataFrame:
     return dent_df
 
 def make_perio_df(perio_file:str, dent_df:pds.DataFrame) -> pds.DataFrame:
-    perio_df = pds.read_table(perio_file, index_col='SEQN', nrows=100)
+    perio_df = pds.read_table(perio_file, index_col='SEQN')
 
     # subset for "complete" perio
     perio_df = perio_df[perio_df.OHDPDSTS == 1]
