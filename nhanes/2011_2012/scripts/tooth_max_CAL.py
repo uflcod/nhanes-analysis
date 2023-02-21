@@ -59,7 +59,7 @@ def make_dentition_df(dentition_file:str)-> pds.DataFrame:
     return dent_df
 
 def make_perio_df(perio_file:str, dent_df:pds.DataFrame) -> pds.DataFrame:
-    perio_df = pds.read_table(perio_file, index_col='SEQN')
+    perio_df = pds.read_table(perio_file, index_col='SEQN', nrows=100)
 
     # subset for "complete" perio
     perio_df = perio_df[perio_df.OHDPDSTS == 1]
@@ -128,7 +128,11 @@ def make_perio_df(perio_file:str, dent_df:pds.DataFrame) -> pds.DataFrame:
         perio_df.loc[idx, 'num_teeth_gt_5'] = num_gt_5
         perio_df.loc[idx, 'num_teeth_gt_6'] = num_gt_6
     
-    return perio_df[['max_CAL', 'num_teeth_gt_3', 'num_teeth_gt_4', 'num_teeth_gt_5', 'num_teeth_gt_6']]
+    # subset perio to summary level data across teeth
+    perio_df = \
+        perio_df[['max_CAL', 'num_teeth_gt_3', 'num_teeth_gt_4', 'num_teeth_gt_5', 'num_teeth_gt_6']].drop_duplicates()
+
+    return perio_df
 
 def main(dentition_file='../data/OHXDEN_G_dentition.tsv', 
          perio_file='../data/OHXPER_G_perio.tsv') -> pds.DataFrame:
@@ -141,6 +145,13 @@ def main(dentition_file='../data/OHXDEN_G_dentition.tsv',
 
     # merge dentition and perio data
     merged_df = pds.merge(dent_df[['num_teeth']], perio_df, how='inner', on='SEQN')
+
+    # calc percentages
+    merged_df['pct_teeth_gt_3'] = round(merged_df.num_teeth_gt_3 / merged_df.num_teeth, 2) * 100
+    merged_df['pct_teeth_gt_4'] = round(merged_df.num_teeth_gt_4 / merged_df.num_teeth, 2) * 100
+    merged_df['pct_teeth_gt_5'] = round(merged_df.num_teeth_gt_5 / merged_df.num_teeth, 2) * 100
+    merged_df['pct_teeth_gt_6'] = round(merged_df.num_teeth_gt_6 / merged_df.num_teeth, 2) * 100
+    
     print('\n***** merged df\n', merged_df.head())
     print('\n*****\n', f'merged_df len: {len(merged_df)}')
 
