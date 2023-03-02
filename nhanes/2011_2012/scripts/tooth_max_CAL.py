@@ -147,10 +147,10 @@ def main(dentition_file='../data/OHXDEN_G_dentition.tsv',
     merged_df = pds.merge(dent_df[['num_teeth']], perio_df, how='inner', on='SEQN')
 
     # calc percentages
-    merged_df['pct_teeth_gt_3'] = round(merged_df.num_teeth_gt_3 / merged_df.num_teeth, 2) * 100
-    merged_df['pct_teeth_gt_4'] = round(merged_df.num_teeth_gt_4 / merged_df.num_teeth, 2) * 100
-    merged_df['pct_teeth_gt_5'] = round(merged_df.num_teeth_gt_5 / merged_df.num_teeth, 2) * 100
-    merged_df['pct_teeth_gt_6'] = round(merged_df.num_teeth_gt_6 / merged_df.num_teeth, 2) * 100
+    merged_df['pct_teeth_gt_3'] = round(merged_df.num_teeth_gt_3 / merged_df.num_teeth, 2)
+    merged_df['pct_teeth_gt_4'] = round(merged_df.num_teeth_gt_4 / merged_df.num_teeth, 2)
+    merged_df['pct_teeth_gt_5'] = round(merged_df.num_teeth_gt_5 / merged_df.num_teeth, 2)
+    merged_df['pct_teeth_gt_6'] = round(merged_df.num_teeth_gt_6 / merged_df.num_teeth, 2)
     
     print('\n***** merged df\n', merged_df.head())
     print('\n*****\n', f'merged_df len: {len(merged_df)}')
