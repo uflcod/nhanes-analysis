@@ -1,0 +1,25 @@
+Variable.Name	Variable.Description
+SEQN	Respondent sequence number.
+SMAQUEX	Questionnaire Mode Flag.
+SMQ680	The following questions ask about use of tobacco or nicotine products in the past 5 days.  During the past 5 days, did {you/he/s
+SMQ690A	Which of these products did {you/he/she} use?
+SMQ690B	Which of these products did {you/he/she} use?
+SMQ690C	Which of these products did {you/he/she} use?
+SMQ690D	Which of these products did {you/he/she} use?
+SMQ690E	Which of these products did {you/he/she} use?
+SMQ690F	Which of these products did {you/he/she} use?
+SMQ710	During the past 5 days {including today}, on how many days did {you/he/she} smoke cigarettes?
+SMQ720	During the past 5 days, on the days {you/he/she} smoked, how many cigarettes did {you/he/she} smoke each day?
+SMQ725	When did {you/he/she} smoke {your/his/her} last cigarette? Was it...
+SMQ740	During the past 5 days (including today), on how many days did {you/he/she} smoke a pipe?
+SMQ750	During the past 5 days, on the days did {you/he/she} smoked a pipe, how many pipes did {you/he/she} smoke each day?
+SMQ755	When did {you/he/she} smoke {your/his/her} last pipe? Was it...
+SMQ770	During the past 5 days (including today), on how many days did {you/he/she} smoke cigars?
+SMQ780	During the past 5 days, on the days {you/he/she} smoked cigars, how many cigars did {you/he/she} smoke each day?
+SMQ785	When did {you/he/she} smoke {your/his/her} last cigar? Was it...
+SMQ800	During the past 5 days (including today), on how many days did {you/he/she} use chewing tobacco, such as Redman, Levi Garrett or
+SMQ815	When did {you/he/she} last use chewing tobacco? Was it...
+SMQ817	During the past 5 days {including today}, on how many days did {you/he/she} use snuff, such as Skoal, Skoal Bandits, or Copenhag
+SMQ819	When did {you/he/she} last use snuff? Was it...
+SMQ830	During the past 5 days (including today), on how many days did {you/he/she} use any product containing nicotine to help {you/he/
+SMQ840	When did {you/he/she} last use a product containing nicotine? Was it...
