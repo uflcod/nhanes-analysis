@@ -8,4 +8,5 @@ rec_vars <- nhanesTableVars('EXAM', 'OHXREF_G')    # oral health recommendation 
 ohq_vars <- nhanesTableVars('Q', 'OHQ_G')          # oral healh questionnaire
 rx_vars <- nhanesTableVars('Q', 'RXQ_RX_G')        # Rx questionnaire
 cig_vars <- nhanesTableVars('Q', 'SMQ_G')          # cigarette use questionnaire
+tobacco_vars <-  nhanesTableVars('Q', 'SMQRTU_G')  # smoking - recent tobacco use
 cfq_vars <- nhanesTableVars('Q', 'CFQ_G')          # cognitive functioning questionnaire

@@ -54,6 +54,11 @@ cig_vars <- nhanesTableVars('Q', 'SMQ_G')
 write_metadata(cig_vars, 'cigarette_meta.tsv')
 write_meta_values('SMQ_G', cig_vars)
 
+# save Smoking - Recent Tobacco Use (SMQRTU_G) 
+tobacco_vars <-  nhanesTableVars('Q', 'SMQRTU_G')
+write_metadata(tobacco_vars, 'tobacco_meta.tsv')
+write_meta_values('SMQRTU_G', tobacco_vars)
+
 # save Cognitive Functioning (CFQ_G) metadata
 cfq_vars <- nhanesTableVars('Q', 'CFQ_G')
 write_metadata(cfq_vars, 'cognitive_functioning_meta.tsv')

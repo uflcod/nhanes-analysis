@@ -35,6 +35,11 @@ write_data(rx_g, 'RXQ_RX_G_rx_medications.tsv')
 cig_g <- nhanes('SMQ_G')
 write_data(cig_g, 'SMQ_G_cigarette_use.tsv')
 
+# smoking - tobacco use questionnaire data
+tobacco_g <- nhanes('SMQRTU_G')
+write_data(tobacco_g, 'SMQRTU_G_smoking-recent_tobacco_use.tsv')
+
+  
 # cognitive functioning questionnaire data
 cfq_g <- nhanes('CFQ_G')
 write_data(cfq_g, 'CFQ_G_cognitive_functioning.tsv')
