@@ -41,7 +41,10 @@ def main(demo_file='../data/DEMO_G_demographics.tsv') -> pds.DataFrame:
     #    77: Refused
     #    99: Don't Know
     #    . : Missing
-    demo_df = demo_df[['RIDAGEYR', 'RIAGENDR', 'RIDRETH1', 'RIDRETH3', 'DMDMARTL']]
+    # 
+    # WTINT2YR: Full sample 2 year interview weight
+    # WTMEC2YR - Full sample 2 year MEC exam weight
+    demo_df = demo_df[['RIDAGEYR', 'RIAGENDR', 'RIDRETH1', 'RIDRETH3', 'DMDMARTL', 'WTINT2YR', 'WTMEC2YR']]
     print('demo_df len', len(demo_df))
 
     return demo_df
