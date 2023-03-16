@@ -17,6 +17,9 @@ def main():
             how='inner',
             on='SEQN'
         )
+
+    # drop NaNs
+    merged_df = merged_df.dropna()
     
     # merge in tobacco data
     merged_df = merged_df.merge(tobacco_df, how='inner', on='SEQN')
