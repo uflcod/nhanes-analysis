@@ -1,0 +1,17 @@
+pip
+pandas
+numpy
+matplotlib
+seaborn
+xgboost
+scikit-learn
+shap
+jupyter
+jupyterlab
+catboost
+keras
+tensorflow-metal==0.5.0 # note: need to use pinned version
+tensorflow-macos==2.9   # errors were caused by macos==2.11 and tensorflow-metal==0.7.0 :(
+imbalanced-learn
+scipy
+pydot
