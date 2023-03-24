@@ -54,7 +54,10 @@ def make_machine_learning_df(
     ):
     """automate process of creating the dataset used by machine learning methods"""
     # add test col
-    train_cols.append(test_col)
+    if type(test_col) == str:
+        train_cols.append(test_col)
+    else:
+        train_cols.extend(test_col)
 
     # add survey weight field to train_cols
     if use_survey_weight:
@@ -178,11 +181,118 @@ def plot_roc_curve(
         return plt
 
 
+def plot_model_score_results(
+        score_results,
+        figsize=(14,3), 
+        title="",
+        text_x=-0.2, 
+        text_y=0.8, 
+        legend_loc=4, 
+        plot_report=True,
+        text_size='x-small'
+    ):
+    
+    fig, axs = plt.subplots(1, 4, figsize=figsize)
+    
+    # grab test, pred, and probability for each model
+    axs_count = 0
+    for key, results in score_results.items():
+        ax = axs[axs_count]
+        
+        y_test, y_pred, y_proba, title = results.values()
+        
+        # print(model_name, y_test)
+        # calc false positive rate, true positive rate, and thresholds
+        fpr, tpr, _ = roc_curve(y_test,  y_proba)
+
+        # calc classification report and auc score
+        report = classification_report(y_test, y_pred, zero_division=0)
+        auc_score = round(roc_auc_score(y_test, y_proba), 5)
+        
+        #create ROC curve
+        #fig, ax = plt.figure(figsize=figsize)
+        
+        if title == "": # default title is the key
+            ax.title.set_text(key)
+        else:
+            ax.title.set_text(title)
+
+        ax.plot(fpr, tpr, label="AUC="+str(auc_score))
+        ax.set_ylabel('True Positive Rate')
+        ax.set_xlabel('False Positive Rate')
+        ax.legend(loc=legend_loc)
+        
+        if plot_report:
+            ax.text(x=text_x, y=-text_y, s=report, size=text_size)
+        
+        axs_count += 1
+
+    # Hide x labels and tick labels for top plots and y ticks for right plots.
+    for ax in axs.flat:
+        ax.label_outer()
+        
+    return plt
+
+
+def plot_train_test_counts(y_train, y_test):
+    plot_data = {
+        'data': [
+            'train - not low', 
+            'train - low', 
+            'test - not low', 
+            'test - low'
+        ], 
+        'count': [
+            len(y_train[y_train == 0]), 
+            len(y_train[y_train == 1]), 
+            len(y_test[y_test == 0]), 
+            len(y_test[y_test == 1])
+        ]
+    }
+    plot_df = pds.DataFrame(plot_data)
+
+    
+    plt.figure(figsize=(5,3))
+    sns.barplot(data=plot_df, x='data', y='count')
+
+    return plot
+
+
 def feature_imp(df,model):
     fi = pds.DataFrame()
     fi["feature"] = df.columns
     fi["importance"] = model.feature_importances_
     return fi.sort_values(by="importance", ascending=False)
+
+
+def plot_feature_importances(df, models):
+    fig, axs = plt.subplots(1, 4, figsize=(14,3))
+    kind='bar'
+    
+    axs_count = 0
+    for model in models:
+        ax = axs[axs_count]
+        ax.set_ylabel('Importance')
+        ax.set_xlabel('Feature')
+        
+        try:
+            plot_df = feature_imp(df, model)
+            #ax.plot( plot_df.feature, plot_df.importance, kind, legend=False)
+            # ax.xticks(rotation=30)
+            # ax.set_xticklabels(plot_df.feature, rotation=30)
+            ax.bar(plot_df.feature, plot_df.importance, width=0.5)
+            ax.set_xticks([0,1,2,3]) # hack to supress FixedLocator warning
+            ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+        except Exception as e:
+            # ax.text(x=0, y=0, s=str(e))
+            pass
+        finally:
+            axs_count += 1
+    
+    for ax in axs.flat:
+        ax.label_outer()
+        
+    return plt
 
 
 def plot_patient_age_gender(df, figsize=(12,2)):
@@ -272,6 +382,7 @@ def plot_countplot_row(dataframes, x, titles=[], figsize=(8,2), hues=[]):
             p.set(title=titles[n])
 
     return plt
+
 
 def add_cal_class(df: pds.DataFrame):
     """
