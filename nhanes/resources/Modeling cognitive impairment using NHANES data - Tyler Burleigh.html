@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+        Modeling cognitive impairment using NHANES data - Tyler Burleigh
+      </title>
+    
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000">
+  
+  <meta http-equiv="window-target" content="_top">
+  
+  
+  <meta name="description" content="In this blog post, I build a machine learning model to predict possible cases of cognitive impairment / dementia in a population of individuals over the age of 60. My data for this model comes from the 2013-2014 NHANES (National Health and Nutrition Examination Survey) study cohort, which is a nationally representative, longitudinal study of health in the US.
+As an outcome measure, I&amp;rsquo;ll create a composite index of cognition by combining data from the Animal Fluency and Digit Symbol Substitution tasks.">
+  <meta name="generator" content="Hugo 0.67.1 with theme pure">
+  <title>Modeling cognitive impairment using NHANES data - Tyler Burleigh</title>
+  
+
+  <link rel="stylesheet" href="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/style.css">
+  <link rel="stylesheet" href="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/github.min.css">
+  <link rel="stylesheet" href="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/tocbot.css">
+  <meta property="og:title" content="Modeling cognitive impairment using NHANES data">
+<meta property="og:description" content="In this blog post, I build a machine learning model to predict possible cases of cognitive impairment / dementia in a population of individuals over the age of 60. My data for this model comes from the 2013-2014 NHANES (National Health and Nutrition Examination Survey) study cohort, which is a nationally representative, longitudinal study of health in the US.
+As an outcome measure, I’ll create a composite index of cognition by combining data from the Animal Fluency and Digit Symbol Substitution tasks.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/">
+<meta property="article:published_time" content="2020-05-12T00:00:00+00:00">
+<meta property="article:modified_time" content="2020-05-12T00:00:00+00:00">
+<meta itemprop="name" content="Modeling cognitive impairment using NHANES data">
+<meta itemprop="description" content="In this blog post, I build a machine learning model to predict possible cases of cognitive impairment / dementia in a population of individuals over the age of 60. My data for this model comes from the 2013-2014 NHANES (National Health and Nutrition Examination Survey) study cohort, which is a nationally representative, longitudinal study of health in the US.
+As an outcome measure, I’ll create a composite index of cognition by combining data from the Animal Fluency and Digit Symbol Substitution tasks.">
+<meta itemprop="datePublished" content="2020-05-12T00:00:00+00:00">
+<meta itemprop="dateModified" content="2020-05-12T00:00:00+00:00">
+<meta itemprop="wordCount" content="1980">
+
+
+
+<meta itemprop="keywords" content="python,machine learning,cognition,NHANES,"><meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Modeling cognitive impairment using NHANES data">
+<meta name="twitter:description" content="In this blog post, I build a machine learning model to predict possible cases of cognitive impairment / dementia in a population of individuals over the age of 60. My data for this model comes from the 2013-2014 NHANES (National Health and Nutrition Examination Survey) study cohort, which is a nationally representative, longitudinal study of health in the US.
+As an outcome measure, I’ll create a composite index of cognition by combining data from the Animal Fluency and Digit Symbol Substitution tasks.">
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+  
+  
+
+  <body class="main-center" itemscope="" itemtype="http://schema.org/WebPage"><div id="MathJax_Message" style="display: none;"></div><header class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://tylerburleigh.com/" target="_blank">
+            <img class="img-circle img-rotate" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Tyler Burleigh</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Data Scientist</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>NYC</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search">
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+        
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-blog">
+                <a href="https://tylerburleigh.com/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Blog</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="https://tylerburleigh.com/page/about">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-publications">
+                <a href="https://tylerburleigh.com/page/writings/">
+                    <i class="icon icon-book-fill"></i>
+                  <span class="menu-title">Publications</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope="" itemtype="http://schema.org/WPSideBar">
+  <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 822px;"><div class="slimContent" style="overflow: hidden; width: auto; height: 822px;">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://tylerburleigh.com/categories/analysis/" class="category-list-link">analysis</a><span class="category-list-count">13</span></li>
+            <li class="category-list-item"><a href="https://tylerburleigh.com/categories/dataviz/" class="category-list-link">dataviz</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://tylerburleigh.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://tylerburleigh.com/categories/research/" class="category-list-link">research</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://tylerburleigh.com/categories/software/" class="category-list-link">software</a><span class="category-list-count">5</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/boosting/" class="tag-list-link">boosting</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/categorical/" class="tag-list-link">categorical</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/census/" class="tag-list-link">census</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/churn/" class="tag-list-link">churn</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/cognition/" class="tag-list-link">cognition</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/data-visualization/" class="tag-list-link">data-visualization</a><span class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/eda/" class="tag-list-link">eda</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/efficientnet/" class="tag-list-link">efficientnet</a><span class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/encoding/" class="tag-list-link">encoding</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/equity/" class="tag-list-link">equity</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/feature-selection/" class="tag-list-link">feature-selection</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/folium/" class="tag-list-link">folium</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/frontend/" class="tag-list-link">frontend</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/gis/" class="tag-list-link">gis</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/image-recognition/" class="tag-list-link">image-recognition</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/imagenet/" class="tag-list-link">imagenet</a><span class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/imdb/" class="tag-list-link">imdb</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/interactive/" class="tag-list-link">interactive</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/javascript/" class="tag-list-link">javascript</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/kaggle/" class="tag-list-link">kaggle</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/keras/" class="tag-list-link">keras</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/logistic-regression/" class="tag-list-link">logistic-regression</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/machine-learning/" class="tag-list-link">machine-learning</a><span class="tag-list-count">10</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/mapping/" class="tag-list-link">mapping</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/mturk/" class="tag-list-link">mturk</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/neural-networks/" class="tag-list-link">neural-networks</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/nhanes/" class="tag-list-link">nhanes</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/nodejs/" class="tag-list-link">nodejs</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/nutrition/" class="tag-list-link">nutrition</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/python/" class="tag-list-link">python</a><span class="tag-list-count">14</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/r/" class="tag-list-link">r</a><span class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/random-forest/" class="tag-list-link">random-forest</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/regression/" class="tag-list-link">regression</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/research/" class="tag-list-link">research</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/scraping/" class="tag-list-link">scraping</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/sms/" class="tag-list-link">sms</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/software/" class="tag-list-link">software</a><span class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/tensorflow/" class="tag-list-link">tensorflow</a><span class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/timeseries/" class="tag-list-link">timeseries</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/titanic/" class="tag-list-link">titanic</a><span class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/toy/" class="tag-list-link">toy</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/twilio/" class="tag-list-link">twilio</a><span class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://tylerburleigh.com/tags/voila/" class="tag-list-link">voila</a><span class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+  </div><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.15); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 497.925px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope="" itemtype="http://schema.org/WPSideBar">
+  <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 822px;"><div class="slimContent" style="overflow: hidden; width: auto; height: 822px;">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc"><ol class="toc-list "><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#cognitive-functioning-data" class="toc-link node-name--H2 ">Cognitive functioning data</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#number-of-observations" class="toc-link node-name--H2 ">Number of observations</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#score-distributions" class="toc-link node-name--H2 ">Score distributions</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#composite-scoring" class="toc-link node-name--H2 ">Composite scoring</a></li><li class="toc-list-item is-active-li"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#what-is-low-cognition" class="toc-link node-name--H2  is-active-link">What is “low” cognition?</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#model-features" class="toc-link node-name--H2 ">Model features</a><ol class="toc-list  is-collapsible is-collapsed"><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#recoding-variables" class="toc-link node-name--H3 ">Recoding variables</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#missing-values" class="toc-link node-name--H3 ">Missing values</a></li></ol></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#preprocessing" class="toc-link node-name--H1 ">Preprocessing</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#xgboost-model" class="toc-link node-name--H1 ">XGBoost model</a><ol class="toc-list  is-collapsible is-collapsed"><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#baseline-model" class="toc-link node-name--H2 ">Baseline model</a><ol class="toc-list  is-collapsible is-collapsed"><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#test-performance" class="toc-link node-name--H3 ">Test performance</a></li></ol></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#biasing-the-model-towards-specificity" class="toc-link node-name--H2 ">Biasing the model towards specificity</a></li><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#model-with-hyperparameter-tuning" class="toc-link node-name--H2 ">Model with hyperparameter tuning</a><ol class="toc-list  is-collapsible is-collapsed"><li class="toc-list-item"><a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#test-performance-1" class="toc-link node-name--H3 ">Test performance</a></li></ol></li></ol></li></ol></nav>
+  </div><div class="slimScrollBar" style="background: rgba(0, 0, 0, 0.15); width: 5px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+</aside>
+<main class="main has-sticky" role="main"><div class="content">
+  <article id="-modeling-cognitive-impairment-using-nhanes-data" class="article article-type-" itemscope="" itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a class="article-title" href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/">Modeling cognitive impairment using NHANES data</a>
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/" class="article-date">
+  <time datetime="2020-05-12 00:00:00 +0000 UTC" itemprop="datePublished">2020-05-12</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="https://tylerburleigh.com/categories/analysis/"> Analysis </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+    <a class="article-tag-link" href="https://tylerburleigh.com/tags/python/"> python </a>
+    <a class="article-tag-link" href="https://tylerburleigh.com/tags/machine-learning/"> machine learning </a>
+    <a class="article-tag-link" href="https://tylerburleigh.com/tags/cognition/"> cognition </a>
+    <a class="article-tag-link" href="https://tylerburleigh.com/tags/nhanes/"> NHANES </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/#comments" class="article-comment-link">Comments</a></span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>In this blog post, I build a machine learning model to predict possible cases of cognitive impairment / dementia in a population of individuals over the age of 60. My data for this model comes from the 2013-2014 NHANES (National Health and Nutrition Examination Survey) study cohort, which is a nationally representative, longitudinal study of health in the US.</p>
+<p>As an outcome measure, I’ll create a composite index of cognition by combining data from the Animal Fluency and Digit Symbol Substitution tasks. As predictors of this outcome, I’ll pull together variables that seem relevant to predicting dementia at a population level. For example, variables like age, race, gender, BMI, depression symptoms, alcohol use, blood lead levels, etc.</p>
+<p>I’ll use xgboost to train the model, and I’ll walk through a hypothetical use-case for the model, discussing what might be the appropriate model bias (e.g., specificity/recall).</p>
+<pre><code class="language-python hljs"><span class="keyword">import</span> wget
+<span class="keyword">import</span> pandas <span class="keyword">as</span> pd
+<span class="keyword">import</span> numpy <span class="keyword">as</span> np
+<span class="keyword">import</span> seaborn <span class="keyword">as</span> sns
+<span class="keyword">from</span> matplotlib <span class="keyword">import</span> pyplot <span class="keyword">as</span> plt
+</code></pre>
+<p>The data is obtained from the <a href="https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Questionnaire&amp;CycleBeginYear=2013">NHANES website</a>, for the 2013-2014 study cohort.</p>
+<p>Data files are converted from XPT to CSV.</p>
+<pre><code class="language-python hljs"><span class="comment"># Base path for downloading</span>
+base = <span class="string">'https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/'</span>
+
+<span class="comment"># Files to download</span>
+files = [<span class="string">'DEMO_H.XPT'</span>, <span class="string">'CFQ_H.XPT'</span>, <span class="string">'COT_H.XPT'</span>, <span class="string">'BPX_H.XPT'</span>,
+        <span class="string">'BMX_H.XPT'</span>, <span class="string">'MGX_H.XPT'</span>, <span class="string">'CSX_H.XPT'</span>, <span class="string">'HSQ_H.XPT'</span>,
+        <span class="string">'DIQ_H.XPT'</span>, <span class="string">'DPQ_H.XPT'</span>, <span class="string">'ALQ_H.XPT'</span>, <span class="string">'SLQ_H.XPT'</span>,
+        <span class="string">'VID_H.XPT'</span>, <span class="string">'VITB12_H.XPT'</span>, <span class="string">'DBQ_H.XPT'</span>,
+        <span class="string">'PBCD_H.XPT'</span>, <span class="string">'BIOPRO_H.XPT'</span>, <span class="string">'INQ_H.XPT'</span>]
+
+<span class="keyword">for</span> file <span class="keyword">in</span> files:
+    xpt_file = <span class="string">'data/'</span> + file
+    csv_file = xpt_file + <span class="string">'.csv'</span>
+    wget.download(base + file, xpt_file)
+    !xport $xpt_file &gt; $csv_file
+</code></pre>
+<pre><code class="hljs shell"><span class="meta">100%</span><span class="bash"> [..........................................................................] 1223920 / 1223920</span>
+</code></pre>
+<p>Read the files into a single dataframe by joining on participant ID (<code>SEQN</code>).</p>
+<pre><code class="language-python hljs"><span class="comment"># Read first file</span>
+df = pd.read_csv(<span class="string">'data/DEMO_H.XPT.csv'</span>)
+
+<span class="comment"># Loop through remaining files and join together</span>
+<span class="keyword">for</span> file <span class="keyword">in</span> files[<span class="number">1</span>:]:
+    tmp = pd.read_csv(<span class="string">'data/'</span> + file + <span class="string">'.csv'</span>)
+    df = df.join(tmp.set_index(<span class="string">'SEQN'</span>), on=<span class="string">'SEQN'</span>)
+    
+<span class="comment"># Drop duplicates by SEQN</span>
+df.drop_duplicates(subset=<span class="string">'SEQN'</span>, keep=<span class="string">'first'</span>, inplace=<span class="literal">True</span>)
+</code></pre>
+<pre><code class="language-python hljs">df.shape
+</code></pre>
+<pre><code class="hljs">(10175, 393)
+</code></pre>
+<h2 id="cognitive-functioning-data">Cognitive functioning data</h2>
+<p>This dataset contains multiple tests on which cognitive functioning was assessed. For this analysis, I will be considering the Animal Fluency Task (AFT) and the Digit Symbol Substitution Task (DSST). These tasks measure different aspects of cognition.</p>
+<p>In past research, these tasks have each been shown to discriminate between populations with and without dementia. For example, see <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2880929">Howe (2007)</a> or <a href="https://academic.oup.com/ageing/article/45/5/688/2236919">Rosano et al. [2016]</a>.</p>
+<p>I will take these measures and combine them to create a composite measure of cognition. By creating a composite, I will be able to reduce measurement noise or bias.</p>
+<p>To create a composite, I will first “standardize” each score using z-score normalization so that each score represents a standardized difference from the the mean of its distribution. I will then take the average of the standardized scores.</p>
+<h2 id="number-of-observations">Number of observations</h2>
+<p>According to the <a href="https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/CFQ_H.htm#CFDAST">documentation on NHANES</a>, there should be 1661 individuals with scores on the Animal Fluency Task (AFT), and 1592 participants with scores on the Digit Symbol Substitution Task (DSST). Here we can see that the intersection of individuals who completed AFT and DSST tasks is 1575.</p>
+<pre><code class="language-python hljs">print(len(df)) <span class="comment"># All participants in the dataset</span>
+print(len(df[df[<span class="string">'RIDAGEYR'</span>] &gt; <span class="number">60</span>])) <span class="comment"># All participants over 60</span>
+print(df[<span class="string">'CFDAST'</span>].notnull().sum()) <span class="comment"># Participants with AFT scores</span>
+print(df[<span class="string">'CFDDS'</span>].notnull().sum()) <span class="comment"># Participants with DSST scores</span>
+len(df[df[<span class="string">'CFDAST'</span>].notnull() &amp; df[<span class="string">'CFDDS'</span>].notnull()]) <span class="comment"># Individuals with both AFT and DSST</span>
+
+df2 = df[df[<span class="string">'CFDAST'</span>].notnull() &amp; df[<span class="string">'CFDDS'</span>].notnull()].reset_index()
+</code></pre>
+<pre><code class="hljs">10175
+1729
+1661
+1592
+</code></pre>
+<h2 id="score-distributions">Score distributions</h2>
+<p>Below we can see that the distribution of scores on each task are approximately normal.</p>
+<pre><code class="language-python hljs">plt.hist(df2[<span class="string">'CFDAST'</span>], bins=<span class="number">35</span>)
+plt.title(<span class="string">"Animal Fluency Scores"</span>)
+plt.show()
+plt.hist(df2[<span class="string">'CFDDS'</span>], bins=<span class="number">35</span>)
+plt.title(<span class="string">"Digit Symbol Substitution Scores"</span>)
+</code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_13_0.png" alt="png"></p>
+<pre><code class="hljs bash">Text(0.5, 1.0, <span class="string">'Digit Symbol Substitution Scores'</span>)
+</code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_13_2.png" alt="png"></p>
+<h2 id="composite-scoring">Composite scoring</h2>
+<p>First I’ll standardize each of the test columns.</p>
+<pre><code class="language-python hljs"><span class="keyword">from</span> scipy.stats <span class="keyword">import</span> zscore
+df2[<span class="string">'DSST_z'</span>] = df2[<span class="string">'CFDDS'</span>].pipe(zscore)
+df2[<span class="string">'AFT_z'</span>] = df2[<span class="string">'CFDAST'</span>].pipe(zscore)
+</code></pre>
+<p>Next, I’ll create a composite by taking the average of the two standardized scores.</p>
+<pre><code class="language-python hljs">df2[<span class="string">'COG'</span>] = (df2[<span class="string">'DSST_z'</span>] + df2[<span class="string">'AFT_z'</span>]) / <span class="number">2</span>
+</code></pre>
+<p>Finally, I’ll check to make sure that the distribution of composite scores is still normal.</p>
+<pre><code class="language-python hljs">plt.hist(df2[<span class="string">'COG'</span>], bins=<span class="number">35</span>)
+plt.title(<span class="string">"Composite Cognition"</span>)
+</code></pre>
+<pre><code class="hljs bash">Text(0.5, 1.0, <span class="string">'Composite Cognition'</span>)
+</code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_20_1.png" alt="png"></p>
+<h2 id="what-is-low-cognition">What is “low” cognition?</h2>
+<p>Since these are standardized scores, we can say that low cognition represents 1 standardized unit below the mean.</p>
+<pre><code class="language-python hljs">plt.hist(df2[<span class="string">'COG'</span>], bins=<span class="number">35</span>)
+plt.axvline(x=<span class="number">-1</span>, color=<span class="string">'red'</span>, linestyle=<span class="string">'--'</span>)
+plt.title(<span class="string">"Composite Cognition with Threshold"</span>)
+</code></pre>
+<pre><code class="hljs bash">Text(0.5, 1.0, <span class="string">'Composite Cognition with Threshold'</span>)
+</code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_22_1.png" alt="png"></p>
+<p>I’ll create a variable to track this classification.</p>
+<pre><code class="language-python hljs">df2[<span class="string">'COG_low'</span>] = df2[<span class="string">'COG'</span>] &lt; <span class="number">-1</span>
+</code></pre>
+<h2 id="model-features">Model features</h2>
+<p>I’ll collect all the features that I think might be interesting.</p>
+<pre><code class="language-python hljs">features = {<span class="comment"># Composite cognition score</span>
+            <span class="string">'COG'</span>: <span class="string">'cognition'</span>,
+            <span class="string">'COG_low'</span>: <span class="string">'cognition_impaired'</span>,
+    
+            <span class="comment"># Demographics</span>
+            <span class="string">'RIAGENDR'</span>: <span class="string">'gender'</span>, 
+            <span class="string">'RIDAGEYR'</span>: <span class="string">'age'</span>,
+            <span class="string">'RIDRETH1'</span>: <span class="string">'race'</span>,
+            
+            <span class="comment"># Poverty level</span>
+            <span class="string">'INDFMMPI'</span>: <span class="string">'poverty'</span>,
+            
+            <span class="comment"># Body mass index</span>
+            <span class="string">'BMXBMI'</span>: <span class="string">'bmi'</span>,
+            
+            <span class="comment"># Alcohol use</span>
+            <span class="string">'ALQ120Q'</span>: <span class="string">'alcohol_days'</span>,
+            
+            <span class="comment"># Blood vitamin levels</span>
+            <span class="string">'LBXVIDMS'</span>: <span class="string">'vit_d'</span>,
+            <span class="string">'LBDB12'</span>: <span class="string">'vit_b12'</span>,
+            
+            <span class="comment"># Diet</span>
+            <span class="string">'DBQ700'</span>: <span class="string">'diet_healthy'</span>,
+            
+            <span class="comment"># Lead</span>
+            <span class="string">'LBXBPB'</span>: <span class="string">'blood_lead'</span>,
+            
+            <span class="comment"># Blood nicotine metabolite</span>
+            <span class="string">'LBXCOT'</span>: <span class="string">'cotinine'</span>,
+            
+            <span class="comment"># Grip strength</span>
+            <span class="comment"># https://wwwn.cdc.gov/Nchs/Nhanes/2013-2014/MGX_H.htm#MGDCGSZ</span>
+            <span class="string">'MGDCGSZ'</span>: <span class="string">'grip_strength'</span>,
+            
+            <span class="comment"># Smell test</span>
+            <span class="string">'CSXCHOOD'</span>: <span class="string">'smell_choco'</span>,
+            <span class="string">'CSXSBOD'</span>: <span class="string">'smell_strawberry'</span>,
+            <span class="string">'CSXSMKOD'</span>: <span class="string">'smell_smoke'</span>,
+            <span class="string">'CSXLEAOD'</span>: <span class="string">'smell_leather'</span>,
+            <span class="string">'CSXSOAOD'</span>: <span class="string">'smell_soap'</span>,
+            <span class="string">'CSXGRAOD'</span>: <span class="string">'smell_grape'</span>,
+            <span class="string">'CSXONOD'</span>: <span class="string">'smell_onion'</span>,
+            <span class="string">'CSXNGSOD'</span>: <span class="string">'smell_gas'</span>,
+            
+            <span class="comment"># Health in general</span>
+            <span class="string">'HSD010'</span>: <span class="string">'health_general'</span>,
+            
+            <span class="comment"># Depression screener</span>
+            <span class="string">'DPQ010'</span>: <span class="string">'dep_1'</span>,
+            <span class="string">'DPQ020'</span>: <span class="string">'dep_2'</span>,
+            <span class="string">'DPQ030'</span>: <span class="string">'dep_3'</span>,
+            <span class="string">'DPQ040'</span>: <span class="string">'dep_4'</span>,
+            <span class="string">'DPQ050'</span>: <span class="string">'dep_5'</span>,
+            <span class="string">'DPQ060'</span>: <span class="string">'dep_6'</span>,
+            <span class="string">'DPQ070'</span>: <span class="string">'dep_7'</span>,
+            <span class="string">'DPQ080'</span>: <span class="string">'dep_8'</span>,
+            <span class="string">'DPQ090'</span>: <span class="string">'dep_9'</span>,
+            
+            <span class="comment"># Sleep</span>
+            <span class="string">'SLD010H'</span>: <span class="string">'sleep'</span>,
+            
+            <span class="comment"># Heart rate</span>
+            <span class="string">'BPXPLS'</span>: <span class="string">'heart_rate'</span>
+            }
+
+df2 = df2.loc[:, list(features)]
+df2 = df2.rename(columns=features)
+</code></pre>
+<h3 id="recoding-variables">Recoding variables</h3>
+<p>Some of the features need to be combined. For example, the smell tests can all be combined into a single “smell test” score; the depression scale can be converted into a single depression score.</p>
+<p>On some features the values are numeric but not ordinal. For example, on the depression scale scores 0-3 represent increasing levels of depression symptom severity, but a score of “9” means “don’t know” and a score of “7” means “refused”. This will be important to catch in the variable coding.</p>
+<h4 id="depression-items">Depression items</h4>
+<p>First I’ll score the depression items. I’ll take the mean of all the items responded to.</p>
+<pre><code class="language-python hljs">items = [<span class="string">'dep_1'</span>, <span class="string">'dep_2'</span>, <span class="string">'dep_3'</span>, <span class="string">'dep_4'</span>,
+        <span class="string">'dep_5'</span>, <span class="string">'dep_6'</span>, <span class="string">'dep_7'</span>, <span class="string">'dep_8'</span>,
+        <span class="string">'dep_9'</span>]
+
+<span class="function"><span class="keyword">def</span> <span class="title">score_depression</span><span class="params">(x)</span>:</span>
+    
+    scores = []
+    
+    <span class="keyword">for</span> item <span class="keyword">in</span> items:
+        value = x[item]
+        <span class="keyword">if</span> value &lt; <span class="number">4</span>:
+            scores.append(value)
+    
+    <span class="keyword">if</span> len(scores) == <span class="number">0</span>:
+        <span class="keyword">return</span> <span class="literal">None</span>
+    <span class="keyword">else</span>:
+        <span class="keyword">return</span> np.mean(scores)
+    
+
+df2.loc[:, <span class="string">'dep_tot'</span>] = df2.apply(score_depression, axis=<span class="number">1</span>)
+df2.drop(items, axis=<span class="number">1</span>, inplace=<span class="literal">True</span>)
+</code></pre>
+<h4 id="smell-test">Smell test</h4>
+<p>Next, I’ll score the smell test items. Each item has one correct response and several incorrect responses. I’ll take the mean number of correct responses.</p>
+<pre><code class="language-python hljs">items = [<span class="string">'smell_choco'</span>, <span class="string">'smell_strawberry'</span>,
+         <span class="string">'smell_smoke'</span>, <span class="string">'smell_leather'</span>,
+         <span class="string">'smell_soap'</span>, <span class="string">'smell_grape'</span>,
+         <span class="string">'smell_onion'</span>, <span class="string">'smell_gas'</span>]
+
+<span class="function"><span class="keyword">def</span> <span class="title">score_smell</span><span class="params">(x)</span>:</span>
+    
+    scores = []
+    
+    <span class="keyword">if</span> x[<span class="string">'smell_choco'</span>] == <span class="number">2</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_choco'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_strawberry'</span>] == <span class="number">1</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_strawberry'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_smoke'</span>] == <span class="number">3</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_smoke'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_leather'</span>] == <span class="number">3</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_leather'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_soap'</span>] == <span class="number">1</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_soap'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_grape'</span>] == <span class="number">2</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_grape'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_onion'</span>] == <span class="number">3</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_onion'</span>]):
+        scores.append(<span class="number">0</span>)
+        
+    <span class="keyword">if</span> x[<span class="string">'smell_gas'</span>] == <span class="number">4</span>:
+        scores.append(<span class="number">1</span>)
+    <span class="keyword">elif</span> ~np.isnan(x[<span class="string">'smell_gas'</span>]):
+        scores.append(<span class="number">0</span>)
+    
+    <span class="keyword">if</span> len(scores) == <span class="number">0</span>:
+        <span class="keyword">return</span> <span class="literal">None</span>
+    <span class="keyword">else</span>:
+        <span class="keyword">return</span> np.nanmean(scores)
+
+df2.loc[:, <span class="string">'smell_tot'</span>] = df2.apply(score_smell, axis=<span class="number">1</span>)
+df2.drop(items, axis=<span class="number">1</span>, inplace=<span class="literal">True</span>)
+</code></pre>
+<h4 id="others">Others</h4>
+<p>Replace “Don’t know” and “Refused” with missing.</p>
+<pre><code class="language-python hljs">df2[<span class="string">'health_general'</span>].replace([<span class="number">9.0</span>, <span class="number">7.0</span>], [np.nan, np.nan], inplace=<span class="literal">True</span>)
+df2[<span class="string">'sleep'</span>].replace([<span class="number">99.0</span>, <span class="number">77.0</span>], [np.nan, np.nan], inplace=<span class="literal">True</span>)
+df2[<span class="string">'alcohol_days'</span>].replace([<span class="number">999.0</span>, <span class="number">777.0</span>], [np.nan, np.nan], inplace=<span class="literal">True</span>)
+df2[<span class="string">'diet_healthy'</span>].replace([<span class="number">9.0</span>, <span class="number">7.0</span>], [np.nan, np.nan], inplace=<span class="literal">True</span>)
+</code></pre>
+<h3 id="missing-values">Missing values</h3>
+<p>How many values are missing in each column?</p>
+<pre><code class="language-python hljs">print(<span class="string">'% missing values'</span>)
+round(df2.isnull().sum() / len(df2) * <span class="number">100</span>)
+</code></pre>
+<pre><code class="hljs properties"><span class="meta">%</span> <span class="string">missing values</span>
+
+
+
+
+
+<span class="attr">cognition</span>              <span class="string">0.0</span>
+<span class="attr">cognition_impaired</span>     <span class="string">0.0</span>
+<span class="attr">gender</span>                 <span class="string">0.0</span>
+<span class="attr">age</span>                    <span class="string">0.0</span>
+<span class="attr">race</span>                   <span class="string">0.0</span>
+<span class="attr">poverty</span>               <span class="string">11.0</span>
+<span class="attr">bmi</span>                    <span class="string">1.0</span>
+<span class="attr">alcohol_days</span>          <span class="string">18.0</span>
+<span class="attr">vit_d</span>                  <span class="string">3.0</span>
+<span class="attr">vit_b12</span>                <span class="string">4.0</span>
+<span class="attr">diet_healthy</span>           <span class="string">0.0</span>
+<span class="attr">blood_lead</span>            <span class="string">51.0</span>
+<span class="attr">cotinine</span>               <span class="string">4.0</span>
+<span class="attr">grip_strength</span>         <span class="string">11.0</span>
+<span class="attr">health_general</span>         <span class="string">2.0</span>
+<span class="attr">sleep</span>                  <span class="string">0.0</span>
+<span class="attr">heart_rate</span>             <span class="string">3.0</span>
+<span class="attr">dep_tot</span>                <span class="string">2.0</span>
+<span class="attr">smell_tot</span>              <span class="string">3.0</span>
+<span class="attr">dtype</span>: <span class="string">float64</span>
+</code></pre>
+<h1 id="preprocessing">Preprocessing</h1>
+<p>I will use median imputation for missing numeric values.</p>
+<pre><code class="language-python hljs"><span class="keyword">from</span> sklearn.compose <span class="keyword">import</span> ColumnTransformer
+<span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> LabelEncoder, OneHotEncoder
+<span class="keyword">from</span> sklearn.impute <span class="keyword">import</span> SimpleImputer
+
+X = df2.drop([<span class="string">'cognition'</span>, <span class="string">'cognition_impaired'</span>], axis=<span class="number">1</span>) <span class="comment"># Features</span>
+y = df2[<span class="string">'cognition'</span>] <span class="comment"># Outcome raw</span>
+y2 = df2[<span class="string">'cognition_impaired'</span>] <span class="comment"># Outcome binary</span>
+
+ct = ColumnTransformer(
+    [
+        <span class="comment">#('ohe', OneHotEncoder(sparse=False, handle_unknown='ignore'), [1, 3]),</span>
+        (<span class="string">'impute'</span>, SimpleImputer(strategy=<span class="string">'median'</span>), [<span class="number">0</span>, <span class="number">-2</span>]),
+    ],
+    remainder=<span class="string">'passthrough'</span>
+)
+X_arr = ct.fit_transform(X)
+</code></pre>
+<h1 id="xgboost-model">XGBoost model</h1>
+<p>Next I’ll train a model to predict the composite cognition score using xgboost.</p>
+<p>I’ll stratify the train-test split on the classification of healthy/impaired cognition.</p>
+<pre><code class="language-python hljs"><span class="keyword">from</span> xgboost <span class="keyword">import</span> XGBRegressor, XGBClassifier
+<span class="keyword">from</span> xgboost <span class="keyword">import</span> plot_importance
+<span class="keyword">from</span> sklearn.model_selection <span class="keyword">import</span> train_test_split, RandomizedSearchCV
+<span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> accuracy_score, precision_score, recall_score, roc_curve, roc_auc_score, plot_roc_curve, confusion_matrix
+
+X_train, X_test, y_train, y_test = train_test_split(X_arr, y2, 
+                                                    test_size=<span class="number">0.2</span>, 
+                                                    random_state=<span class="number">42</span>,
+                                                    stratify=y2)
+</code></pre>
+<h2 id="baseline-model">Baseline model</h2>
+<p>I’ll train a baseline xgboost model, without any parameter tuning. This will give me a general sense of the model’s performance.</p>
+<pre><code class="language-python hljs">model = XGBClassifier()
+model.fit(X_train, y_train)
+</code></pre>
+<pre><code class="hljs properties"><span class="meta">XGBClassifier(base_score</span>=<span class="string">0.5, booster=None, colsample_bylevel=1,</span>
+              <span class="attr">colsample_bynode</span>=<span class="string">1, colsample_bytree=1, gamma=0, gpu_id=-1,</span>
+              <span class="attr">importance_type</span>=<span class="string">'gain', interaction_constraints=None,</span>
+              <span class="attr">learning_rate</span>=<span class="string">0.300000012, max_delta_step=0, max_depth=6,</span>
+              <span class="attr">min_child_weight</span>=<span class="string">1, missing=nan, monotone_constraints=None,</span>
+              <span class="attr">n_estimators</span>=<span class="string">100, n_jobs=0, num_parallel_tree=1,</span>
+              <span class="attr">objective</span>=<span class="string">'binary:logistic', random_state=0, reg_alpha=0,</span>
+              <span class="attr">reg_lambda</span>=<span class="string">1, scale_pos_weight=1, subsample=1, tree_method=None,</span>
+              <span class="attr">validate_parameters</span>=<span class="string">False, verbosity=None)</span>
+</code></pre>
+<pre><code class="language-python hljs">model.score(X_test, y_test)
+</code></pre>
+<pre><code class="hljs css">0<span class="selector-class">.8571428571428571</span>
+</code></pre>
+<h3 id="test-performance">Test performance</h3>
+<p>How did the model perform on the test set?</p>
+<pre><code class="language-python hljs">preds = model.predict(X_test)
+print(<span class="string">"Accuracy: %.2f%%"</span> % (accuracy_score(y_test, preds) * <span class="number">100.0</span>))
+print(<span class="string">"Precision: %.2f%%"</span> % (precision_score(y_test, preds) * <span class="number">100.0</span>))
+print(<span class="string">"Recall: %.2f%%"</span> % (recall_score(y_test, preds) * <span class="number">100.0</span>))
+plot_roc_curve(model, X_test, y_test)
+</code></pre>
+<pre><code class="hljs http"><span class="attribute">Accuracy</span>: 85.71%
+<span class="attribute">Precision</span>: 40.91%
+<span class="attribute">Recall</span>: 21.95%
+
+<span class="http">
+
+<span class="http">
+
+<span class="css">&lt;<span class="selector-tag">sklearn</span><span class="selector-class">.metrics</span><span class="selector-class">._plot</span><span class="selector-class">.roc_curve</span><span class="selector-class">.RocCurveDisplay</span> <span class="selector-tag">at</span> 0<span class="selector-tag">x25115f7c7c8</span>&gt;
+</span></span></span></code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_45_2.png" alt="png"></p>
+<pre><code class="language-python hljs">tn, fp, fn, tp = confusion_matrix(y_test, preds).ravel()
+print(<span class="string">f"True Pos: <span class="subst">{tp}</span>"</span> , <span class="string">f"\nFalse Neg: <span class="subst">{fn}</span>"</span>, <span class="string">f"\nFalse Pos: <span class="subst">{fp}</span>"</span>)
+</code></pre>
+<pre><code class="hljs yaml"><span class="literal">True</span> <span class="attr">Pos:</span> <span class="number">9</span> 
+<span class="literal">False</span> <span class="attr">Neg:</span> <span class="number">32</span> 
+<span class="literal">False</span> <span class="attr">Pos:</span> <span class="number">13</span>
+</code></pre>
+<h2 id="biasing-the-model-towards-specificity">Biasing the model towards specificity</h2>
+<p>The model didn’t perform very well on specificity (a.k.a. recall), meaning that among the 41 individuals with cognitive impairment, the model was only able to correctly identify 22% of them.</p>
+<p>Let’s imagine a scenario in which we might want to bias the model towards high specificity:</p>
+<p>Imagine the model is will be used to identify possible cases of dementia and when the model identifies a case of dementia they will be invited back for further testing to make a diagnosis with much higher precision. In this case, false positives would arguably carry a low risk because (let’s say for the sake of argument) further testing will be harmless and individuals who are healthy will be discovered as healthy. On the other side of the equation, let’s say that there is a high risk of negative consequences for anyone cases of dementia that go missed (and therefore untreated).</p>
+<p>This is a case where we would want to optimize for detecting cases of dementia at risk of having an inflated false-positive rate.</p>
+<p>Now, one of the reasons for poor recall performance was the imbalanced classes used to train the data. That is to say, the impaired class had many fewer examples than the healthy class. I can correct for this using a weighting parameter when I instantiate the model, setting it to the ratio of healthy-to-impaired examples.</p>
+<pre><code class="language-python hljs">impaired = len(df2[df2[<span class="string">'cognition_impaired'</span>] == <span class="literal">True</span>])
+healthy = len(df2[df2[<span class="string">'cognition_impaired'</span>] == <span class="literal">False</span>])
+imbalance_ratio = healthy / impaired
+print(imbalance_ratio)
+</code></pre>
+<pre><code class="hljs css">6<span class="selector-class">.720588235294118</span>
+</code></pre>
+<pre><code class="language-python hljs">model = XGBClassifier(scale_pos_weight = imbalance_ratio)
+model.fit(X_train, y_train)
+model.score(X_test, y_test)
+</code></pre>
+<pre><code class="hljs css">0<span class="selector-class">.8444444444444444</span>
+</code></pre>
+<pre><code class="language-python hljs">preds = model.predict(X_test)
+print(<span class="string">"Accuracy: %.2f%%"</span> % (accuracy_score(y_test, preds) * <span class="number">100.0</span>))
+print(<span class="string">"Precision: %.2f%%"</span> % (precision_score(y_test, preds) * <span class="number">100.0</span>))
+print(<span class="string">"Recall: %.2f%%"</span> % (recall_score(y_test, preds) * <span class="number">100.0</span>))
+plot_roc_curve(model, X_test, y_test)
+</code></pre>
+<pre><code class="hljs http"><span class="attribute">Accuracy</span>: 84.44%
+<span class="attribute">Precision</span>: 39.47%
+<span class="attribute">Recall</span>: 36.59%
+
+<span class="http">
+
+<span class="http">
+
+<span class="css">&lt;<span class="selector-tag">sklearn</span><span class="selector-class">.metrics</span><span class="selector-class">._plot</span><span class="selector-class">.roc_curve</span><span class="selector-class">.RocCurveDisplay</span> <span class="selector-tag">at</span> 0<span class="selector-tag">x25116152d08</span>&gt;
+</span></span></span></code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_50_2.png" alt="png"></p>
+<pre><code class="language-python hljs">tn, fp, fn, tp = confusion_matrix(y_test, preds).ravel()
+print(<span class="string">f"True Pos: <span class="subst">{tp}</span>"</span> , <span class="string">f"\nFalse Neg: <span class="subst">{fn}</span>"</span>, <span class="string">f"\nFalse Pos: <span class="subst">{fp}</span>"</span>)
+</code></pre>
+<pre><code class="hljs yaml"><span class="literal">True</span> <span class="attr">Pos:</span> <span class="number">15</span> 
+<span class="literal">False</span> <span class="attr">Neg:</span> <span class="number">26</span> 
+<span class="literal">False</span> <span class="attr">Pos:</span> <span class="number">23</span>
+</code></pre>
+<h2 id="model-with-hyperparameter-tuning">Model with hyperparameter tuning</h2>
+<p>I’ve managed to bias the model to improve its specificity. This has resulted in more true positives at the cost of more false positives. But I think I can improve this metric even further by searching through the “hyperparameter space” and considering alternative models that optimize for this metric. This is what I’ll do next using random search.</p>
+<pre><code class="language-python hljs"><span class="comment"># Parameter grid</span>
+gbm_param_grid = {
+    <span class="string">'n_estimators'</span>: np.arange(<span class="number">20</span>, <span class="number">100</span>, <span class="number">10</span>),
+    <span class="string">'max_depth'</span>: range(<span class="number">2</span>, <span class="number">10</span>),
+    <span class="string">'colsample_bytree'</span>: np.arange(<span class="number">0.1</span>, <span class="number">1.0</span>, <span class="number">0.005</span>),
+    <span class="string">'eta'</span>: np.arange(<span class="number">0.1</span>, <span class="number">1.0</span>, <span class="number">0.01</span>),
+    <span class="string">'scale_pos_weight'</span>: [imbalance_ratio]
+}
+
+<span class="comment"># Initialize regressor</span>
+gbm = XGBClassifier()
+
+<span class="comment"># Random search</span>
+randomized_mse = RandomizedSearchCV(param_distributions=gbm_param_grid, 
+                                    estimator=gbm, 
+                                    scoring=<span class="string">'recall'</span>, 
+                                    n_iter=<span class="number">500</span>, 
+                                    cv=<span class="number">4</span>, 
+                                    random_state=<span class="number">42</span>,
+                                    verbose=<span class="number">1</span>)
+
+<span class="comment"># Fit to data</span>
+randomized_mse.fit(X_train, y_train)
+
+<span class="comment"># Print the best parameters and lowest RMSE</span>
+print(<span class="string">"Best parameters found: "</span>, randomized_mse.best_params_)
+</code></pre>
+<pre><code class="hljs sql">Fitting 4 folds for each of 500 candidates, totalling 2000 fits
+
+
+[Parallel(n_jobs=1)]: Using backend SequentialBackend <span class="keyword">with</span> <span class="number">1</span> <span class="keyword">concurrent</span> workers.
+
+
+Best <span class="keyword">parameters</span> <span class="keyword">found</span>:  {<span class="string">'scale_pos_weight'</span>: <span class="number">6.720588235294118</span>, <span class="string">'n_estimators'</span>: <span class="number">20</span>, <span class="string">'max_depth'</span>: <span class="number">2</span>, <span class="string">'eta'</span>: <span class="number">0.21999999999999995</span>, <span class="string">'colsample_bytree'</span>: <span class="number">0.49500000000000033</span>}
+
+
+[<span class="keyword">Parallel</span>(n_jobs=<span class="number">1</span>)]: Done <span class="number">2000</span> <span class="keyword">out</span> <span class="keyword">of</span> <span class="number">2000</span> | elapsed:  <span class="number">2.1</span><span class="keyword">min</span> finished
+</code></pre>
+<h3 id="test-performance-1">Test performance</h3>
+<pre><code class="language-python hljs">preds = randomized_mse.predict(X_test)
+print(<span class="string">"Accuracy: %.2f%%"</span> % (accuracy_score(y_test, preds) * <span class="number">100.0</span>))
+print(<span class="string">"Precision: %.2f%%"</span> % (precision_score(y_test, preds) * <span class="number">100.0</span>))
+print(<span class="string">"Recall: %.2f%%"</span> % (recall_score(y_test, preds) * <span class="number">100.0</span>))
+plot_roc_curve(randomized_mse, X_test, y_test)
+</code></pre>
+<pre><code class="hljs http"><span class="attribute">Accuracy</span>: 72.38%
+<span class="attribute">Precision</span>: 27.00%
+<span class="attribute">Recall</span>: 65.85%
+
+<span class="http">
+
+<span class="http">
+
+<span class="css">&lt;<span class="selector-tag">sklearn</span><span class="selector-class">.metrics</span><span class="selector-class">._plot</span><span class="selector-class">.roc_curve</span><span class="selector-class">.RocCurveDisplay</span> <span class="selector-tag">at</span> 0<span class="selector-tag">x251159b4a88</span>&gt;
+</span></span></span></code></pre>
+<p><img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/output_55_2.png" alt="png"></p>
+<pre><code class="language-python hljs">tn, fp, fn, tp = confusion_matrix(y_test, preds).ravel()
+print(<span class="string">f"True Pos: <span class="subst">{tp}</span>"</span> , <span class="string">f"\nFalse Neg: <span class="subst">{fn}</span>"</span>, <span class="string">f"\nFalse Pos: <span class="subst">{fp}</span>"</span>)
+</code></pre>
+<pre><code class="hljs yaml"><span class="literal">True</span> <span class="attr">Pos:</span> <span class="number">27</span> 
+<span class="literal">False</span> <span class="attr">Neg:</span> <span class="number">14</span> 
+<span class="literal">False</span> <span class="attr">Pos:</span> <span class="number">73</span>
+</code></pre>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/" title="Modeling cognitive impairment using NHANES data" target="_blank" rel="external">https://tylerburleigh.com/blog/modeling-cognitive-impairment-using-nhanes-data/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://tylerburleigh.com/" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://tylerburleigh.com/" target="_blank"><span class="text-dark">Tyler Burleigh</span><small class="ml-1x">Data Scientist</small></a></h3>
+        <div></div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix sticky-bottom" data-stick-bottom="" style="position: fixed; width: 878.734px; height: 52px; z-index: 42; top: 560px;">
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://tylerburleigh.com/blog/use-the-pareto-principle-to-watch-tv-more-efficiently/" title="Use the Pareto principle to watch TV more efficiently"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+        </ul>
+        <div class="bar-right">
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope="" itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/tylerburleigh" target="_blank" title="" data-toggle="tooltip" data-placement="top" data-original-title="github">
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/tylerburleigh" target="_blank" title="" data-toggle="tooltip" data-placement="top" data-original-title="linkedin">
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="https://twitter.com/tylerburleigh" target="_blank" title="" data-toggle="tooltip" data-placement="top" data-original-title="twitter">
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  
+</footer>
+
+<script src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/MathJax.js"></script>
+<script type="text/x-mathjax-config;executed=true">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/highlight.min.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/python.min.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/javascript.min.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/r.min.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/html.min.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/css.min.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/bash.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/application.js"></script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/plugin.js"></script>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/tylerburleigh.com\/',
+            CONTENT_URL: 'https:\/\/tylerburleigh.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/insight.js"></script><div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech="">
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"><section class="ins-section"><header class="ins-section-header">Categories</header><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/categories/analysis/"><header><i class="icon icon-folder"></i>Analysis</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/categories/dataviz/"><header><i class="icon icon-folder"></i>DataViz</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/categories/misc/"><header><i class="icon icon-folder"></i>Misc</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/categories/research/"><header><i class="icon icon-folder"></i>Research</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/categories/software/"><header><i class="icon icon-folder"></i>Software</header></div></section><section class="ins-section"><header class="ins-section-header">Tags</header><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/tags/boosting/"><header><i class="icon icon-tag"></i>boosting</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/tags/categorical/"><header><i class="icon icon-tag"></i>categorical</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/tags/census/"><header><i class="icon icon-tag"></i>Census</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/tags/churn/"><header><i class="icon icon-tag"></i>churn</header></div><div class="ins-selectable ins-search-item" data-url="https://tylerburleigh.com/tags/cognition/"><header><i class="icon icon-tag"></i>cognition</header></div></section></div>
+                </div>
+            </div>
+        </div>
+<script src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-40957506-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async="" src="./Modeling cognitive impairment using NHANES data - Tyler Burleigh_files/analytics.js"></script>
+
+  
+
+</body></html>
