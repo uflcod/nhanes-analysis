@@ -507,3 +507,30 @@ def add_age_cal_class(df: pds.DataFrame):
             df.loc[idx, 'cal_class'] = 'CAL>6'
 
     return df
+
+
+def make_lmplot_df(df: pds.DataFrame):
+    "melts data in form need by lmplot"
+
+    # melt cal pct data into single column
+    temp_df = ( 
+        df.reset_index().
+        melt(
+            id_vars=['SEQN', 'female', 'age', 'age_cat', 'cerad_sum', 'digit_symbol', 'animal_fluency'], 
+            value_vars=['pct_teeth_gt_3', 'pct_teeth_gt_4', 'pct_teeth_gt_5', 'pct_teeth_gt_6'],
+            var_name='pct_cal',
+            value_name='pct_value'
+        )
+    )
+
+    # melt cog scores into single column
+    plot_df = (
+        temp_df.melt(
+            id_vars=['SEQN', 'female', 'age', 'age_cat', 'pct_cal', 'pct_value'],
+            value_vars=['cerad_sum', 'digit_symbol', 'animal_fluency'],
+            var_name='cog_test',
+            value_name='cog_score'
+        )
+    )
+
+    return plot_df
