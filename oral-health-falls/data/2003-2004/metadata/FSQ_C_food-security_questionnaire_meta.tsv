@@ -1,0 +1,49 @@
+Variable.Name	Variable.Description
+FSD032A	Now I am going to read you several statements that people have made about their food situation. For these statements, please tel
+FSD032B	[The next statement is . . .]  The food that {I/we} bought just didn't last, and {I/we} didn't have money to get more.
+FSD032C	[The next statement is . . .]  {I/we} couldn't afford to eat balanced meals.
+FSD032D	[The next statement is . . .] (I/we) relied on only a few kinds of low-cost food to feed {CHILD'S NAME / THE CHILDREN} because (
+FSD032E	[The next statement is . . .] (I/we) couldn't feed {CHILD'S NAME / THE CHILDREN} a balanced meal, because (I/we) couldn't afford
+FSD032F	[The next statement is . . .] {CHILD'S NAME WAS /THE CHILDREN WERE} not eating enough because (I/we) just couldn't afford enough
+FSD041	In the last 12 months, since last {DISPLAY CURRENT MONTH}, did {you/you or other adults in your household} ever cut the size of 
+FSD052	How often did this happen?
+FSD061	In the last 12 months, did you ever eat less than you felt you should because there wasn't enough money to buy food?
+FSD071	[In the last 12 months], were you ever hungry but didn't eat because you couldn't afford enough food?
+FSD081	[In the last 12 months], did you lose weight because you didn't have enough money for food?
+FSD092	[In the last 12 months], did {you/you or other adults in your household} ever not eat for a whole day because there wasn't enoug
+FSD102	How often did this happen?  Would you say . . .
+FSD111	In the last 12 months, since {DISPLAY CURRENT MONTH} of last year, did you ever cut the size of {CHILD'S NAME's/any of the child
+FSD122	[In the last 12 months], did {CHILD'S NAME/any of the children} ever skip meals because there wasn't enough money for food?
+FSD132	How often did this happen?
+FSD141	In the last 12 months, {was CHILD'S NAME/were the children} ever hungry but you just couldn't afford more food?
+FSD146	[In the last 12 months], did {CHILD'S NAME/any of the children} ever not eat for a whole day because there wasn't enough money f
+FSD151	In the last 12 months, did {you/you or any member of your household} ever get emergency food from a church, a food pantry, or a 
+FSD170N	[In the last 12 months], how many people in your household were authorized to receive Food Stamps?
+FSD180	In the last 12 months, {were you/was SP} authorized to receive Food Stamps?
+FSD190	In the last 12 months, about how many months {were you/was SP} authorized to receive Food Stamps?
+FSD200	{Are you/Is SP} now authorized to receive Food Stamps?
+FSD650C	Did (child's name) receive benefits from WIC in the past 12 months?
+FSD650M	Did {you/(woman's name)} personally receive benefits from WIC, that is, the Women, Infants, and Children Program, in the past 12
+FSD660C	Is (child's name) now receiving benefits from the WIC Program?
+FSD660M	{Are you/Is (woman's name)} now receiving benefits from the WIC Program?
+FSD670C	How long did {(child's name) receive/ has (child's name) been receiving} benefits from the WIC program?
+FSD670M	How long {did (woman's name) receive/has (woman's name) been receiving} benefits from the WIC program?
+FSDAD	Adult food security category for last 12 months
+FSDCH	Child food security category for last 12 months
+FSDHH	Household food security category for last 12 months
+FSQ162	In the last 12 months, did {you/you or any member of your household} receive benefits from the WIC program, that is, the Women, 
+FSQ170	[In the last 12 months], were {you/you or any members of your household} authorized to receive Food Stamps [which includes a foo
+FSQ400	In the last 30 days, did you ever cut the size of your meals or skip meals because there was not enough money for food?
+FSQ410	How many days did this happen in the last 30 days?
+FSQ420	In the last 30 days, did you ever eat less than you felt you should because there was not enough money for food?
+FSQ430	In the last 30 days, were you ever hungry but did not eat because you could not afford enough food?
+FSQ440	In the last 30 days, did you lose weight because you did not have enough money for food?
+FSQ450	In the last 30 days, did you ever not eat for a whole day because there was not enough money for food?
+FSQ460	How may times did this happen in the last 30 days?
+FSQ470	In the last 30 days, did (child's name) ever eat less than you felt (he/she) should because there was not enough money for food?
+FSQ480	In the last 30 days, did you ever cut the size of (child's name) meals because there was not enough money for food?
+FSQ490	In the last 30 days, was (child's name) ever hungry but you just could not afford more food?
+FSQ500	In the last 30 days, did (child's name) ever skip a meal because there was not enough money for food?
+FSQ510	How many days did this happen in the last 30 days?
+FSQ520	In the last 30 days, did (child's name) not eat for a whole day because there was not enough money for food?
+SEQN	Respondent sequence number.

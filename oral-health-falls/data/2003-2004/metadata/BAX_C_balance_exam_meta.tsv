@@ -1,0 +1,23 @@
+Variable.Name	Variable.Description
+BAAEXCMT	Comment code for an exam
+BAAEXSTS	Status of a MEC exam
+BAQ110	Can you stand on your own?
+BAQ120	Do you have a leg brace?
+BAQ130	Are you feeling any dizziness or lightheadedness now?
+BAXFTC11	Number of Seconds:
+BAXFTC12	Number of Seconds:
+BAXFTC21	Number of Seconds:
+BAXFTC22	Number of Seconds:
+BAXFTC31	Number of Seconds:
+BAXFTC32	Number of Seconds:
+BAXFTC41	Number of Seconds:
+BAXFTC42	Number of Seconds:
+BAXPFC11	Feet together eyes open:
+BAXPFC12	Feet together eyes open:
+BAXPFC21	Feet together eyes closed:
+BAXPFC22	Feet together eyes closed:
+BAXPFC31	Feet together eyes open:
+BAXPFC32	Feet together eyes open:
+BAXPFC41	Feet together eyes closed:
+BAXPFC42	Feet together eyes closed:
+SEQN	Respondent sequence number.

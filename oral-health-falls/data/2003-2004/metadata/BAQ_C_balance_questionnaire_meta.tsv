@@ -1,0 +1,25 @@
+Variable.Name	Variable.Description
+BAQ010	During the past 12 months, {have you/has SP} had dizziness, difficulty with balance or difficulty with falling?
+BAQ020A	Which of these problems {have you/has SP} had . . .dizziness?
+BAQ020B	Which of these problems {have you/has SP} had . . .difficulty with balance?
+BAQ020C	Which of these problems {have you/has SP} had . . .difficulty with falling?
+BAQ030A	How long did the... dizziness last? Would you say less than two weeks, 2 weeks to 3 months, or more than 3 months?
+BAQ030B	How long did the... difficulty with balance last? Would you say less than two weeks, 2 weeks to 3 months, or more than 3 months?
+BAQ040	{Do you/Does SP} get dizzy when {you/s/he} turn{s} over in bed?
+BAQ060A	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060B	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060C	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060D	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060E	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060F	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060G	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ060H	Which of the things on this list, if any, were related to {your/SP's} dizziness or balance problem?
+BAQ070	{Have you/Has SP} ever been treated by a doctor or other health professional for dizziness, a balance problem, or falling?
+BAQ075	How long ago {were you/was SP} treated?  Would you say . . .
+BAQ080A	Did this treatment involve. . .medication?
+BAQ080B	Did this treatment involve. . .surgery to the ear?
+BAQ080C	Did this treatment involve. . .some other type of surgery?
+BAQ080D	Did this treatment involve. . .exercises or physical therapy?
+BAQ090	As a result of this treatment, did {your/SP's} condition. . .
+BAQ100	Have any of {your/SP's} biological, that is, blood relatives (grandparents, parents, brothers, or sisters) had a problem with di
+SEQN	Respondent sequence number.

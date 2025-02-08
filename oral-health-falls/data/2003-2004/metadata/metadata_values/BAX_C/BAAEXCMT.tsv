@@ -1,0 +1,11 @@
+Code.or.Value	Value.Description
+1	Safety exclusion
+2	SP refusal
+3	No time
+4	Physical limitation
+5	Communication problem
+7	SP ill/emergency
+72	Error (technician/software/supply)
+84	SP With Child
+99	Other, specify
+.	Missing

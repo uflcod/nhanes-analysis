@@ -1,0 +1,18 @@
+Variable.Name	Variable.Description
+DID040G	How old {was SP/were you} when a doctor or other health professional first told {you/him/her} that {you/he/she} had diabetes or 
+DID040Q	How old {was SP/were you} when a doctor or other health professional first told {you/him/her} that {you/he/she} had diabetes or 
+DID060G	For how long {have you/has SP} been taking insulin?
+DID060Q	For how long {have you/has SP} been taking insulin?
+DIQ010	The next questions are about specific medical conditions. {Other than during pregnancy, {have you/has SP}/{Have you/Has SP}} eve
+DIQ050	{Is SP/Are you} now taking insulin
+DIQ060U	UNIT OF MEASURE
+DIQ070	{Is SP/Are you} now taking diabetic pills to lower {{his/her}/your} blood sugar?  These are sometimes called oral agents or oral
+DIQ080	Has a doctor ever told {you/SP} that diabetes has affected {your/his/her} eyes or that {you/s/he} had retinopathy?
+DIQ090	{Have you/Has SP} ever had an ulcer or sore on {your/his/her} leg or foot that took more than 4 weeks to heal?
+DIQ100	During the past 3 months, {have you/has SP} had numbness or loss of feeling in {your/his/her} hands or feet, other than from {yo
+DIQ110	Has the numbness or loss of feeling been in {your/SP's} hands, feet, or both?
+DIQ120	During the past 3 months, {have you/has SP} had a painful sensation or tingling in {your/his/her} hands or feet?  Do not include
+DIQ130	Has the painful sensation or tingling been in {your/his/her} hands, feet, or both?
+DIQ140	{Do you/Does SP} ever get pain in either leg while {you are/s/he is} walking?
+DIQ150	Does this pain include pain in {your/SP's} calf or calves?
+SEQN	Respondent sequence number.

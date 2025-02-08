@@ -1,0 +1,35 @@
+Code.or.Value	Value.Description
+10	Bladder
+11	Blood
+12	Bone
+13	Brain
+14	Breast
+15	Cervix (cervical)
+16	Colon
+17	Esophagus (esophageal)
+18	Gallbladder
+19	Kidney
+20	Larynx/ windpipe
+21	Leukemia
+22	Liver
+23	Lung
+24	Lymphoma/Hodgkin's disease
+25	Melanoma
+26	Mouth/tongue/lip
+27	Nervous system
+28	Ovary (ovarian)
+29	Pancreas (pancreatic)
+30	Prostate
+31	Rectum (rectal)
+32	Skin (non-melanoma)
+33	Skin (don't know what kind)
+34	Soft tissue (muscle or fat)
+35	Stomach
+36	Testis (testicular)
+37	Thyroid
+38	Uterus (uterine)
+39	Other
+66	More than 3 kinds
+77	Refused
+99	Don't know
+.	Missing

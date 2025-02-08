@@ -1,0 +1,10 @@
+Code.or.Value	Value.Description
+0	Normal
+1	Very mild
+2	Mild
+3	Moderate
+4	Severe
+5	Questionable
+8	Non-fluoride opacities
+9	Cannot be assessed
+.	Missing

@@ -1,0 +1,6 @@
+Code.or.Value	Value.Description
+1	CH food quality & quantity unaffected: 0
+2	CH reduced food quality or quantity: 1
+3	CH reduced food quality and quantity: 2-4
+4	CH severely reduced food quality and quantity: 5-8
+.	Missing

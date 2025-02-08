@@ -1,0 +1,8 @@
+Code.or.Value	Value.Description
+0	Sealant not present
+1	Occlusal sealant on permanent tooth
+2	Facial sealant on permanent tooth
+3	Lingual sealant on permanent tooth
+4	Occlusal sealant on primary tooth
+9	Cannot be assessed
+< blank >	Missing

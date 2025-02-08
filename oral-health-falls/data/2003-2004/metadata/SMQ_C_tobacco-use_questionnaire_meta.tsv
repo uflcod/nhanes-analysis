@@ -1,0 +1,43 @@
+Variable.Name	Variable.Description
+SEQN	Respondent sequence number.
+SMD030	How old {were you/was SP} when {you/s/he} first started to smoke cigarettes fairly regularly?
+SMD055	How old {were you/was SP} when {you/s/he} last smoked cigarettes {fairly regularly}?
+SMD057	At that time, about how many cigarettes did {you/SP} usually smoke per day?
+SMD070	On average, how many cigarettes {do you/does SP} now smoke per day?
+SMD075	For about how many years {have you/has SP} smoked this amount?
+SMD093	May I please see the pack for the brand of cigarettes {you usually smoke/SP usually smokes}.
+SMD100BR	Cigarette Brand/sub-brand
+SMD100CO	FTC Carbon Monoxide Content
+SMD100FL	Filter type
+SMD100LN	Cigarette product length
+SMD100MN	CIGARETTE PRODUCT MENTHOLATED OR NON-MENTHOLATED
+SMD100NI	FTC Nicotine Content
+SMD100TR	FTC Tar Content
+SMD130	How old {were you/was SP} when {you/s/he} first started to smoke a pipe fairly regularly?
+SMD160	How old {were you/was SP} when {you/s/he} first started to smoke a cigar fairly regularly?
+SMD190	How old {were you/was SP} when {you/s/he} first started to use snuff fairly regularly?
+SMD203	How many "pinches", "dips" or "rubs" of snuff {do you/does SP} use per day?
+SMD220	How old {were you/was SP} when {you/s/he} first started to use chewing tobacco fairly regularly?
+SMD233	How many "plugs", "wads" or "chaws" of chewing tobacco {do you/does SP} use per day?
+SMD235	For about how many years {have you/has SP} used this amount?
+SMD641	On how many of the past 30 days did {you/SP} smoke a cigarette?
+SMD650	During the past 30 days, on the days that {you/SP} smoked, about how many cigarettes did {you/s/he} smoke per day?
+SMDUPCA	Cigarette 12-digit Universal Product Code (UPC)
+SMQ020	These next questions are about cigarette smoking and other tobacco use. {Have you/Has SP} smoked at least 100 cigarettes in {you
+SMQ040	{Do you/Does SP} now smoke cigarettes . .
+SMQ050Q	How long has it been since {you/SP} quit smoking cigarettes?
+SMQ050U	UNIT OF MEASURE
+SMQ077	How soon after you wake up do you smoke? Would you say...
+SMQ120	{Have you/Has SP} smoked a pipe at least 20 times in {your/his/her} entire life?
+SMQ140	{Do you/Does SP} now smoke a pipe
+SMQ143	How many pipefuls of tobacco {do you/does SP} smoke per day?
+SMQ145	For about how many years {have you/has SP} smoked this amount?
+SMQ150	{Have you/Has SP} smoked a cigar at least 20 times in {your/his/her} entire life?
+SMQ170	{Do you/Does SP} now smoke a cigar . . .
+SMQ173	How many cigars {do you/does SP} smoke per day?
+SMQ175	For about how many years {have you/has SP} smoked this amount?
+SMQ180	{Have you/Has SP} used snuff, such as Skoal, Skoal Bandit, or Copenhagen at least 20 times in {your/his/her} entire life?
+SMQ200	{Do you/Does SP} now use snuff
+SMQ205	For about how many years {have you/has SP} used this amount?
+SMQ210	{Have you/Has SP} used chewing tobacco, such as Redman, Levi Garrett or Beechnut at least 20 times in {your/his/her} entire life
+SMQ230	{Do you/Does SP} now use chewing tobacco

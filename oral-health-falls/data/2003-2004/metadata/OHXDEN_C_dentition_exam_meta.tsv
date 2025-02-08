@@ -1,0 +1,150 @@
+Variable.Name	Variable.Description
+OHAEXSTS	Overall Oral Health Exam Status
+OHASCST3	Dentition Status Code
+OHX01TC	Tooth Count:  Upper right 3rd molar (3M)
+OHX02CSC	Coronal Caries:  Upper right 2nd molar (2M) surface calls
+OHX02CTC	Coronal Caries:  Upper right 2nd molar (2M) tooth code
+OHX02DI	Fluorosis Deans Index:  Upper right 2nd molar (2M)
+OHX02SE	Dental Sealants:  Upper right 2nd molar (2M) sealant codes
+OHX02TC	Tooth Count:  Upper right 2nd molar (2M)
+OHX03CSC	Coronal Caries:  Upper right 1st molar (1M) surface calls
+OHX03CTC	Coronal Caries:  Upper right 1st molar (1M) tooth code
+OHX03DI	Fluorosis Deans Index:  Upper right 1st molar (1M)
+OHX03SE	Dental Sealants:  Upper right 1st molar (1M) sealant codes
+OHX03TC	Tooth Count:  Upper right 1st molar (1M)
+OHX04CSC	Coronal Caries:  Upper right 2nd bicuspid/2nd primary molar (2B) surface calls
+OHX04CTC	Coronal Caries:  Upper right 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX04DI	Fluorosis Deans Index:  Upper right 2nd bicuspid/2nd primary molar (2B)
+OHX04SE	Dental Sealants:  Upper right 2nd biscuspid/2nd primary molar (2B) sealant codes
+OHX04TC	Tooth Count:  Upper right 2nd bicuspid/2nd primary molar (2B)
+OHX05CSC	Coronal Caries:  Upper right 1st biscuspid/1st primary molar (1B) surface calls
+OHX05CTC	Coronal Caries:  Upper right 1st bicuspid/1st primary molar (1B) tooth code
+OHX05DI	Fluorosis Deans Index:  Upper right 1st bicuspid/1st primary molar (1B)
+OHX05SE	Dental Sealants:  Upper right 1st biscuspid/1st primary molar (1B) sealant codes
+OHX05TC	Tooth Count:  Upper right 1st bicuspid/1st primary molar (1B)
+OHX06CSC	Coronal Caries:  Upper right cuspid (C) surface calls
+OHX06CTC	Coronal Caries:  Upper right cuspid (C) tooth code
+OHX06DI	Fluorosis Deans Index:  Upper right cuspid (C)
+OHX06TC	Tooth Count:  Upper right cuspid (C)
+OHX07CSC	Coronal Caries:  Upper right lateral incisor (LI) surface calls
+OHX07CTC	Coronal Caries:  Upper right lateral incisor (LI) tooth code
+OHX07DI	Fluorosis Deans Index:  Upper right lateral incisor (LI)
+OHX07SE	Dental Sealants:  Upper right lateral incisor (LI) sealant codes
+OHX07TC	Tooth Count:  Upper right lateral incisor (LI)
+OHX07TR	Incisor Trauma:  Upper right lateral incisor (LI) traumatic injury code
+OHX08CSC	Coronal Caries:  Upper right central incisor (CI) surface calls
+OHX08CTC	Coronal Caries:  Upper right central incisor (CI) tooth code
+OHX08DI	Fluorosis Deans Index:  Upper right central incisor (CI)
+OHX08TC	Tooth Count:  Upper right central incisor (CI)
+OHX08TR	Incisor Trauma:  Upper right central incisor (CI) traumatic injury code
+OHX09CSC	Coronal Caries:  Upper left central incisor (CI) surface calls
+OHX09CTC	Coronal Caries:  Upper left central incisor (CI) tooth code
+OHX09DI	Fluorosis Deans Index:  Upper left central incisor (CI)
+OHX09TC	Tooth Count:  Upper left central incisor (CI)
+OHX09TR	Incisor Trauma:  Upper left central incisor (CI) traumatic injury code
+OHX10CSC	Coronal Caries:  Upper left lateral incisor (LI) surface calls
+OHX10CTC	Coronal Caries:  Upper left lateral incisor (LI) tooth code
+OHX10DI	Fluorosis Deans Index:  Upper left lateral incisor (LI)
+OHX10SE	Dental Sealants:  Upper left lateral incisor (LI) sealant codes
+OHX10TC	Tooth Count:  Upper left lateral incisor (LI)
+OHX10TR	Incisor Trauma:  Upper left lateral incisor (LI) traumatic injury code
+OHX11CSC	Coronal Caries:  Upper left cuspid (C) surface calls
+OHX11CTC	Coronal Caries:  Upper left cuspid (C) tooth code
+OHX11DI	Fluorosis Deans Index:  Upper left cuspid (C)
+OHX11TC	Tooth Count:  Upper left cuspid (C)
+OHX12CSC	Coronal Caries:  Upper left 1st bicuspid/1st primary molar (1B) surface calls
+OHX12CTC	Coronal Caries:  Upper left 1st bicuspid/1st primary molar (1B) tooth code
+OHX12DI	Fluorosis Deans Index:  Upper left 1st bicuspid/1st primary molar (1B)
+OHX12SE	Dental Sealants:  Upper left 1st biscuspid/1st primary molar (1B) sealant codes
+OHX12TC	Tooth Count:  Upper left 1st bicuspid/1st primary molar (1B)
+OHX13CSC	Coronal Caries:  Upper left 2nd bicuspid/2nd primary molar (2B) surface calls
+OHX13CTC	Coronal Caries:  Upper left 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX13DI	Fluorosis Deans Index:  Upper left 2nd bicuspid/2nd primary molar (2B)
+OHX13SE	Dental Sealants:  Upper left 2nd bicuspid/2nd primary molar (2B) sealant codes
+OHX13TC	Tooth Count:  Upper left 2nd bicuspid/2nd primary molar (2B)
+OHX14CSC	Coronal Caries:  Upper left 1st molar (1M) surface calls
+OHX14CTC	Coronal Caries:  Upper left 1st molar (1M) tooth code
+OHX14DI	Fluorosis Deans Index:  Upper left 1st molar (1M)
+OHX14SE	Dental Sealants:  Upper left 1st molar (1M) sealant codes
+OHX14TC	Tooth Count:  Upper left 1st molar (1M)
+OHX15CSC	Coronal Caries:  Upper left 2nd molar (2M) surface calls
+OHX15CTC	Coronal Caries:  Upper left 2nd molar (2M) tooth code
+OHX15DI	Fluorosis Deans Index:  Upper left 2nd molar (2M)
+OHX15SE	Dental Sealants:  Upper left 2nd molar (2M) sealant codes
+OHX15TC	Tooth Count:  Upper left 2nd molar (2M)
+OHX16TC	Tooth Count:  Upper left 3rd molar (3M)
+OHX17TC	Tooth Count:  Lower left 3rd molar (3M)
+OHX18CSC	Coronal Caries:  Lower left 2nd molar (2M) surface calls
+OHX18CTC	Coronal Caries:  Lower left 2nd molar (2M) tooth code
+OHX18DI	Fluorosis Deans Index:  Lower left 2nd molar (2M)
+OHX18SE	Dental Sealants:  Lower left 2nd molar (2M) sealant codes
+OHX18TC	Tooth Count:  Lower left 2nd molar (2M)
+OHX19CSC	Coronal Caries:  Lower left 1st molar (1M) surface calls
+OHX19CTC	Coronal Caries:  Lower left 1st molar (1M) tooth code
+OHX19DI	Fluorosis Deans Index:  Lower left 1st molar (1M)
+OHX19SE	Dental Sealants:  Lower left 1st molar (1M) sealant codes
+OHX19TC	Tooth Count:  Lower left 1st molar (1M)
+OHX20CSC	Coronal Caries:  Lower left 2nd bicuspid/2nd primary molar (2B) surface calls
+OHX20CTC	Coronal Caries:  Lower left 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX20DI	Fluorosis Deans Index:  Lower left 2nd bicuspid/2nd primary molar (2B)
+OHX20SE	Dental Sealants:  Lower left 2nd bicuspid/2nd primary molar (2B) sealant codes
+OHX20TC	Tooth Count:  Lower left 2nd bicuspid/2nd primary molar (2B)
+OHX21CSC	Coronal Caries:  Lower left 1st bicuspid/1st primary molar (1B) surface calls
+OHX21CTC	Coronal Caries:  Lower left 1st bicuspid/1st primary molar (1B) tooth code
+OHX21DI	Fluorosis Deans Index:  Lower left 1st bicuspid/1st primary molar (1B)
+OHX21SE	Dental Sealants:  Lower left 1st bicuspid/1st primary molar (1B) sealant codes
+OHX21TC	Tooth Count:  Lower left 1st bicuspid/1st primary molar (1B)
+OHX22CSC	Coronal Caries:  Lower left cuspid (C) surface calls
+OHX22CTC	Coronal Caries:  Lower left cuspid (C) tooth code
+OHX22DI	Fluorosis Deans Index:  Lower left cuspid (C)
+OHX22TC	Tooth Count:  Lower left cuspid (C)
+OHX23CSC	Coronal Caries:  Lower left lateral incisor (LI) surface calls
+OHX23CTC	Coronal Caries:  Lower left lateral incisor (LI) tooth code
+OHX23DI	Fluorosis Deans Index:  Lower left lateral incisor (LI)
+OHX23TC	Tooth Count:  Lower left lateral incisor (LI)
+OHX23TR	Incisor Trauma:  Lower left lateral incisor (LI) traumatic injury code
+OHX24CSC	Coronal Caries:  Lower left central incisor (CI) surface calls
+OHX24CTC	Coronal Caries:  Lower left central incisor (CI) tooth code
+OHX24DI	Fluorosis Deans Index:  Lower left central incisor (CI)
+OHX24TC	Tooth Count:  Lower left central incisor (CI)
+OHX24TR	Incisor Trauma:  Lower left central incisor (CI) traumatic injury code
+OHX25CSC	Coronal Caries:  Lower right central incisor (CI) surface calls
+OHX25CTC	Coronal Caries:  Lower right central incisor (CI) tooth code
+OHX25DI	Fluorosis Deans Index:  Lower right central incisor (CI)
+OHX25TC	Tooth Count:  Lower right central incisor (CI)
+OHX25TR	Incisor Trauma:  Lower right central incisor (CI) traumatic injury code
+OHX26CSC	Coronal Caries:  Lower right lateral incisor (LI) surface calls
+OHX26CTC	Coronal Caries:  Lower right lateral incisor (LI) tooth code
+OHX26DI	Fluorosis Deans Index:  Lower right lateral incisor (LI)
+OHX26TC	Tooth Count:  Lower right lateral incisor (LI)
+OHX26TR	Incisor Trauma:  Lower right lateral incisor (LI) traumatic injury code
+OHX27CSC	Coronal Caries:  Lower right cuspid (C) surface calls
+OHX27CTC	Coronal Caries:  Lower right cuspid (C) tooth code
+OHX27DI	Fluorosis Deans Index:  Lower right cuspid (C)
+OHX27TC	Tooth Count:  Lower right cuspid (C)
+OHX28CSC	Coronal Caries:  Lower right 1st bicuspid/1st primary molar (1B) surface calls
+OHX28CTC	Coronal Caries:  Lower right 1st bicuspid/1st primary molar (1B) tooth code
+OHX28DI	Fluorosis Deans Index:  Lower right 1st bicuspid/1st primary molar (1B)
+OHX28SE	Dental Sealants:  Lower right 1st bicuspid/1st primary molar (1B) sealant codes
+OHX28TC	Tooth Count:  Lower right 1st bicuspid/1st primary molar (1B)
+OHX29CSC	Coronal Caries:  Lower right 2nd bicuspid/2nd primary molar (2B) surface calls
+OHX29CTC	Coronal Caries:  Lower right 2nd bicuspid/2nd primary molar (2B) tooth code
+OHX29DI	Fluorosis Deans Index:  Lower right 2nd bicuspid/2nd primary molar (2B)
+OHX29SE	Dental Sealants:  Lower right 2nd bicuspid/2nd primary molar (2B) sealant codes
+OHX29TC	Tooth Count:  Lower right 2nd bicuspid/2nd primary molar (2B)
+OHX30CSC	Coronal Caries:  Lower right 1st molar (1M) surface calls
+OHX30CTC	Coronal Caries:  Lower right 1st molar (1M) tooth code
+OHX30DI	Fluorosis Deans Index:  Lower right 1st molar (1M)
+OHX30SE	Dental Sealants:  Lower right 1st molar (1M) sealant codes
+OHX30TC	Tooth Count:  Lower right 1st molar (1M)
+OHX31CSC	Coronal Caries:  Lower right 2nd molar (2M) surface calls
+OHX31CTC	Coronal Caries:  Lower right 2nd molar (2M) tooth code
+OHX31DI	Fluorosis Deans Index:  Lower right 2nd molar (2M)
+OHX31SE	Dental Sealants:  Lower right 2nd molar (2M) sealant codes
+OHX31TC	Tooth Count:  Lower right 2nd molar (2M)
+OHX32TC	Tooth Count:  Lower right 3rd molar (3M)
+OHXEDEN	Tooth Count:  Edentulous
+OHXIMP	Tooth Count:  Ever had a tooth replaced with a surgical implant?
+OHXRCAR	Root Caries:  Whole mouth root caries
+OHXRRES	Root Caries:  Whole mouth root restorations
+SEQN	Respondent sequence number.

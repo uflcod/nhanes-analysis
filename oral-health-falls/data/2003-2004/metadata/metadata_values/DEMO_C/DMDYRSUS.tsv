@@ -1,0 +1,14 @@
+Code.or.Value	Value.Description
+1	Less than 1 year
+2	1 yr., less than 5 yrs.
+3	5 yrs., less than 10 yrs.
+4	10 yrs., less than 15 yrs.
+5	15 yrs., less than 20 yrs.
+6	20 yrs., less than 30 yrs.
+7	30 yrs., less than 40 yrs.
+8	40 yrs., less than 50 yrs.
+9	50 years or more
+77	Refused
+88	Could not determine
+99	Don't know
+.	Missing

@@ -1,0 +1,172 @@
+Variable.Name	Variable.Description
+OHAEXSTS	Overall Oral Health Exam Status
+OHASCST4	Periodontal Status Code
+OHD18CJD	Loss of Attachment: Lower left 2nd molar (2M) distal - FGM to CEJ measurement (mm)
+OHD18CJM	Loss of Attachment:  Lower left 2nd molar (2M) mid-facial - FGM to CEJ measurement (mm)
+OHD18CJS	Loss of Attachment:  Lower left 2nd molar (2M) mesio-facial - FGM to CEJ measurement (mm)
+OHD18LAD	Loss of Attachment:  Lower left 2nd molar (2M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measure
+OHD18LAM	Loss of Attachment:  Lower left 2nd molar (2M) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measuremen
+OHD18LAS	Loss of Attachment:  Lower left 2nd molar (2M) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base measurem
+OHD18PCD	Loss of Attachment: Lower left 2nd molar (2M) distal - FGM to sulcus base (pocket depth) (mm)
+OHD18PCM	Loss of Attachment:  Lower left 2nd molar (2M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD18PCS	Loss of Attachment:  Lower left 2nd molar (2M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD19CJD	Loss of Attachment: Lower left 1st molar (1M) distal - FGM to CEJ measurement (mm)
+OHD19CJM	Loss of Attachment:  Lower left 1st molar (1M) mid-facial - FGM to CEJ measurement (mm)
+OHD19CJS	Loss of Attachment:  Lower left 1st molar (1M) mesio-facial - FGM to CEJ measurement (mm)
+OHD19LAD	Loss of Attachment:  Lower left 1st molar (1M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measure
+OHD19LAM	Loss of Attachment:  Lower left 1st molar (1M) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measuremen
+OHD19LAS	Loss of Attachment:  Lower left 1st molar (1M) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base measurem
+OHD19PCD	Loss of Attachment: Lower left 1st molar (1M) distal - FGM to sulcus base (pocket depth) (mm)
+OHD19PCM	Loss of Attachment:  Lower left 1st molar (1M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD19PCS	Loss of Attachment:  Lower left 1st molar (1M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD20CJD	Loss of Attachment: Lower left 2nd bicuspid/2nd primary molar (2B) distal - FGM to CEJ measurement (mm)
+OHD20CJM	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to CEJ measurement (mm)
+OHD20CJS	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to CEJ measurement (mm)
+OHD20LAD	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM t
+OHD20LAM	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid-facial - Level of attachment calculation of :  (FGM to s
+OHD20LAS	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-facial - Level of attachment calculation of :  (FGM to
+OHD20PCD	Loss of Attachment: Lower left 2nd bicuspid/2nd primary molar (2B) distal - FGM to sulcus base (pocket depth) (mm)
+OHD20PCM	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD20PCS	Loss of Attachment:  Lower left 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD21CJD	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) distal - FGM to CEJ measurement (mm)
+OHD21CJM	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid-facial - FGM to CEJ measurement (mm)
+OHD21CJS	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to CEJ measurement (mm)
+OHD21LAD	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM t
+OHD21LAM	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid-facial - Level of attachment calculation of :  (FGM to s
+OHD21LAS	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-facial - Level of attachment calculation of :  (FGM to
+OHD21PCD	Loss of Attachment: Lower left 1st bicuspid/1st primary molar (1B) distal - FGM to sulcus base (pocket depth) (mm)
+OHD21PCM	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD21PCS	Loss of Attachment:  Lower left 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD22CJD	Loss of Attachment: Lower left cuspid (C) distal - FGM to CEJ measurement (mm)
+OHD22CJM	Loss of Attachment:  Lower left cuspid (C) mid-facial - FGM to CEJ measurement (mm)
+OHD22CJS	Loss of Attachment:  Lower left cuspid (C) mesio-facial - FGM to CEJ measurement (mm)
+OHD22LAD	Loss of Attachment:  Lower left cuspid (C) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measurement
+OHD22LAM	Loss of Attachment:  Lower left cuspid (C) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measurement) -
+OHD22LAS	Loss of Attachment:  Lower left cuspid (C) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base measurement)
+OHD22PCD	Loss of Attachment: Lower left cuspid (C) distal - FGM to sulcus base (pocket depth) (mm)
+OHD22PCM	Loss of Attachment:  Lower left cuspid (C) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD22PCS	Loss of Attachment:  Lower left cuspid (C) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD23CJD	Loss of Attachment: Lower left lateral incisor (LI) distal - FGM to CEJ measurement (mm)
+OHD23CJM	Loss of Attachment:  Lower left lateral incisor (LI) mid-facial - FGM to CEJ measurement (mm)
+OHD23CJS	Loss of Attachment:  Lower left lateral incisor (LI) mesio-facial - FGM to CEJ measurement (mm)
+OHD23LAD	Loss of Attachment:  Lower left lateral incisor (LI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHD23LAM	Loss of Attachment:  Lower left lateral incisor (LI) mid-facial - Level of attachment calculation of :  (FGM to sulcus base meas
+OHD23LAS	Loss of Attachment:  Lower left lateral incisor (LI) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base me
+OHD23PCD	Loss of Attachment: Lower left lateral incisor (LI) distal - FGM to sulcus base (pocket depth) (mm)
+OHD23PCM	Loss of Attachment:  Lower left lateral incisor (LI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD23PCS	Loss of Attachment:  Lower left lateral incisor (LI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD24CJD	Loss of Attachment: Lower left central incisor (CI) distal - FGM to CEJ measurement (mm)
+OHD24CJM	Loss of Attachment:  Lower left central incisor (CI) mid-facial - FGM to CEJ measurement (mm)
+OHD24CJS	Loss of Attachment:  Lower left central incisor (CI) mesio-facial - FGM to CEJ measurement (mm)
+OHD24LAD	Loss of Attachment:  Lower left central incisor (CI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base m
+OHD24LAM	Loss of Attachment:  Lower left central incisor (CI) mid-facial - Level of attachment calculation of :  (FGM to sulcus base meas
+OHD24LAS	Loss of Attachment:  Lower left central incisor (CI) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base me
+OHD24PCD	Loss of Attachment: Lower left central incisor (CI) distal - FGM to sulcus base (pocket depth) (mm)
+OHD24PCM	Loss of Attachment:  Lower left central incisor (CI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD24PCS	Loss of Attachment:  Lower left central incisor (CI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD25CJD	Loss of Attachment: Lower right central incisor (CI) distal - FGM to CEJ measurement (mm)
+OHD25CJM	Loss of Attachment:  Lower right central incisor (CI) mid-facial - FGM to CEJ measurement (mm)
+OHD25CJS	Loss of Attachment:  Lower right central incisor (CI) mesio-facial - FGM to CEJ measurement (mm)
+OHD25LAD	Loss of Attachment:  Lower right central incisor (CI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHD25LAM	Loss of Attachment:  Lower right central incisor (CI) mid-facial - Level of attachment calculation of :  (FGM to sulcus base mea
+OHD25LAS	Loss of Attachment:  Lower right central incisor (CI) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base m
+OHD25PCD	Loss of Attachment: Lower right central incisor (CI) distal - FGM to sulcus base (pocket depth) (mm)
+OHD25PCM	Loss of Attachment:  Lower right central incisor (CI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD25PCS	Loss of Attachment:  Lower right central incisor (CI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD26CJD	Loss of Attachment: Lower right lateral incisor (LI) distal - FGM to CEJ measurement (mm)
+OHD26CJM	Loss of Attachment:  Lower right lateral incisor (LI) mid-facial - FGM to CEJ measurement (mm)
+OHD26CJS	Loss of Attachment:  Lower right lateral incisor (LI) mesio-facial - FGM to CEJ measurement (mm)
+OHD26LAD	Loss of Attachment:  Lower right lateral incisor (LI) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base 
+OHD26LAM	Loss of Attachment:  Lower right lateral incisor (LI) mid-facial - Level of attachment calculation of :  (FGM to sulcus base mea
+OHD26LAS	Loss of Attachment:  Lower right lateral incisor (LI) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base m
+OHD26PCD	Loss of Attachment: Lower right lateral incisor (LI) distal - FGM to sulcus base (pocket depth) (mm)
+OHD26PCM	Loss of Attachment:  Lower right lateral incisor (LI) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD26PCS	Loss of Attachment:  Lower right lateral incisor (LI) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD27CJD	Loss of Attachment: Lower right cuspid (C) distal - FGM to CEJ measurement (mm)
+OHD27CJM	Loss of Attachment:  Lower right cuspid (C) mid-facial - FGM to CEJ measurement (mm)
+OHD27CJS	Loss of Attachment:  Lower right cuspid (C) mesio-facial - FGM to CEJ measurement (mm)
+OHD27LAD	Loss of Attachment:  Lower right cuspid (C) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measuremen
+OHD27LAM	Loss of Attachment:  Lower right cuspid (C) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measurement) 
+OHD27LAS	Loss of Attachment:  Lower right cuspid (C) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base measurement
+OHD27PCD	Loss of Attachment: Lower right cuspid (C) distal - FGM to sulcus base (pocket depth) (mm)
+OHD27PCM	Loss of Attachment:  Lower right cuspid (C) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD27PCS	Loss of Attachment:  Lower right cuspid (C) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD28CJD	Loss of Attachment: Lower right 1st bicuspid/1st primary molar (1B) distal - FGM to CEJ measurement (mm)
+OHD28CJM	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid-facial - FGM to CEJ measurement (mm)
+OHD28CJS	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to CEJ measurement (mm)
+OHD28LAD	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM 
+OHD28LAM	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid-facial - Level of attachment calculation of :  (FGM to 
+OHD28LAS	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-facial - Level of attachment calculation of :  (FGM t
+OHD28PCD	Loss of Attachment: Lower right 1st bicuspid/1st primary molar (1B) distal - FGM to sulcus base (pocket depth) (mm)
+OHD28PCM	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD28PCS	Loss of Attachment:  Lower right 1st bicuspid/1st primary molar (1B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD29CJD	Loss of Attachment: Lower right 2nd bicuspid/2nd primary molar (2B) distal - FGM to CEJ measurement (mm)
+OHD29CJM	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to CEJ measurement (mm)
+OHD29CJS	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to CEJ measurement (mm)
+OHD29LAD	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) distal - Calculation of :  (FGM to CEJ measurement) - (FGM 
+OHD29LAM	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid-facial - Level of attachment calculation of :  (FGM to 
+OHD29LAS	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-facial - Level of attachment calculation of :  (FGM t
+OHD29PCD	Loss of Attachment: Lower right 2nd bicuspid/2nd primary molar (2B) distal - FGM to sulcus base (pocket depth) (mm)
+OHD29PCM	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD29PCS	Loss of Attachment:  Lower right 2nd bicuspid/2nd primary molar (2B) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD30CJD	Loss of Attachment: Lower right 1st molar (1M) distal - FGM to CEJ measurement (mm)
+OHD30CJM	Loss of Attachment:  Lower right 1st molar (1M) mid-facial - FGM to CEJ measurement (mm)
+OHD30CJS	Loss of Attachment:  Lower right 1st molar (1M) mesio-facial - FGM to CEJ measurement (mm)
+OHD30LAD	Loss of Attachment:  Lower right 1st molar (1M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measur
+OHD30LAM	Loss of Attachment:  Lower right 1st molar (1M) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measureme
+OHD30LAS	Loss of Attachment:  Lower right 1st molar (1M) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base measure
+OHD30PCD	Loss of Attachment: Lower right 1st molar (1M) distal - FGM to sulcus base (pocket depth) (mm)
+OHD30PCM	Loss of Attachment:  Lower right 1st molar (1M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD30PCS	Loss of Attachment:  Lower right 1st molar (1M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHD31CJD	Loss of Attachment: Lower right 2nd molar (2M) distal - FGM to CEJ measurement (mm)
+OHD31CJM	Loss of Attachment:  Lower right 2nd molar (2M) mid-facial - FGM to CEJ measurement (mm)
+OHD31CJS	Loss of Attachment:  Lower right 2nd molar (2M) mesio-facial - FGM to CEJ measurement (mm)
+OHD31LAD	Loss of Attachment:  Lower right 2nd molar (2M) distal - Calculation of :  (FGM to CEJ measurement) - (FGM to sulcus base measur
+OHD31LAM	Loss of Attachment:  Lower right 2nd molar (2M) mid-facial - Level of attachment calculation of :  (FGM to sulcus base measureme
+OHD31LAS	Loss of Attachment:  Lower right 2nd molar (2M) mesio-facial - Level of attachment calculation of :  (FGM to sulcus base measure
+OHD31PCD	Loss of Attachment: Lower right 2nd molar (2M) distal - FGM to sulcus base (pocket depth) (mm)
+OHD31PCM	Loss of Attachment:  Lower right 2nd molar (2M) mid-facial - FGM to sulcus base (pocket depth) (mm)
+OHD31PCS	Loss of Attachment:  Lower right 2nd molar (2M) mesio-facial - FGM to sulcus base (pocket depth) (mm)
+OHX18BPD	Periodontal bleeding from probing: Lower left 2nd molar-distal site
+OHX18BPM	Periodontal bleeding from probing: Lower left 2nd molar-midfacial site
+OHX18BPS	Periodontal bleeding from probing: Lower left 2nd molar-mesial site
+OHX19BPD	Periodontal bleeding from probing: Lower left 1st molar-distal site
+OHX19BPM	Periodontal bleeding from probing: Lower left 1st molar-midfacial site
+OHX19BPS	Periodontal bleeding from probing: Lower left 1st molar-mesial site
+OHX20BPD	Periodontal bleeding from probing: Lower left 2nd bicuspid-distal site
+OHX20BPM	Periodontal bleeding from probing: Lower left 2nd bicuspid-midfacial site
+OHX20BPS	Periodontal bleeding from probing: Lower left 2nd bicuspid-mesial site
+OHX21BPD	Periodontal bleeding from probing: Lower left 1st bicuspid-distal site
+OHX21BPM	Periodontal bleeding from probing: Lower left 1st bicuspid-midfacial site
+OHX21BPS	Periodontal bleeding from probing: Lower left 1st bicuspid-mesial site
+OHX22BPD	Periodontal bleeding from probing: Lower left cuspid-distal site
+OHX22BPM	Periodontal bleeding from probing: Lower left cuspid-midfacial site
+OHX22BPS	Periodontal bleeding from probing: Lower left cuspid-mesial site
+OHX23BPD	Periodontal bleeding from probing: Lower left lateral incisor-distal site
+OHX23BPM	Periodontal bleeding from probing: Lower left lateral incisor-midfacial site
+OHX23BPS	Periodontal bleeding from probing: Lower left lateral incisor-mesial site
+OHX24BPD	Periodontal bleeding from probing: Lower left central incisor-distal site
+OHX24BPM	Periodontal bleeding from probing: Lower left central incisor-midfacial site
+OHX24BPS	Periodontal bleeding from probing: Lower left central incisor-mesial site
+OHX25BPD	Periodontal bleeding from probing: Lower right central incisor-distal site
+OHX25BPM	Periodontal bleeding from probing: Lower right central incisor-midfacial site
+OHX25BPS	Periodontal bleeding from probing: Lower right central incisor-mesial site
+OHX26BPD	Periodontal bleeding from probing: Lower right lateral incisor-distal site
+OHX26BPM	Periodontal bleeding from probing: Lower right lateral incisor-midfacial site
+OHX26BPS	Periodontal bleeding from probing: Lower right lateral incisor-mesial site
+OHX27BPD	Periodontal bleeding from probing: Lower right cuspid-distal site
+OHX27BPM	Periodontal bleeding from probing: Lower right cuspid-midfacial site
+OHX27BPS	Periodontal bleeding from probing: Lower right cuspid-mesial site
+OHX28BPD	Periodontal bleeding from probing: Lower right 1st bicuspid-distal site
+OHX28BPM	Periodontal bleeding from probing: Lower right 1st bicuspid-midfacial site
+OHX28BPS	Periodontal bleeding from probing: Lower right 1st bicuspid-mesial site
+OHX29BPD	Periodontal bleeding from probing: Lower right 2nd bicuspid-distal site
+OHX29BPM	Periodontal bleeding from probing: Lower right 2nd bicuspid-midfacial site
+OHX29BPS	Periodontal bleeding from probing: Lower right 2nd bicuspid-mesial site
+OHX30BPD	Periodontal bleeding from probing: Lower right 1st molar-distal site
+OHX30BPM	Periodontal bleeding from probing: Lower right 1st molar-midfacial site
+OHX30BPS	Periodontal bleeding from probing: Lower right 1st molar-mesial site
+OHX31BPD	Periodontal bleeding from probing: Lower right 2nd molar-distal site
+OHX31BPM	Periodontal bleeding from probing: Lower right 2nd molar-midfacial site
+OHX31BPS	Periodontal bleeding from probing: Lower right 2nd molar-mesial site
+SEQN	Respondent sequence number.

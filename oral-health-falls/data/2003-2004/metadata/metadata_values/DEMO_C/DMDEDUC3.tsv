@@ -1,0 +1,22 @@
+Code.or.Value	Value.Description
+0	Never Attended / Kindergarten Only
+1	1st Grade
+2	2nd Grade
+3	3rd Grade
+4	4th Grade
+5	5th Grade
+6	6th Grade
+7	7th Grade
+8	8th Grade
+9	9th Grade
+10	10th Grade
+11	11th Grade
+12	12th Grade, No Diploma
+13	High School Graduate
+14	GED or Equivalent
+15	More than high school
+55	Less Than 5th Grade
+66	Less Than 9th Grade
+77	Refused
+99	Don't know
+.	Missing

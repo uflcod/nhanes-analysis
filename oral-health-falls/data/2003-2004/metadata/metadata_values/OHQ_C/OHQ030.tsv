@@ -1,0 +1,11 @@
+Code.or.Value	Value.Description
+1	6 months or less
+2	More than 6 months, but not more than 1 year ago
+3	More than 1 year, but not more than 2 years ago
+4	More than 2 years, but not more than 3 years ago
+5	More than 3 years, but not more than 5 years ago
+6	More than 5 years ago
+7	Never have been
+77	Refused
+99	Don't know
+.	Missing

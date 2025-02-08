@@ -1,0 +1,6 @@
+Code.or.Value	Value.Description
+1	AD full food security: 0
+2	AD marginal food security: 1-2
+3	AD low food security: 3-5
+4	AD very low food security: 6-10
+.	Missing
